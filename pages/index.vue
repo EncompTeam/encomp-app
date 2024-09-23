@@ -1,20 +1,15 @@
 <script lang="ts" setup>
-const today = ref(new Date())
 
-onMounted(() => {
-  setInterval(() => {
-    today.value = new Date()
-  }, 1000)
-})
 </script>
 
 <template>
-  <div class="flex size-full items-center justify-center bg-red-100 text-center">
-    <h1 class="text-5xl font-bold">
-      App Start
-      <p class="mt-5">
-        {{ today.toLocaleString() }}
-      </p>
+  <MainContent class="flex size-full flex-col items-center justify-center text-center">
+    <h1 class="font-titles text-5xl font-medium">
+      ENCOMP
     </h1>
-  </div>
+    <IconAudioWaveform />
+    <Button>
+      Inscreva-se agora
+    </Button>
+  </MainContent>
 </template>

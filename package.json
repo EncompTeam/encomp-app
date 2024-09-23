@@ -13,16 +13,27 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@nuxt/fonts": "^0.8.0",
+    "@nuxtjs/color-mode": "^3.5.1",
+    "@radix-icons/vue": "^1.0.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
     "nuxt": "^3.13.0",
+    "nuxt-lucide-icons": "^1.0.5",
     "nuxt-typed-router": "^3.6.5",
+    "radix-vue": "^1.9.6",
+    "shadcn-nuxt": "^0.10.4",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7",
     "vue": "latest",
     "vue-router": "latest"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.3.2",
+    "@nuxtjs/tailwindcss": "^6.12.1",
     "eslint": "^9.10.0",
     "eslint-plugin-format": "^0.1.2",
-    "eslint-plugin-tailwindcss": "^3.17.4"
+    "eslint-plugin-tailwindcss": "^3.17.4",
+    "typescript": "^5.6.2"
   }
 }

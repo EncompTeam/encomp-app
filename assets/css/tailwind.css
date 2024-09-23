@@ -1,8 +1,82 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+ 
+@layer base {
+  
+:root  {
+  --background: 167 100% 95%;
+  --foreground: 167 5% 0%;
 
+  --card: 167 50% 90%;
+  --card-foreground: 167 5% 10%;
 
+  --popover: 167 100% 95%;
+  --popover-foreground: 167 100% 0%;
+
+  --primary: 167 82.4% 44.5%;
+  --primary-foreground: 167 100% 95%;
+
+  --secondary: 167 30% 70%;
+  --secondary-foreground: 0 0% 0%;
+
+  --muted: 129 30% 85%;
+  --muted-foreground: 167 5% 35%;
+
+  --accent: 129 30% 80%;
+  --accent-foreground: 167 5% 10%;
+
+  --destructive: 0 100% 30%;
+  --destructive-foreground: 167 5% 90%;
+
+  --border: 167 30% 50%;
+  --input: 167 30% 18%;
+
+  --ring: 167 82.4% 44.5%;
+  --radius: 1rem;
+}
+.dark  {
+  --background: 167 50% 5%;
+  --foreground: 167 5% 90%;
+
+  --card: 167 50% 0%;
+  --card-foreground: 167 5% 90%;
+
+  --popover: 167 50% 5%;
+  --popover-foreground: 167 5% 90%;
+
+  --primary: 167 82.4% 44.5%;
+  --primary-foreground: 167 50% 5%;
+
+  --secondary: 167 30% 10%;
+  --secondary-foreground: 0 0% 100%;
+
+  --muted: 129 30% 15%;
+  --muted-foreground: 167 5% 60%;
+
+  --accent: 129 30% 15%;
+  --accent-foreground: 167 5% 90%;
+
+  --destructive: 0 100% 30%;
+  --destructive-foreground: 167 5% 90%;
+
+  --border: 167 30% 18%;
+  --input: 167 30% 18%;
+
+  --ring: 167 82.4% 44.5%;
+  --radius: 1.5rem;
+}
+
+}
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
 html, body, #__nuxt {
   @apply w-full h-full scroll-smooth min-h-screen;
 }
