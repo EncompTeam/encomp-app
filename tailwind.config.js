@@ -19,6 +19,15 @@ module.exports = {
         sans: ['Satoshi', 'serif'],
         titles: ['Chillax', 'serif'],
       },
+      dropShadow: {
+        glow: [
+          '-1px -1px 2px rgba(255, 215, 77, 0.5)',
+          '1px 1px 2px rgba(124, 127, 255, 0.5)',
+        ],
+      },
+      textShadow: {
+        'text-glow': 'rgba(255, 215, 77, 0.6) -1px -1px 6px, rgba(124, 127, 255, 0.6) 1px 1px 6px',
+      },
       colors: {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
@@ -77,14 +86,25 @@ module.exports = {
           from: { height: 'var(--radix-collapsible-content-height)' },
           to: { height: 0 },
         },
+        'marquee': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(calc(-100% - var(--gap)))' },
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
         'collapsible-down': 'collapsible-down 0.2s ease-in-out',
         'collapsible-up': 'collapsible-up 0.2s ease-in-out',
+        'marquee': 'marquee 25s linear infinite',
       },
     },
   },
-  plugins: [animate],
+  plugins: [animate, function ({ addUtilities }) {
+    addUtilities({
+      '.text-glow': {
+        textShadow: 'rgba(255, 215, 77, 0.6) -1px -1px 6px, rgba(124, 127, 255, 0.6) 1px 1px 6px',
+      },
+    })
+  }],
 }

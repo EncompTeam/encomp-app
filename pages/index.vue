@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <MainContent class="flex size-full flex-col items-center justify-center text-center">
+  <MainContent class="flex size-full flex-col items-center justify-center py-6 text-center">
     <h1 class="font-titles text-5xl font-medium">
       ENCOMP
     </h1>

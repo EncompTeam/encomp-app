@@ -11,6 +11,12 @@ export default defineNuxtConfig({
     'nuxt-lucide-icons',
   ],
 
+  fonts: {
+    defaults: {
+      weights: [400, 500, 700, 800],
+    },
+  },
+
   lucide: {
     namePrefix: 'Icon',
   },
