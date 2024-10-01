@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import { FacebookIcon, MenuIcon, PartyPopperIcon } from 'lucide-vue-next'
+
 const emit = defineEmits<{
   (e: 'navigate-to-home'): void
   (e: 'navigate-to-schedule'): void
@@ -14,7 +16,7 @@ const emit = defineEmits<{
     <Sheet>
       <SheetTrigger as-child>
         <Button variant="secondary" size="icon">
-          <IconMenu />
+          <MenuIcon />
         </Button>
       </SheetTrigger>
       <SheetContent v-bind="$attrs" class="flex w-full flex-col">
@@ -47,7 +49,7 @@ const emit = defineEmits<{
             </li>
             <li class="w-full py-6">
               <Button size="lg" class="flex w-full items-center gap-2 text-lg" variant="secondary" @click="() => emit('navigate-to-inscription')">
-                Inscreva-se <IconPartyPopper />
+                Inscreva-se <PartyPopperIcon />
               </Button>
             </li>
           </ul>
@@ -57,7 +59,7 @@ const emit = defineEmits<{
             <ul class="flex w-full items-center justify-center gap-4">
               <li>
                 <Button variant="ghost" size="icon">
-                  <IconFacebook />
+                  <FacebookIcon />
                 </Button>
               </li>
             </ul>

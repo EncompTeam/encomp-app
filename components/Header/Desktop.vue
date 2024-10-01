@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import { PartyPopperIcon } from 'lucide-vue-next'
+
 const emit = defineEmits<{
   (e: 'navigate-to-home'): void
   (e: 'navigate-to-schedule'): void
@@ -41,7 +43,7 @@ const emit = defineEmits<{
     </nav>
     <div class="flex flex-1 justify-end">
       <Button size="lg" class="flex w-auto items-center gap-2 text-lg" variant="secondary" @click="() => emit('navigate-to-inscription')">
-        Inscreva-se <IconPartyPopper />
+        Inscreva-se <PartyPopperIcon :size="24" />
       </Button>
     </div>
   </header>

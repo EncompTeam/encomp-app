@@ -64,7 +64,7 @@ module.exports = {
         },
       },
       backgroundImage: {
-        spotlight: 'conic-gradient(from 0deg at 50% -5%, transparent 45%, rgba(91,145,182,.3) 49%, rgba(124,145,182,.5) 50%, rgba(124,145,182,.3) 51%, transparent 55%)',
+        spotlight: 'conic-gradient(from 0deg at 50% -5%, transparent 45%, rgba(91,145,182,.3) 49%, rgba(124,145,182,.7) 50%, rgba(124,145,182,.3) 51%, transparent 55%)',
       },
       maskImage: {
         spotlight: 'radial-gradient(farthest-side at 50% 0, red 50%, transparent 90%)',
