@@ -36,6 +36,9 @@
   --radius: 1rem;
 
   --gap: 40px;
+  --spotlight-1-duration: 4s;
+  --spotlight-2-duration: 8s;
+  --spotlight-3-duration: 6s;
 }
 .dark  {
   --background: 167 50% 5%;

@@ -8,17 +8,12 @@ export default defineNuxtConfig({
     'shadcn-nuxt',
     '@nuxtjs/color-mode',
     '@nuxt/fonts',
-    'nuxt-lucide-icons',
   ],
 
   fonts: {
     defaults: {
       weights: [400, 500, 700, 800],
     },
-  },
-
-  lucide: {
-    namePrefix: 'Icon',
   },
 
   shadcn: {
