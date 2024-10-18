@@ -11,7 +11,7 @@ const emit = defineEmits<{
 </script>
 
 <template>
-  <header class="sticky mx-auto hidden h-20 w-full max-w-screen-xl items-center justify-between gap-4 rounded-full border border-gray-100/15 bg-background/80 bg-opacity-10 bg-clip-padding p-4 backdrop-blur-sm backdrop-filter lg:flex">
+  <header class="bg-opacity-500 mx-auto hidden h-20 w-full max-w-screen-xl items-center justify-between gap-4 rounded-full border border-gray-100/15 bg-background bg-clip-padding p-4 backdrop-blur-lg backdrop-filter lg:flex">
     <div class="flex flex-1 items-center">
       <Button variant="link">
         <Logo />

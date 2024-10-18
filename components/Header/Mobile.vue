@@ -11,7 +11,7 @@ const emit = defineEmits<{
 </script>
 
 <template>
-  <header class="sticky mx-auto flex h-14 w-full items-center justify-between rounded-full border border-gray-100/15 bg-background/80 bg-opacity-10 bg-clip-padding p-4 backdrop-blur-sm backdrop-filter lg:hidden">
+  <header class="mx-auto flex h-14 w-full items-center justify-between rounded-full border border-gray-100/15 bg-background/80 bg-opacity-10 bg-clip-padding p-4 backdrop-blur-sm backdrop-filter lg:hidden">
     <Logo size="130" />
     <Sheet>
       <SheetTrigger as-child>
