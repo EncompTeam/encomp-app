@@ -130,5 +130,7 @@ module.exports = {
         textShadow: 'rgba(255, 215, 77, 0.6) -1px -1px 6px, rgba(124, 127, 255, 0.6) 1px 1px 6px',
       },
     })
-  }],
+  },
+  require('tailwind-scrollbar'),
+],
 }
