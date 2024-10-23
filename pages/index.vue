@@ -15,7 +15,7 @@
     <Sponsors class="hidden lg:flex"/>
     <About class="mt-32"/>
     <WillHave class="mt-32"/>
-    <Speakers />
+    <Speakers class="mt-32"/>
     <Local class="mt-32"/>
     <FAQ id="faq" class="mt-44"/>
     <Sponsors class="flex lg:hidden"/>
