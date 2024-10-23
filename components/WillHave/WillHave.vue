@@ -12,9 +12,18 @@
       <p class="font-title text-4xl text-transparent text-center">Uma seleção de atividades abordando temas atuais e de revelância na área da técnologia</p>
     </div>
     <div class="flex flex-col md:flex-row gap-5 mx-10 mt-2">
-      <WillHavePhoto image="/activities/cursos.png" title="Minicursos" description=""/>
-      <WillHavePhoto image="/activities/palestras.png" title="Palestras" description=""/>
-      <WillHavePhoto image="/activities/estandes.png" title="Estandes" description=""/>
+      <WillHavePhoto image="/activities/cursos.png"
+      title="Minicursos"
+      description="Ponha a mão na massa em minicursos práticos em áreas de destaque da tecnologia"
+      />
+      <WillHavePhoto image="/activities/palestras.png"
+      title="Palestras"
+      description="Participe de palestras em assuntos de grande relevância com convidados experiêntes"
+      />
+      <WillHavePhoto image="/activities/estandes.png"
+      title="Estandes"
+      description="Conheça projetos interessantes e de potencial"
+      />
     </div>
     <div class="hidden md:inline-flex gap-10 mt-5">
       <SmallCard>

@@ -27,15 +27,15 @@ import SmallCard from '../SmallCard.vue';
       </SmallCard>
       <SmallCard class="mx-5">
         <Users class="text-tertiary"/>
-        <p class="pl-2">999 Alunos Impactados</p>
+        <p class="pl-2">743 Participantes Impactados</p>
       </SmallCard>
       <SmallCard class="mx-5">
         <MicVocal class="text-tertiary"/>
-        <p class="pl-2">+60 Palestras</p>
+        <p class="pl-2">56 Palestras Apresentadas</p>
       </SmallCard>
       <SmallCard class="mx-5">
         <Computer class="text-tertiary"/>
-        <p class="pl-2">+30 Minicursos</p>
+        <p class="pl-2">33 Minicursos Lecionados</p>
       </SmallCard>
     </div>
   </div>
