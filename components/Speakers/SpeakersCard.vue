@@ -9,7 +9,7 @@ const props = defineProps<{
 </script>
 
 <template>
-  <HoverCard :open-delay=200>
+  <HoverCard :open-delay=200 :close-delay=0>
     <HoverCardTrigger>
       <div class="bg-primary rounded-t-lg max-w-60 min-h-60 flex items-end">
         <img :src="props.image" class="h-60">

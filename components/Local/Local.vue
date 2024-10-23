@@ -38,8 +38,12 @@
         </div>
       </div>
       <div class="flex flex-col justify-end mx-4 md:mx-0">
-        <div class="relative">
+        <div class="relative mb-4">
           <img src="/campus/ceunes-aereo.png" class="h-60 w-96 grayscale rounded-xl">
+          <div class="absolute inset-0 bg-primary opacity-50 rounded-xl"></div>
+        </div>
+        <div class="relative">
+          <img src="/campus/ceunes-rampa.jpg" class="h-60 w-96 grayscale rounded-xl">
           <div class="absolute inset-0 bg-primary opacity-50 rounded-xl"></div>
         </div>
       </div>

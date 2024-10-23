@@ -105,10 +105,10 @@
     <ScheduleEventSimple start="13:00" end="13:15" title="Abertura" />
     <ScheduleEventTalk
       start="13:15" end="14:05"
-      title="EM BREVE MAIS INFORMAÇÕES"
-      speaker="Fique ligado!"
-      position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
-      photo=""
+      title="Dos Blogs à Engenharia de Software: Como Transformei Minha Carreira na Técnologia"
+      speaker="Beatriz Duarte"
+      position="Engenheira de Software no Nubank"
+      photo="/speakers/beatriz_duarte.png"
     />
     <ScheduleEventSimple start="14:05" end="14:25" title="Momento Alura" color="text-blue-500"/>
     <ScheduleEventTalk
