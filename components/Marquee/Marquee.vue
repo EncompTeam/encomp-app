@@ -3,57 +3,45 @@ import { MonitorIcon } from 'lucide-vue-next'
 </script>
 
 <template>
-  <MarqueeItem>
+  <MarqueeItem class="bg-tertiary">
     <template #items>
       <MarqueePart>
-      <MonitorIcon :size="30" class="drop-shadow-glow" />
-       Participe da nossa rifa e concorra a um monitor gamer
-      </MarqueePart>
-      <MarqueePart>•</MarqueePart>
-      <MarqueePart>
-        Clique aqui
+       Clique aqui, participe da nossa rifa e concorra a um monitor gamer
       </MarqueePart>
       <MarqueePart>
-      <MonitorIcon :size="30" class="drop-shadow-glow" />
-       Participe da nossa rifa e concorra a um monitor gamer
-      </MarqueePart>
-      <MarqueePart>•</MarqueePart>
-      <MarqueePart>
-        Clique aqui
+        <img src="/display.png" class="max-w-10">
       </MarqueePart>
       <MarqueePart>
-      <MonitorIcon :size="30" class="drop-shadow-glow" />
-       Participe da nossa rifa e concorra a um monitor gamer
+       Clique aqui, participe da nossa rifa e concorra a um monitor gamer
       </MarqueePart>
-      <MarqueePart>•</MarqueePart>
       <MarqueePart>
-        Clique aqui
+        <img src="/display.png" class="max-w-10">
+      </MarqueePart>
+      <MarqueePart>
+       Clique aqui, participe da nossa rifa e concorra a um monitor gamer
+      </MarqueePart>
+      <MarqueePart>
+        <img src="/display.png" class="max-w-10">
       </MarqueePart>
     </template>
     <template #loop>
       <MarqueePart>
-      <MonitorIcon :size="30" class="drop-shadow-glow" />
-       Participe da nossa rifa e concorra a um monitor gamer
-      </MarqueePart>
-      <MarqueePart>•</MarqueePart>
-      <MarqueePart>
-        Clique aqui
+       Clique aqui, participe da nossa rifa e concorra a um monitor gamer
       </MarqueePart>
       <MarqueePart>
-      <MonitorIcon :size="30" class="drop-shadow-glow" />
-       Participe da nossa rifa e concorra a um monitor gamer
-      </MarqueePart>
-      <MarqueePart>•</MarqueePart>
-      <MarqueePart>
-        Clique aqui
+        <img src="/display.png" class="max-w-10">
       </MarqueePart>
       <MarqueePart>
-      <MonitorIcon :size="30" class="drop-shadow-glow" />
-       Participe da nossa rifa e concorra a um monitor gamer
+       Clique aqui, participe da nossa rifa e concorra a um monitor gamer
       </MarqueePart>
-      <MarqueePart>•</MarqueePart>
       <MarqueePart>
-        Clique aqui
+        <img src="/display.png" class="max-w-10">
+      </MarqueePart>
+      <MarqueePart>
+       Clique aqui, participe da nossa rifa e concorra a um monitor gamer
+      </MarqueePart>
+      <MarqueePart>
+        <img src="/display.png" class="max-w-10">
       </MarqueePart>
     </template>
   </MarqueeItem>
