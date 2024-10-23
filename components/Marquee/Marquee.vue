@@ -9,19 +9,19 @@ import { MonitorIcon } from 'lucide-vue-next'
        Clique aqui, participe da nossa rifa e concorra a um monitor gamer
       </MarqueePart>
       <MarqueePart>
-        <img src="/display.png" class="max-w-10">
+        <img src="/display.png" class="max-w-16">
       </MarqueePart>
       <MarqueePart>
        Clique aqui, participe da nossa rifa e concorra a um monitor gamer
       </MarqueePart>
       <MarqueePart>
-        <img src="/display.png" class="max-w-10">
+        <img src="/display.png" class="max-w-16">
       </MarqueePart>
       <MarqueePart>
        Clique aqui, participe da nossa rifa e concorra a um monitor gamer
       </MarqueePart>
       <MarqueePart>
-        <img src="/display.png" class="max-w-10">
+        <img src="/display.png" class="max-w-16">
       </MarqueePart>
     </template>
     <template #loop>
@@ -29,19 +29,19 @@ import { MonitorIcon } from 'lucide-vue-next'
        Clique aqui, participe da nossa rifa e concorra a um monitor gamer
       </MarqueePart>
       <MarqueePart>
-        <img src="/display.png" class="max-w-10">
+        <img src="/display.png" class="max-w-16">
       </MarqueePart>
       <MarqueePart>
        Clique aqui, participe da nossa rifa e concorra a um monitor gamer
       </MarqueePart>
       <MarqueePart>
-        <img src="/display.png" class="max-w-10">
+        <img src="/display.png" class="max-w-16">
       </MarqueePart>
       <MarqueePart>
        Clique aqui, participe da nossa rifa e concorra a um monitor gamer
       </MarqueePart>
       <MarqueePart>
-        <img src="/display.png" class="max-w-10">
+        <img src="/display.png" class="max-w-16">
       </MarqueePart>
     </template>
   </MarqueeItem>
