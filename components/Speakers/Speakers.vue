@@ -9,7 +9,7 @@
       <p class="font-title text-2xl text-primary">QUEM VAI?</p>
     </div>
     <div class="w-fit h-52 md:h-24 md:mx-96 bg-gradient-to-r from-white to-gray-600 bg-clip-text to-100%">
-      <p class="font-title text-4xl text-transparent text-center">Palestrantes convidados de diversas áreas com muita experiência para passar</p>
+      <p class="font-title text-4xl text-transparent text-center">Palestrantes convidados de diversas áreas, com muita experiência para passar</p>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-4 gap-4 justify-items-center">
 

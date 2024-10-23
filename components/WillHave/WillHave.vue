@@ -9,7 +9,7 @@
       <p class="font-title text-2xl text-primary">O QUE VAI TER?</p>
     </div>
     <div class="w-fit h-52 md:h-24 md:mx-96 bg-gradient-to-r from-white to-gray-600 bg-clip-text to-100%">
-      <p class="font-title text-4xl text-transparent text-center">Uma seleção de atividades abordando temas atuais e de revelância na área da técnologia</p>
+      <p class="font-title text-4xl text-transparent text-center">Uma seleção de atividades abordando temas atuais e de revelância na técnologia</p>
     </div>
     <div class="flex flex-col md:flex-row gap-5 mx-10 mt-2">
       <WillHavePhoto image="/activities/cursos.png"
