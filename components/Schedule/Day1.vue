@@ -1,0 +1,130 @@
+<template>
+  <div>
+    <ScheduleHeader day="06" class="mt-20"/>
+    <ScheduleEventSimple 
+      start="07:30" end="08:00"
+      title="Credênciamento | Minicursos"
+    />
+    <!-- Courses line display for large screens -->
+    <div class="hidden md:flex flex-row md:gap-2">
+      <ScheduleEventCourse
+        class="flex-1"
+        start="08:00" end="10:00"
+        title="EM BREVE MAIS INFORMAÇÕES"
+        extra="Minicurso"
+        speaker="Fique ligado!"
+        position="Nos siga no instragram para ficar por dentro das novidades @encomp"
+      />
+      <ScheduleEventCourse
+        class="flex-1"
+        start="08:00" end="10:00"
+        title="EM BREVE MAIS INFORMAÇÕES"
+        extra="Minicurso"
+        speaker="Fique ligado!"
+        position="Nos siga no instragram para ficar por dentro das novidades @encomp"
+      />
+    </div>
+    <!-- Courses line carousel display for small screens -->
+    <div class="lg:hidden">
+      <Carousel>
+        <CarouselContent>
+          <CarouselItem>
+            <ScheduleEventCourse
+              start="08:00" end="10:00"
+              title="EM BREVE MAIS INFORMAÇÕES"
+              extra="Minicurso"
+              speaker="Fique ligado!"
+              position="Nos siga no instragram para ficar por dentro das novidades @encomp"
+              :showArrow="true"
+              />
+          </CarouselItem>
+          <CarouselItem>
+            <ScheduleEventCourse
+              start="08:00" end="10:00"
+              title="EM BREVE MAIS INFORMAÇÕES"
+              extra="Minicurso"
+              speaker="Fique ligado!"
+              position="Nos siga no instragram para ficar por dentro das novidades @encomp"
+            />
+          </CarouselItem>
+        </CarouselContent>
+      </Carousel>
+    </div>
+    <ScheduleBreak start="10:00" end="10:30" title="Coffee Break" class="mb-3"/>
+    <!-- Courses line display for large screens -->
+    <div class="hidden md:flex flex-row md:gap-2">
+      <ScheduleEventCourse 
+        class="flex-1"
+        start="10:30" end="12:00"
+        title="EM BREVE MAIS INFORMAÇÕES"
+        extra="Minicurso"
+        speaker="Fique ligado!"
+        position="Nos siga no instragram para ficar por dentro das novidades @encomp"
+        />
+      <ScheduleEventCourse 
+        class="flex-1"
+        start="10:30" end="12:00"
+        title="EM BREVE MAIS INFORMAÇÕES"
+        extra="Minicurso"
+        speaker="Fique ligado!"
+        position="Nos siga no instragram para ficar por dentro das novidades @encomp"
+      />
+    </div>
+    <!-- Courses line carousel display for small screens -->
+    <div class="lg:hidden">
+      <Carousel>
+        <CarouselContent>
+          <CarouselItem>
+            <ScheduleEventCourse
+              start="10:30" end="12:00"
+              title="EM BREVE MAIS INFORMAÇÕES"
+              extra="Minicurso"
+              speaker="Fique ligado!"
+              position="Nos siga no instragram para ficar por dentro das novidades @encomp"
+              :showArrow="true"
+              />
+          </CarouselItem>
+          <CarouselItem>
+            <ScheduleEventCourse
+              start="10:00" end="12:00"
+              title="EM BREVE MAIS INFORMAÇÕES"
+              extra="Minicurso"
+              speaker="Fique ligado!"
+              position="Nos siga no instragram para ficar por dentro das novidades @encomp"
+            />
+          </CarouselItem>
+        </CarouselContent>
+      </Carousel>
+    </div>
+    <ScheduleBreak start="12:00" end="12:30" title="Intervalo para Almoço" class="mb-3"/>
+    <ScheduleEventSimple
+      start="12:30" end="13:00"
+      title="Credênciamento | Palestras"
+      extra="Auditório"
+    />
+    <ScheduleEventSimple start="13:00" end="13:15" title="Abertura" />
+    <ScheduleEventTalk
+      start="13:15" end="14:05"
+      title="EM BREVE MAIS INFORMAÇÕES"
+      speaker="Fique Ligado"
+      position="Nos siga no instragram para ficar por dentro das novidades @encomp"
+      photo=""
+    />
+    <ScheduleEventSimple start="14:05" end="14:25" title="Momento Alura" color="text-blue-500"/>
+    <ScheduleEventTalk
+      start="14:30" end="16:30"
+      title="Mesa Redonda: Bate Papo com Professores"
+      speaker="Professores do Departamento de Computação e Eletrônica"
+    />
+    <ScheduleEventTalk
+      start="16:40" end="17:30"
+      title="Como se Tornar Indispensável na Era da Inteligência Artificial"
+      speaker="Patrick Bonometti"
+      position="Fundador da IA Valley"
+      photo="/speakers/patrick_bonometti.png"
+    />
+  </div>
+  <ScheduleEventSimple start="17:30" end="17:40" title="Avisos e Sorteios"/>
+  <ScheduleBreak start="17:40" end="18:00" title="Coffee Break | Encerramento" />
+  <div class="mb-32 min-h-20"></div>
+</template>

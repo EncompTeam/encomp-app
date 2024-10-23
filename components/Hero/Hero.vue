@@ -1,7 +1,9 @@
 <script lang="ts" setup>
 import { CalendarIcon, MapPinIcon, PartyPopperIcon } from 'lucide-vue-next'
 
-const emits = defineEmits<(e: 'navigate-to-inscription') => void>()
+const toSubscription = () => {
+  window.location.href = 'https://www.sympla.com.br/vii-encomp---encontro-norte-capixaba-de-computacao__2696886';
+}
 </script>
 
 <template>
@@ -18,7 +20,7 @@ const emits = defineEmits<(e: 'navigate-to-inscription') => void>()
         <MapPinIcon :size="20" /> São Mateus, ES
       </Badge>
     </div>
-    <Button size="lg" class="flex w-full items-center justify-center gap-2 text-lg leading-none lg:w-auto" @click="() => emits('navigate-to-inscription')">
+    <Button size="lg" class="flex w-full items-center justify-center gap-2 text-lg leading-none lg:w-auto" @click="toSubscription">
       Garanta seu assento <PartyPopperIcon :size="24" />
     </Button>
     <div class="[mask-image:radial-gradient(farthest-side_at_50%_45%,red_50%,transparent 90%)] -top-30 pointer-events-none absolute z-10 flex h-screen w-full overflow-hidden lg:-top-44">

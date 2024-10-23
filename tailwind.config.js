@@ -5,7 +5,11 @@ module.exports = {
   darkMode: ['class'],
   safelist: ['dark'],
   prefix: '',
-
+  variants: {
+    extend: {
+      display: ["group-hover"]
+    }
+  },
   theme: {
     container: {
       center: true,
