@@ -44,7 +44,8 @@
     <main class="relative w-full">
       <slot />
     </main>
-    <footer>
+    <footer class="mt-60">
+      <img src="/logo_big.png">
     </footer>
   </div>
 </template>

@@ -13,7 +13,7 @@
         title="EM BREVE MAIS INFORMAÇÕES"
         extra="Minicurso"
         speaker="Fique ligado!"
-        position="Nos siga no instragram para ficar por dentro das novidades @encomp"
+        position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
       />
       <ScheduleEventCourse
         class="flex-1"
@@ -21,7 +21,7 @@
         title="EM BREVE MAIS INFORMAÇÕES"
         extra="Minicurso"
         speaker="Fique ligado!"
-        position="Nos siga no instragram para ficar por dentro das novidades @encomp"
+        position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
       />
     </div>
     <!-- Courses line carousel display for small screens -->
@@ -34,7 +34,7 @@
               title="EM BREVE MAIS INFORMAÇÕES"
               extra="Minicurso"
               speaker="Fique ligado!"
-              position="Nos siga no instragram para ficar por dentro das novidades @encomp"
+              position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
               :showArrow="true"
               />
           </CarouselItem>
@@ -44,7 +44,7 @@
               title="EM BREVE MAIS INFORMAÇÕES"
               extra="Minicurso"
               speaker="Fique ligado!"
-              position="Nos siga no instragram para ficar por dentro das novidades @encomp"
+              position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
             />
           </CarouselItem>
         </CarouselContent>
@@ -59,7 +59,7 @@
         title="EM BREVE MAIS INFORMAÇÕES"
         extra="Minicurso"
         speaker="Fique ligado!"
-        position="Nos siga no instragram para ficar por dentro das novidades @encomp"
+        position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
         />
       <ScheduleEventCourse 
         class="flex-1"
@@ -67,7 +67,7 @@
         title="EM BREVE MAIS INFORMAÇÕES"
         extra="Minicurso"
         speaker="Fique ligado!"
-        position="Nos siga no instragram para ficar por dentro das novidades @encomp"
+        position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
       />
     </div>
     <!-- Courses line carousel display for small screens -->
@@ -80,7 +80,7 @@
               title="EM BREVE MAIS INFORMAÇÕES"
               extra="Minicurso"
               speaker="Fique ligado!"
-              position="Nos siga no instragram para ficar por dentro das novidades @encomp"
+              position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
               :showArrow="true"
               />
           </CarouselItem>
@@ -90,7 +90,7 @@
               title="EM BREVE MAIS INFORMAÇÕES"
               extra="Minicurso"
               speaker="Fique ligado!"
-              position="Nos siga no instragram para ficar por dentro das novidades @encomp"
+              position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
             />
           </CarouselItem>
         </CarouselContent>
@@ -105,24 +105,24 @@
     <ScheduleEventTalk
       start="14:00" end="14:50"
       title="EM BREVE MAIS INFORMAÇÕES"
-      speaker="Fique Ligado"
-      position="Nos siga no instragram para ficar por dentro das novidades @encomp"
+      speaker="Fique ligado!"
+      position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
       photo=""
       extra="Palestra"
     />
     <ScheduleEventTalk
       start="15:10" end="16:00"
       title="EM BREVE MAIS INFORMAÇÕES"
-      speaker="Fique Ligado"
-      position="Nos siga no instragram para ficar por dentro das novidades @encomp"
+      speaker="Fique ligado!"
+      position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
       photo=""
       extra="Palestra"
     />
     <ScheduleEventTalk
       start="16:10" end="17:00"
       title="EM BREVE MAIS INFORMAÇÕES"
-      speaker="Fique Ligado"
-      position="Nos siga no instragram para ficar por dentro das novidades @encomp"
+      speaker="Fique ligado!"
+      position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
       photo=""
       extra="Palestra"
     />

@@ -23,7 +23,7 @@ import { User, MoveRight } from 'lucide-vue-next'
       <Avatar class="bg-primary" size="sm">
         <AvatarImage :src="props.photo" />
         <AvatarFallback>
-          <User color="black"/>
+          <img src="/logo_circle.png">
         </AvatarFallback>
       </Avatar>
       <div class="ml-4">
