@@ -7,5 +7,5 @@ const props = withDefaults(defineProps<{
 </script>
 
 <template>
-  <img :width="props.size" src="../public/encomp-logo-large.svg" alt="Logo do ENCOMP em branco com alguns detalhes em verde">
+  <img :width="props.size" src="../public/encomp7-logo-large.png" alt="Logo do VII ENCOMP em branco com alguns detalhes em verde">
 </template>
