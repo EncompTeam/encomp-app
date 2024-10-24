@@ -47,7 +47,7 @@ function toSubscription() {
       <slot />
     </main>
     <footer class="mt-52 md:mx-60">
-      <div class="bg-primary-500 flex min-h-60 flex-col justify-center rounded-t-xl md:flex-row lg:justify-between">
+      <div class="flex min-h-60 flex-col justify-center rounded-t-xl bg-primary-500 md:flex-row lg:justify-between">
         <div class="">
           <img src="/logo_big.png" alt="Logo do encomp grande" lass="max-h-60">
         </div>
