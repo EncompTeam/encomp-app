@@ -14,7 +14,7 @@ function toSubscription() {
     <div class="flex w-full flex-col items-center justify-center gap-2 lg:flex-row">
       <Badge variant="secondary" class="flex items-center gap-2 p-2 uppercase">
         <CalendarIcon :size="20" />
-        09, 10 e 11 de Novembro de 2024
+        06, 07 e 08 de Novembro de 2024
       </Badge>
       <Badge variant="secondary" class="flex items-center gap-2 p-2 uppercase">
         <MapPinIcon :size="20" /> São Mateus, ES
