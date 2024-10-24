@@ -58,7 +58,7 @@
           <NuxtLink to="https://www.instagram.com/encompceunes/" external
             class="flex flex-row gap-2 items-center">
             <p class="text-xl">Instagram</p>
-            <Instagram/>
+            <InstagramIcon/>
           </NuxtLink>
         </div>
       </div>
