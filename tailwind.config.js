@@ -5,7 +5,11 @@ module.exports = {
   darkMode: ['class'],
   safelist: ['dark'],
   prefix: '',
-
+  variants: {
+    extend: {
+      display: ["group-hover"]
+    }
+  },
   theme: {
     container: {
       center: true,
@@ -36,11 +40,22 @@ module.exports = {
         foreground: 'hsl(var(--foreground))',
         primary: {
           DEFAULT: 'hsl(var(--primary))',
+          400: 'hsl(var(--primary-400))',
+          500: 'hsl(var(--primary-500))',
+          900: 'hsl(var(--primary-900))',
           foreground: 'hsl(var(--primary-foreground))',
         },
         secondary: {
           DEFAULT: 'hsl(var(--secondary))',
           foreground: 'hsl(var(--secondary-foreground))',
+        },
+        tertiary: {
+          DEFAULT: 'hsl(var(--tertiary))',
+          200: 'hsl(var(--tertiary-200))',
+          300: 'hsl(var(--tertiary-300))',
+          500: 'hsl(var(--tertiary-500))',
+          700: 'hsl(var(--tertiary-700))',
+          foreground: 'hsl(var(--tertiary-foreground))'
         },
         destructive: {
           DEFAULT: 'hsl(var(--destructive))',
@@ -130,5 +145,7 @@ module.exports = {
         textShadow: 'rgba(255, 215, 77, 0.6) -1px -1px 6px, rgba(124, 127, 255, 0.6) 1px 1px 6px',
       },
     })
-  }],
+  },
+  require('tailwind-scrollbar'),
+],
 }

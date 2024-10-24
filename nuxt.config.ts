@@ -10,6 +10,10 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
   ],
 
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in'}
+  },
+
   fonts: {
     defaults: {
       weights: [400, 500, 700, 800],
