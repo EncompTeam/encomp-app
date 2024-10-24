@@ -103,6 +103,8 @@
       start="13:15" end="14:05"
       title="Dos Blogs à Engenharia de Software: Como Transformei Minha Carreira na Técnologia"
       speaker="Beatriz Duarte"
+      description="Vou contar um pouco sobre minha trajetória até me tornar Engenheira de Software, erros e acertos que cometi ao longo desses mais de 10 anos desde que escrevi minhas primeiras linhas de código, além de conselhos para quem quiser seguir na área de desenvolvimento de software"
+      :show-description="true"
       position="Engenheira de Software no Nubank"
       photo="/speakers/beatriz_duarte.png"
     />
@@ -116,6 +118,8 @@
       start="16:40" end="17:30"
       title="Como se Tornar Indispensável na Era da Inteligência Artificial"
       speaker="Patrick Bonometti"
+      description="Iremos explorar o impacto transformador da Inteligência Artificial no mercado de trabalho contemporâneo. Discutiremos como essa nova era está redefinindo funções e habilidades, e como você pode se adaptar e prosperar nesse ambiente em constante mudança"
+      :show-description="true"
       position="Fundador da IA Valley"
       photo="/speakers/patrick_bonometti.png"
     />
