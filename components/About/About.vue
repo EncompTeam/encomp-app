@@ -10,7 +10,7 @@ import SmallCard from '../SmallCard.vue'
     </div>
     <div class="inline-flex items-center justify-center gap-3">
       <Search :size="28" class="text-primary" />
-      <p class="font-title text-primary text-2xl">
+      <p class="font-title text-2xl text-primary">
         O ENCOMP
       </p>
     </div>
@@ -20,7 +20,7 @@ import SmallCard from '../SmallCard.vue'
       </p>
     </div>
     <div class="w-full lg:w-3/4">
-      <p class="text-balance text-center font-sans text-xl">
+      <p class="mx-5 text-balance text-center font-sans text-xl">
         O ENCOMP é um evento inovador criado por alunos da Universidade Federal do Espírito Santo, campus de São Mateus, com o objetivo de promover conhecimento e networking na área da computação. Nesta 7ª edição, reunimos uma programação rica e diversificada, incluindo palestras, minicursos e uma variedade de atividades que vão inspirar e capacitar nossos participantes
       </p>
     </div>
