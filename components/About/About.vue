@@ -19,8 +19,8 @@ import SmallCard from '../SmallCard.vue'
         Capixaba da gema e do norte!
       </p>
     </div>
-    <div class="w-full lg:w-3/4">
-      <p class="mx-5 text-balance text-center font-sans text-xl">
+    <div class="w-full px-3 lg:w-3/4">
+      <p class="mt-2 text-balance text-center font-sans text-xl">
         O ENCOMP é um evento inovador criado por alunos da Universidade Federal do Espírito Santo, campus de São Mateus, com o objetivo de promover conhecimento e networking na área da computação. Nesta 7ª edição, reunimos uma programação rica e diversificada, incluindo palestras, minicursos e uma variedade de atividades que vão inspirar e capacitar nossos participantes
       </p>
     </div>

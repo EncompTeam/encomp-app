@@ -1,14 +1,29 @@
 <script lang="ts" setup>
 import { User } from 'lucide-vue-next'
 
-const props = defineProps(['start', 'end', 'title', 'description', 'showDescription', 'extra', 'speaker', 'position', 'photo'])
+const props = withDefaults(
+  defineProps<{
+    start?: string
+    end?: string
+    title?: string
+    description?: string
+    showDescription?: boolean
+    extra?: string
+    speaker?: string
+    position?: string
+    photo: string
+  }>(),
+  { showDescription: true, description: 'Não há nada aqui ainda!', photo: '/logo_circle.png' },
+)
 </script>
 
 <template>
   <div class="mb-3 max-w-4xl rounded-md border border-gray-500 px-3 py-2 md:border-2">
     <div class="mb-2">
       <div class="flex justify-between">
-        <p>{{ props.extra }}</p>
+        <p class="text-tertiary">
+          {{ props.extra }}
+        </p>
         <Popover>
           <PopoverTrigger>
             <p class="text-xs text-primary md:text-sm">
@@ -17,7 +32,9 @@ const props = defineProps(['start', 'end', 'title', 'description', 'showDescript
           </PopoverTrigger>
           <PopoverContent v-if="showDescription" side="left" :side-offset="-30" class="border-primary bg-gray-900">
             <div>
-              <p>{{ props.description }}</p>
+              <p class="text-center">
+                {{ props.description }}
+              </p>
             </div>
           </PopoverContent>
         </Popover>

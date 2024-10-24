@@ -113,6 +113,8 @@
       start="14:30" end="16:30"
       title="Mesa Redonda: Bate Papo com Professores"
       speaker="Professores do Departamento de Computação e Eletrônica"
+      description="Um bate papo com professores dos cursos de Ciência e Engenharia da Computação, com trocas de experiências e a abertura de um momento ideal para quem pretende cursar o ensino superior na UFES tirar dúvidas e conhecer mais do ambiente acadêmico"
+      photo=""
     />
     <ScheduleEventTalk
       start="16:40" end="17:30"

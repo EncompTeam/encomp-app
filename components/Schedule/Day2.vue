@@ -119,7 +119,8 @@
       start="16:00" end="17:20"
       title="ESTANDES"
       speaker="Convidados Diversos"
-      position=""
+      description="Momento reservado para a exposição de estandes com grupos convidados e patrocinadores, onde serão apresentandos projetos e produtos interessantes"
+      extra="Local: Quadra"
       photo=""
     />
   </div>
