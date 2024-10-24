@@ -1,14 +1,13 @@
 <template>
   <div>
-    <ScheduleHeader day="08" class="mt-20"/>
-    <ScheduleEventSimple 
+    <ScheduleHeader day="08" />
+    <ScheduleEventSimple
       start="07:30" end="08:00"
       title="Credênciamento | Minicursos"
     />
     <!-- Courses line display for large screens -->
-    <div class="hidden md:flex flex-row md:gap-2">
+    <div class="hidden flex-row md:flex md:gap-2">
       <ScheduleEventCourse
-        class="flex-1"
         start="08:00" end="10:00"
         title="EM BREVE MAIS INFORMAÇÕES"
         extra="Minicurso"
@@ -16,7 +15,6 @@
         position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
       />
       <ScheduleEventCourse
-        class="flex-1"
         start="08:00" end="10:00"
         title="EM BREVE MAIS INFORMAÇÕES"
         extra="Minicurso"
@@ -35,8 +33,8 @@
               extra="Minicurso"
               speaker="Fique ligado!"
               position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
-              :showArrow="true"
-              />
+              :show-arrow="true"
+            />
           </CarouselItem>
           <CarouselItem>
             <ScheduleEventCourse
@@ -50,19 +48,17 @@
         </CarouselContent>
       </Carousel>
     </div>
-    <ScheduleBreak start="10:00" end="10:30" title="Coffee Break" class="mb-3"/>
+    <ScheduleBreak start="10:00" end="10:30" title="Coffee Break" class="my-3" />
     <!-- Courses line display for large screens -->
-    <div class="hidden md:flex flex-row md:gap-2">
-      <ScheduleEventCourse 
-        class="flex-1"
+    <div class="hidden flex-row md:flex md:gap-2">
+      <ScheduleEventCourse
         start="10:30" end="12:30"
         title="EM BREVE MAIS INFORMAÇÕES"
         extra="Minicurso"
         speaker="Fique ligado!"
         position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
-        />
-      <ScheduleEventCourse 
-        class="flex-1"
+      />
+      <ScheduleEventCourse
         start="10:30" end="12:30"
         title="EM BREVE MAIS INFORMAÇÕES"
         extra="Minicurso"
@@ -81,8 +77,8 @@
               extra="Minicurso"
               speaker="Fique ligado!"
               position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
-              :showArrow="true"
-              />
+              :show-arrow="true"
+            />
           </CarouselItem>
           <CarouselItem>
             <ScheduleEventCourse
@@ -96,7 +92,7 @@
         </CarouselContent>
       </Carousel>
     </div>
-    <ScheduleBreak start="12:30" end="13:30" title="Intervalo para Almoço" class="mb-3"/>
+    <ScheduleBreak start="12:30" end="13:30" title="Intervalo para Almoço" class="my-3" />
     <ScheduleEventSimple
       start="13:00" end="14:00"
       title="Credênciamento | Palestras"
@@ -126,8 +122,8 @@
       photo=""
       extra="Palestra"
     />
-    <ScheduleEventSimple start="17:00" end="17:20" title="Avisos e Sorteios"/>
+    <ScheduleEventSimple start="17:00" end="17:20" title="Avisos e Sorteios" />
   </div>
   <ScheduleBreak start="17:20" end="18:00" title="Coffee Break | Encerramento" />
-  <div class="mb-32 min-h-20"></div>
+  <div class="my-32 min-h-20" />
 </template>

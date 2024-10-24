@@ -1,44 +1,45 @@
 <script lang="ts" setup>
-  import { Mail, Instagram } from 'lucide-vue-next'
-  const router = useRouter();
+import { Instagram, Mail } from 'lucide-vue-next'
 
-  const toSchedule = () => {
-    router.push('/schedule')
-  }
+const router = useRouter()
 
-  const toSubscription = () => {
-    window.location.href = 'https://www.sympla.com.br/vii-encomp---encontro-norte-capixaba-de-computacao__2696886';
-  }
+function toSchedule() {
+  router.push('/schedule')
+}
+function handleNavigateToFaq() {
+  router.push({ path: '/', hash: '#faq' })
+}
+function handleNavigateToSpeakers() {
+  router.push({ path: '/', hash: '#speakers' })
+}
 
-  // const emit = defineEmits(['to-faq', 'to-home'])
-  // function emitScrollToSection(section: string) {
-  //   if (section === 'faq') {
-  //     emit('to-faq');
-  //   }
-  //   if (section === 'home') {
-  //     emit('to-home');
-  //   }
-  // }
+function handleNavigateToHome() {
+  router.push('/')
+}
+
+function toSubscription() {
+  window.open('https://www.sympla.com.br/vii-encomp---encontro-norte-capixaba-de-computacao__2696886', '_blank')
+}
 </script>
 
 <template>
   <div class="relative w-full">
     <NuxtLink to="https://rifei.com.br/vii-encomp" external>
-      <Marquee/>
+      <Marquee />
     </NuxtLink>
-    <div class="sticky top-4 z-20 p-4 lg:px-6">
-      <HeaderDesktop 
-        @navigate-to-faq=""
-        @navigate-to-home=""
+    <div class=" z-20 p-4 lg:px-6">
+      <HeaderDesktop
+        @navigate-to-faq="handleNavigateToFaq"
+        @navigate-to-home="handleNavigateToHome"
         @navigate-to-schedule="toSchedule"
-        @navigate-to-speakers=""
+        @navigate-to-speakers="handleNavigateToSpeakers"
         @navigate-to-inscription="toSubscription"
       />
-      <HeaderMobile 
-        @navigate-to-faq=""
-        @navigate-to-home=""
+      <HeaderMobile
+        @navigate-to-faq="handleNavigateToFaq"
+        @navigate-to-home="handleNavigateToHome"
         @navigate-to-schedule="toSchedule"
-        @navigate-to-speakers=""
+        @navigate-to-speakers="handleNavigateToSpeakers"
         @navigate-to-inscription="toSubscription"
       />
     </div>
@@ -46,19 +47,25 @@
       <slot />
     </main>
     <footer class="mt-52 md:mx-60">
-      <div class="flex flex-col md:flex-row bg-primary-500 min-h-60 rounded-t-xl justify-center lg:justify-between">
+      <div class="bg-primary-500 flex min-h-60 flex-col justify-center rounded-t-xl md:flex-row lg:justify-between">
         <div class="">
-          <img src="/logo_big.png" class="max-h-60">
+          <img src="/logo_big.png" alt="Logo do encomp grande" lass="max-h-60">
         </div>
-        <div class="px-10 py-10 flex flex-col gap-5 justify-center md:justify-end items-end underline">
-          <div class="flex flex-row gap-2 items-center">
-            <p class="text-xl">encomp.ceunes@gmail.com</p>
-            <Mail/>
+        <div class="flex flex-col items-end justify-center gap-5 p-10 underline md:justify-end">
+          <div class="flex flex-row items-center gap-2">
+            <p class="text-xl">
+              encomp.ceunes@gmail.com
+            </p>
+            <Mail />
           </div>
-          <NuxtLink to="https://www.instagram.com/encompceunes/" external
-            class="flex flex-row gap-2 items-center">
-            <p class="text-xl">Instagram</p>
-            <Instagram/>
+          <NuxtLink
+            to="https://www.instagram.com/encompceunes/" external
+            class="flex flex-row items-center gap-2"
+          >
+            <p class="text-xl">
+              Instagram
+            </p>
+            <Instagram />
           </NuxtLink>
         </div>
       </div>

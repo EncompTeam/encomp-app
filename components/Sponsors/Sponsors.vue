@@ -1,11 +1,15 @@
 <template>
-  <div class="flex-col md:flex-row justify-center items-center gap-20 mt-32">
-    <p class="lg:hidden">APOIO</p>
-    <img src="/sponsors/adapti.png" class="w-32 h-auto">
-    <img src="/sponsors/allwork.png" class="w-32 h-auto">
-    <img src="/sponsors/highquality.png" class="w-48 h-auto">
-    <img src="/sponsors/kairos.svg" class="w-24 h-auto">
-    <img src="/sponsors/lume.png" class="w-32 h-auto">
-    <img src="/sponsors/sxtech.png" class="w-32 h-auto">
+  <div class="mt-32 flex flex-col items-center gap-6">
+    <p class="lg:hidden">
+      APOIO
+    </p>
+    <div class="flex flex-wrap items-center justify-center gap-20 opacity-15 grayscale md:flex-row">
+      <img src="/sponsors/adapti.png" class="h-auto w-32">
+      <img src="/sponsors/allwork.png" class="h-auto w-32">
+      <img src="/sponsors/highquality.png" class="h-auto w-48">
+      <img src="/sponsors/kairos.svg" class="h-auto w-24">
+      <img src="/sponsors/lume.png" class="h-auto w-32">
+      <img src="/sponsors/sxtech.png" class="h-auto w-32">
+    </div>
   </div>
 </template>
