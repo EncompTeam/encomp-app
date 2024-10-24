@@ -6,7 +6,7 @@ import { MicVocal } from 'lucide-vue-next'
   <div id="speakers" class="mx-auto flex w-full max-w-screen-xl flex-col items-center">
     <div class="inline-flex items-center gap-3">
       <MicVocal :size="28" class="text-primary" />
-      <p class="font-title text-primary text-2xl">
+      <p class="font-title text-2xl text-primary">
         QUEM VAI?
       </p>
     </div>
