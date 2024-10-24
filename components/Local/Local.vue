@@ -16,7 +16,7 @@ import { MapPin } from 'lucide-vue-next'
           Centro Universitário Norte do Espírito Santo
         </p>
       </div>
-      <p class="m-5 mx-10 w-96 text-balance text-center text-xl lg:w-3/4">
+      <p class="my-5 w-full text-balance px-3 text-center text-xl lg:w-3/4">
         Localizado em São Mateus, o CEUNES é um ambiente de aprendizado dedicado à formação de profissionais qualificados desde 1991. Com cursos de graduação e pós-graduação, o CEUNES promove a troca de ideias e o desenvolvimento de projetos, contribuindo para o Norte Capixaba, Sul da Bahia e Leste de Minas Gerais. Atendendo cerca de 3,5 milhões de habitantes, o CEUNES trabalha para reduzir desigualdades na oferta de vagas no Ensino Superior público com qualidade
       </p>
     </div>
