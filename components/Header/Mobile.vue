@@ -11,7 +11,7 @@ const emit = defineEmits<{
 </script>
 
 <template>
-  <header class="mx-auto flex h-14 w-full items-center justify-between rounded-full border border-gray-100/15 bg-background/80 bg-opacity-10 bg-clip-padding p-4 backdrop-blur-sm backdrop-filter lg:hidden">
+  <header class="bg-background/80 mx-auto flex h-14 w-full items-center justify-between rounded-full border border-gray-100/15 bg-opacity-10 bg-clip-padding p-4 backdrop-blur-sm backdrop-filter lg:hidden">
     <Logo size="130" />
     <Sheet>
       <SheetTrigger as-child>
@@ -28,22 +28,22 @@ const emit = defineEmits<{
         <nav class="w-full flex-1 py-9" aria-label="menu">
           <ul class="flex flex-col items-center gap-3">
             <li class="w-full">
-              <Button class="w-full text-lg text-foreground" variant="link" @click="() => emit('navigate-to-home')">
+              <Button class="text-foreground w-full text-lg" variant="link" @click="() => emit('navigate-to-home')">
                 Home
               </Button>
             </li>
             <li class="w-full">
-              <Button class="w-full text-lg text-foreground" variant="link" @click="() => emit('navigate-to-speakers')">
+              <Button class="text-foreground w-full text-lg" variant="link" @click="() => emit('navigate-to-speakers')">
                 Palestrantes
               </Button>
             </li>
             <li class="w-full">
-              <Button class="w-full text-lg text-foreground" variant="link" @click="() => emit('navigate-to-schedule')">
+              <Button class="text-foreground w-full text-lg" variant="link" @click="() => emit('navigate-to-schedule')">
                 Programação
               </Button>
             </li>
             <li class="w-full">
-              <Button class="w-full text-lg text-foreground" variant="link" @click="() => emit('navigate-to-faq')">
+              <Button class="text-foreground w-full text-lg" variant="link" @click="() => emit('navigate-to-faq')">
                 FAQ
               </Button>
             </li>

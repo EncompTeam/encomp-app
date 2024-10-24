@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="flex w-full select-none gap-[var(--gap)] overflow-hidden py-6">
+  <div class="flex w-full select-none gap-[var(--gap)] overflow-hidden py-1">
     <div class="flex min-w-full shrink-0 animate-marquee justify-around gap-[var(--gap)]">
       <slot name="items" />
     </div>

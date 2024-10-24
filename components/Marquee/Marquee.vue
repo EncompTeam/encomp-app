@@ -3,40 +3,46 @@ import { MonitorIcon } from 'lucide-vue-next'
 </script>
 
 <template>
-  <MarqueeItem>
+  <MarqueeItem class="bg-tertiary">
     <template #items>
       <MarqueePart>
-        <MonitorIcon :size="70" class="drop-shadow-glow" />
-        Marquee Item 1
+       Clique aqui, participe da nossa rifa e concorra a um monitor gamer
       </MarqueePart>
-      <MarqueePart>•</MarqueePart>
       <MarqueePart>
-        <MonitorIcon :size="70" class="drop-shadow-glow" />
-        Marquee Item 2
+        <img src="/display.png" class="max-w-16">
       </MarqueePart>
-      <MarqueePart>•</MarqueePart>
       <MarqueePart>
-        <MonitorIcon :size="70" class="drop-shadow-glow" />
-        Marquee Item 3
+       Clique aqui, participe da nossa rifa e concorra a um monitor gamer
       </MarqueePart>
-      <MarqueePart>•</MarqueePart>
+      <MarqueePart>
+        <img src="/display.png" class="max-w-16">
+      </MarqueePart>
+      <MarqueePart>
+       Clique aqui, participe da nossa rifa e concorra a um monitor gamer
+      </MarqueePart>
+      <MarqueePart>
+        <img src="/display.png" class="max-w-16">
+      </MarqueePart>
     </template>
     <template #loop>
       <MarqueePart>
-        <MonitorIcon :size="70" class="drop-shadow-glow" />
-        Marquee Item 1
+       Clique aqui, participe da nossa rifa e concorra a um monitor gamer
       </MarqueePart>
-      <MarqueePart>•</MarqueePart>
       <MarqueePart>
-        <MonitorIcon :size="70" class="drop-shadow-glow" />
-        Marquee Item 2
+        <img src="/display.png" class="max-w-16">
       </MarqueePart>
-      <MarqueePart>•</MarqueePart>
       <MarqueePart>
-        <MonitorIcon :size="70" class="drop-shadow-glow" />
-        Marquee Item 3
+       Clique aqui, participe da nossa rifa e concorra a um monitor gamer
       </MarqueePart>
-      <MarqueePart>•</MarqueePart>
+      <MarqueePart>
+        <img src="/display.png" class="max-w-16">
+      </MarqueePart>
+      <MarqueePart>
+       Clique aqui, participe da nossa rifa e concorra a um monitor gamer
+      </MarqueePart>
+      <MarqueePart>
+        <img src="/display.png" class="max-w-16">
+      </MarqueePart>
     </template>
   </MarqueeItem>
 </template>
