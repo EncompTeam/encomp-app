@@ -3,7 +3,7 @@
     <p class="mb-10 text-lg text-primary md:text-xl">
       CONHEÇA NOSSOS PATROCINADORES
     </p>
-    <div class="flex flex-wrap items-center justify-center gap-20 opacity-30 grayscale md:flex-row lg:px-80">
+    <div class="flex flex-wrap items-center justify-center gap-20 grayscale md:flex-row lg:px-80">
       <NuxtLink to="https://www.adapti.info/" external target="_blank">
         <img src="/sponsors/adapti.png" class="h-auto w-28" title="Adapti - Soluções Web">
       </NuxtLink>
