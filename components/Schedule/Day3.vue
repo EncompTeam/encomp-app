@@ -108,10 +108,12 @@
     />
     <ScheduleEventTalk
       start="15:10" end="16:00"
-      title="EM BREVE MAIS INFORMAÇÕES"
-      speaker="Fique ligado!"
-      position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
-      photo=""
+      title="Zero2Hero - Backend Developer"
+      description="A palestra &quot;Zero2Hero - Backend Developer&quot; oferece uma jornada completa para quem deseja iniciar na área de backend. Luiz apresentará os tópicos essenciais para transformar um iniciante em um desenvolvedor backend de sucesso, passando por conceitos fundamentais, boas práticas e as tecnologias mais relevantes do mercado. Ideal para quem quer sair do zero e se tornar um herói no desenvolvimento backend, dominando as principais ferramentas e arquiteturas."
+      :show-description="true"
+      speaker="Luiz Fantin"
+      position="Senior Developer na Compass.OUL"
+      photo="/speakers/luiz_fantin.png"
       extra="Palestra"
     />
     <ScheduleEventTalk
