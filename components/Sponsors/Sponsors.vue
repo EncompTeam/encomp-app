@@ -21,15 +21,15 @@
       </NuxtLink>
 
       <NuxtLink to="https://www.lumerobotics.ai/" external target="_blank">
-        <img src="/sponsors/lume.png" class="h-auto w-44" title="Lume Robotics - Sistema Lume de Mobilidade Autônoma">
+        <img src="/sponsors/lume.png" class="h-auto w-36 md:w-44" title="Lume Robotics - Sistema Lume de Mobilidade Autônoma">
       </NuxtLink>
 
       <NuxtLink to="https://www.instagram.com/sxtech.softwares/" external target="_blank">
-        <img src="/sponsors/sxtech.png" class="h-auto w-44" title="SX Tech">
+        <img src="/sponsors/sxtech.png" class="h-auto w-36 md:w-44" title="SX Tech">
       </NuxtLink>
 
       <NuxtLink to="https://vestbem.com/" external target="_blank">
-        <img src="/sponsors/vestebem.png" class="h-auto w-44" title="Vest Bem Confecções">
+        <img src="/sponsors/vestebem.png" class="h-auto w-36 md:w-44" title="Vest Bem Confecções">
       </NuxtLink>
 
       <NuxtLink to="https://tconline.com.br/" external target="_blank">
