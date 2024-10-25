@@ -42,11 +42,11 @@ import { MicVocal } from 'lucide-vue-next'
       />
 
       <SpeakersCard
-        image="/questionmark.png"
-        name="EM BREVE"
-        role="Fique ligado nas nossas redes sociais para saber as novidades"
-        description=""
-        :show-description="false"
+        image="/speakers/cloves_alves.png"
+        name="Cloves Alves Junior"
+        role="Analista de Dados na Soma Urbanismo"
+        description="Formado em Análise e Desenvolvimento de Sistemas, com especialização em Ciência de Dados e Inteligência Artificial. Hoje trabalha como analista de dados na Soma Urbanismo, onde lidera o Observatório de Dados, um projeto estratégico focado em converter dados em insights valiosos para orientar decisões corporativas"
+        :show-description="true"
       />
 
       <SpeakersCard
