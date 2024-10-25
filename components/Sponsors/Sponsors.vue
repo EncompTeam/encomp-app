@@ -1,11 +1,11 @@
 <template>
-  <div class="mt-32 flex flex-col items-center gap-6">
+  <div class="mt-32 flex flex-col items-center gap-6 md:mt-56">
     <p class="mb-10 text-lg text-primary md:text-xl">
       CONHEÇA NOSSOS PATROCINADORES
     </p>
     <div class="flex flex-wrap items-center justify-center gap-20 opacity-30 grayscale md:flex-row lg:px-80">
       <NuxtLink to="https://www.adapti.info/" external target="_blank">
-        <img src="/sponsors/adapti.png" class="h-auto w-32" title="Adapti - Soluções Web">
+        <img src="/sponsors/adapti.png" class="h-auto w-28" title="Adapti - Soluções Web">
       </NuxtLink>
 
       <NuxtLink to="https://allworkservicos.com/" external target="_blank">
@@ -21,15 +21,15 @@
       </NuxtLink>
 
       <NuxtLink to="https://www.lumerobotics.ai/" external target="_blank">
-        <img src="/sponsors/lume.png" class="h-auto w-32" title="Lume Robotics - Sistema Lume de Mobilidade Autônoma">
+        <img src="/sponsors/lume.png" class="h-auto w-44" title="Lume Robotics - Sistema Lume de Mobilidade Autônoma">
       </NuxtLink>
 
       <NuxtLink to="https://www.instagram.com/sxtech.softwares/" external target="_blank">
-        <img src="/sponsors/sxtech.png" class="h-auto w-32" title="SX Tech">
+        <img src="/sponsors/sxtech.png" class="h-auto w-44" title="SX Tech">
       </NuxtLink>
 
       <NuxtLink to="https://vestbem.com/" external target="_blank">
-        <img src="/sponsors/vestebem.png" class="h-auto w-32" title="Vest Bem Confecções">
+        <img src="/sponsors/vestebem.png" class="h-auto w-44" title="Vest Bem Confecções">
       </NuxtLink>
 
       <NuxtLink to="https://tconline.com.br/" external target="_blank">
@@ -37,7 +37,7 @@
       </NuxtLink>
 
       <NuxtLink to="https://universidadeparalela.com.br/" external target="_blank">
-        <img src="/sponsors/universidade-paralela.png" class="h-auto w-32" title="Universidade Paralela">
+        <img src="/sponsors/universidade-paralela.png" class="h-auto w-36" title="Universidade Paralela">
       </NuxtLink>
     </div>
   </div>
