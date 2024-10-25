@@ -100,10 +100,12 @@
     />
     <ScheduleEventTalk
       start="14:00" end="14:50"
-      title="EM BREVE MAIS INFORMAÇÕES"
-      speaker="Fique ligado!"
-      position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
-      photo=""
+      title="Ciência de Dados: Transformando Dados em Decisões Estratégicas"
+      description="Vou abordar como os dados se tornaram um ativo valioso para as organizações e como a ciência de dados é fundamental para prever cenários futuros e auxiliar na tomada de decisões estratégicas. Falar um pouco sobre a importância de uma cultura organizacional orientada a dados, onde a tecnologia é um meio e não um fim, e o papel multidisciplinar do profissional de ciência de dados como promotor dessa cultura, e também sobre as perspectivas para a área nos próximos anos."
+      :show-description="true"
+      speaker="Cloves Alves Junior"
+      position="Analista de Dados na Soma Urbanismo"
+      photo="/speakers/cloves_alves.png"
       extra="Palestra"
     />
     <ScheduleEventTalk
