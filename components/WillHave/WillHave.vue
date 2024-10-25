@@ -6,7 +6,7 @@ import { BadgeHelp, Coffee, Handshake, Star } from 'lucide-vue-next'
   <div class="flex flex-col items-center">
     <div class="inline-flex items-center gap-3">
       <BadgeHelp :size="28" class="text-primary" />
-      <p class="font-title text-2xl text-primary">
+      <p class="font-title text-primary text-2xl">
         O QUE VAI TER?
       </p>
     </div>
@@ -16,32 +16,21 @@ import { BadgeHelp, Coffee, Handshake, Star } from 'lucide-vue-next'
       </p>
     </div>
     <div class="mx-10 mt-2 flex flex-col gap-5 py-8 md:flex-row">
-      <div class="flex-col">
-        <WillHavePhoto
-          class="mb-5"
-          image="/activities/cursos.png"
-          title="Minicursos"
-          description="Ponha a mão na massa em minicursos práticos em áreas de destaque da tecnologia"
-        />
-        <WillHavePhoto
-          image="/activities/palestras.png"
-          title="Palestras"
-          description="Participe de palestras em assuntos de grande relevância com convidados experiêntes"
-        />
-      </div>
-      <div class="flex-col">
-        <WillHavePhoto
-          class="mb-5"
-          image="/activities/estandes.png"
-          title="Estandes"
-          description="Conheça projetos interessantes e de potencial"
-        />
-        <WillHavePhoto
-          image="/activities/mapcom.jpg"
-          title="MapCom"
-          description="Maratona de progrmação realizada pelos CAs de computação, desta vez em parceria com o ENCOMP!"
-        />
-      </div>
+      <WillHavePhoto
+        image="/activities/cursos.png"
+        title="Minicursos"
+        description="Ponha a mão na massa em minicursos práticos em áreas de destaque da tecnologia"
+      />
+      <WillHavePhoto
+        image="/activities/palestras.png"
+        title="Palestras"
+        description="Participe de palestras em assuntos de grande relevância com convidados experiêntes"
+      />
+      <WillHavePhoto
+        image="/activities/estandes.png"
+        title="Estandes"
+        description="Conheça projetos interessantes e de potencial"
+      />
     </div>
     <div class="mt-5 hidden gap-10 md:inline-flex">
       <SmallCard>
