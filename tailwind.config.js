@@ -7,8 +7,8 @@ module.exports = {
   prefix: '',
   variants: {
     extend: {
-      display: ["group-hover"]
-    }
+      display: ['group-hover'],
+    },
   },
   theme: {
     container: {
@@ -20,8 +20,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ['Satoshi', 'serif'],
-        titles: ['Chillax', 'serif'],
+        sans: ['Satoshi', 'sans-serif'],
+        titles: ['Chillax', 'sans-serif'],
       },
       dropShadow: {
         glow: [
@@ -55,7 +55,7 @@ module.exports = {
           300: 'hsl(var(--tertiary-300))',
           500: 'hsl(var(--tertiary-500))',
           700: 'hsl(var(--tertiary-700))',
-          foreground: 'hsl(var(--tertiary-foreground))'
+          foreground: 'hsl(var(--tertiary-foreground))',
         },
         destructive: {
           DEFAULT: 'hsl(var(--destructive))',
@@ -145,7 +145,5 @@ module.exports = {
         textShadow: 'rgba(255, 215, 77, 0.6) -1px -1px 6px, rgba(124, 127, 255, 0.6) 1px 1px 6px',
       },
     })
-  },
-  require('tailwind-scrollbar'),
-],
+  }, require('tailwind-scrollbar')],
 }
