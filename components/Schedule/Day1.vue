@@ -101,7 +101,7 @@
     <ScheduleEventSimple start="13:00" end="13:15" title="Abertura" />
     <ScheduleEventTalk
       start="13:15" end="14:05"
-      title="Dos Blogs à Engenharia de Software: Como Transformei Minha Carreira na Técnologia"
+      title="Do Primeiro Código à Engenharia de Software: Minha Jornada na Técnologia"
       speaker="Beatriz Duarte"
       description="Vou contar um pouco sobre minha trajetória até me tornar Engenheira de Software, erros e acertos que cometi ao longo desses mais de 10 anos desde que escrevi minhas primeiras linhas de código, além de conselhos para quem quiser seguir na área de desenvolvimento de software"
       :show-description="true"
