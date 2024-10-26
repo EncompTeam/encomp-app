@@ -5,7 +5,7 @@ const props = defineProps(['start', 'end', 'title', 'extra', 'color'])
 <template>
   <div class="mb-3 max-w-4xl rounded-md border border-gray-500 px-3 py-4 md:border-2">
     <div class="left-0 top-0 inline-flex">
-      <div class="flex flex-col justify-center">
+      <div class="flex w-20 flex-col justify-start">
         <p>{{ props.start }}</p>
         <p>às {{ props.end }}</p>
       </div>

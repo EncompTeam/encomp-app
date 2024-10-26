@@ -34,6 +34,14 @@ useSeoMeta({
         <Button
           variant="default"
           class="bg-tertiary text-white"
+          @click="showDayX('day0')"
+        >
+          05/11
+        </Button>
+
+        <Button
+          variant="default"
+          class="bg-tertiary text-white"
           @click="showDayX('day1')"
         >
           06/11
@@ -55,6 +63,7 @@ useSeoMeta({
       </div>
     </div>
     <div>
+      <ScheduleDay0 v-if="activeDay === 'day0'" />
       <ScheduleDay1 v-if="activeDay === 'day1'" />
       <ScheduleDay2 v-if="activeDay === 'day2'" />
       <ScheduleDay3 v-if="activeDay === 'day3'" />

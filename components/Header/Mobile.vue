@@ -7,6 +7,7 @@ const emit = defineEmits<{
   (e: 'navigate-to-speakers'): void
   (e: 'navigate-to-faq'): void
   (e: 'navigate-to-inscription'): void
+  (e: 'navigate-to-marathon'): void
 }>()
 </script>
 
@@ -42,6 +43,9 @@ const emit = defineEmits<{
                 Programação
               </Button>
             </li>
+            <Button class="text-lg text-foreground" variant="link" @click="() => emit('navigate-to-marathon')">
+              Maratona
+            </Button>
             <li class="w-full">
               <Button class="w-full text-lg text-foreground" variant="link" @click="() => emit('navigate-to-faq')">
                 FAQ
