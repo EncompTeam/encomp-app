@@ -1,12 +1,18 @@
-<template>
+:<template>
   <div>
     <ScheduleHeader day="05" />
+    <ScheduleEventSimple
+      start="09:00"
+      end="11:00"
+      title="Warm-up da maratona de programação"
+      extra="Laboratórios de Rede e Computação"
+    />
     <ScheduleEventTalk
-      start="00:00" end="00:00"
-      title="MapCom: Maratona de Programação de Computadores"
-      description="A MapCom é uma maratona de programação realizada pelos Centros Acadêmicos dos cursos de Computação do CEUNES. Desta vez em parceria com o ENCOMP, a maratona irá ofertar como prêmio ***** e a entrega dos prêmios será feita durante a abertura do evento no dia 06/11."
+      start="13:00" end="17:30"
+      title="Maratona de Programação do ENCOMP"
+      description="Maratona de Programação do ENCOMP! O ENCOMP, em colaboração com a MapCom , Maratona de Programação de Computadores, oferecida pelos Centros Acadêmicos de Ciência e Engenharia da Computação do CEUNES. Para mais informações consulte a página de inscrição da maratona."
       :show-description="true"
-      extra=""
+      extra="Laboratórios de Rede e Computação"
       speaker=""
       position=""
       photo=""

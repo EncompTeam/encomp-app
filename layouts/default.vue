@@ -12,6 +12,9 @@ function handleNavigateToFaq() {
 function handleNavigateToSpeakers() {
   router.push({ path: '/', hash: '#speakers' })
 }
+function handleNavigateToMarathon() {
+  router.push('/marathon')
+}
 
 function handleNavigateToHome() {
   router.push('/')
@@ -46,6 +49,7 @@ function toSubscription() {
         @navigate-to-schedule="toSchedule"
         @navigate-to-speakers="handleNavigateToSpeakers"
         @navigate-to-inscription="toSubscription"
+        @navigate-to-marathon="handleNavigateToMarathon"
       />
       <HeaderMobile
         @navigate-to-faq="handleNavigateToFaq"
@@ -53,6 +57,7 @@ function toSubscription() {
         @navigate-to-schedule="toSchedule"
         @navigate-to-speakers="handleNavigateToSpeakers"
         @navigate-to-inscription="toSubscription"
+        @navigate-to-marathon="handleNavigateToMarathon"
       />
     </div>
     <main class="relative w-full">

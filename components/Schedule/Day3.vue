@@ -112,7 +112,7 @@
       description="A palestra &quot;Zero2Hero - Backend Developer&quot; oferece uma jornada completa para quem deseja iniciar na área de backend. Luiz apresentará os tópicos essenciais para transformar um iniciante em um desenvolvedor backend de sucesso, passando por conceitos fundamentais, boas práticas e as tecnologias mais relevantes do mercado. Ideal para quem quer sair do zero e se tornar um herói no desenvolvimento backend, dominando as principais ferramentas e arquiteturas."
       :show-description="true"
       speaker="Luiz Fantin"
-      position="Senior Developer na Compass.OUL"
+      position="Senior Backend Developer na Compass.UOL"
       photo="/speakers/luiz_fantin.png"
       extra="Palestra"
     />

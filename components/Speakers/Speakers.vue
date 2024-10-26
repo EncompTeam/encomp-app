@@ -36,7 +36,7 @@ import { MicVocal } from 'lucide-vue-next'
       <SpeakersCard
         image="/speakers/luiz_fantin.png"
         name="Luiz Fantin"
-        role="Beckend Developer na Compass.OUL"
+        role="Senior Backend Developer na Compass.UOL"
         description="Engenheiro da Computação formado pelo CEUNES, atualmente é Senior Backend Developer na Compass.UOL. Possui uma sólida experiência em desenvolvimento backend, em especial, Laravel e Node.js. Em sua trajetória, tem contribuído com projetos inovadores, no setor bancário e no agronegócio"
         :show-description="true"
       />

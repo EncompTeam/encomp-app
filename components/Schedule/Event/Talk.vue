@@ -21,12 +21,12 @@ const props = withDefaults(
   <div class="mb-3 max-w-4xl rounded-md border border-gray-500 px-3 py-2 md:border-2">
     <div class="mb-2">
       <div class="flex justify-between">
-        <p class="text-tertiary">
+        <p class="pl-20 text-xs text-tertiary lg:text-lg">
           {{ props.extra }}
         </p>
         <Popover>
           <PopoverTrigger>
-            <p class="text-xs text-primary md:text-sm">
+            <p class="text-xs text-primary hover:underline md:text-lg">
               Mais Informações
             </p>
           </PopoverTrigger>
@@ -40,7 +40,7 @@ const props = withDefaults(
         </Popover>
       </div>
       <div class="flex items-start justify-start">
-        <div class="item flex w-20 flex-col justify-center">
+        <div class="flex w-20 flex-col justify-start">
           <p>{{ props.start }}</p>
           <p>às {{ props.end }}</p>
         </div>
