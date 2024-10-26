@@ -1,4 +1,14 @@
 <script lang="ts" setup>
+defineOgImage({
+  component: 'Main',
+})
+
+useSeoMeta({
+  title: 'Encontro Norte Capixaba de Computação (ENCOMP)',
+  description: 'O Encontro Norte Capixaba de Computação ou ENCOMP é um evento de tecnologia realizado por alunos de Ciência e Engenharia da Computação da UFES - Campus São Mateus.',
+  ogTitle: 'Encontro Norte Capixaba de Computação (ENCOMP)',
+  ogDescription: 'O Encontro Norte Capixaba de Computação ou ENCOMP é um evento de tecnologia realizado por alunos de Ciência e Engenharia da Computação da UFES - Campus São Mateus.',
+})
 </script>
 
 <template>
