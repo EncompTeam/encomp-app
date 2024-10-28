@@ -32,7 +32,7 @@ const props = withDefaults(
           </PopoverTrigger>
           <PopoverContent v-if="showDescription" side="left" :side-offset="-30" class="border-primary bg-gray-900">
             <div>
-              <p class="text-justify">
+              <p class="text-balance">
                 {{ props.description }}
               </p>
             </div>
