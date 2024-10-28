@@ -17,6 +17,7 @@
               position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
               description="No minicurso de introdução em UI/UX, serão explorados conceitos essenciais que fundamentam a criação de interfaces  e experiências do usuário. Abordaremos a importância do design na construção de produtos digitais, além dos princípios que garantem uma interface atraente e funcional.<br><br>Os participantes também terão a oportunidade de conhecer ferramentas e recursos populares do mercado, como Figma, que facilitam o processo de design. Para finalizar, um exercício prático permitirá que cada um aplique o que aprendeu, criando sua própria interface e recebendo feedback."
               extra="Minicurso"
+              :show-description="true"
             />
           </CarouselItem>
           <CarouselItem class="basis-1/2 pl-2">
