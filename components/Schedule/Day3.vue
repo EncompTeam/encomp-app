@@ -12,7 +12,7 @@
           <CarouselItem class="basis-1/2">
             <ScheduleEventCourse
               start="08:00" end="10:00"
-              title="Minicurso - Frontend é mais que HTML, CSS e JavaScript"
+              title="Frontend é mais que HTML, CSS e JavaScript"
               extra="Minicurso"
               speaker="Curioso para saber quem vai ministrar?"
               position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
@@ -21,7 +21,7 @@
           <CarouselItem class="basis-1/2 pl-2">
             <ScheduleEventCourse
               start="08:00" end="10:00"
-              title="Minicurso - Desenvolvimento Android Nativo"
+              title="Desenvolvimento Android Nativo"
               extra="Minicurso"
               description="Os inscritos PRECISARÃO LEVAR A PRÓPRIA MÁQUINA para participar do minicurso. Requisitos mínimos: i5 de 10ª geração (ou equivalente), 8GB de RAM (ou superior). Requisitos recomendados: i5 de 11ª geração (ou equivalente), 16 GB de RAM (ou superior). Os computadores dos laboratórios estarão preparados com os softwares necessários, mas não garantimos um bom desempenho."
               :show-description="true"
@@ -39,7 +39,7 @@
           <CarouselItem>
             <ScheduleEventCourse
               start="08:00" end="10:00"
-              title="Minicurso - Frontend é mais que HTML, CSS e JavaScript"
+              title="Frontend é mais que HTML, CSS e JavaScript"
               extra="Minicurso"
               speaker="Curioso para saber quem vai ministrar?"
               position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
@@ -49,7 +49,7 @@
           <CarouselItem>
             <ScheduleEventCourse
               start="08:00" end="10:00"
-              title="Minicurso - Desenvolvimento Android Nativo"
+              title="Desenvolvimento Android Nativo"
               extra="Minicurso"
               description="Os inscritos PRECISARÃO LEVAR A PRÓPRIA MÁQUINA para participar do minicurso. Requisitos mínimos: i5 de 10ª geração (ou equivalente), 8GB de RAM (ou superior). Requisitos recomendados: i5 de 11ª geração (ou equivalente), 16 GB de RAM (ou superior). Os computadores dos laboratórios estarão preparados com os softwares necessários, mas não garantimos um bom desempenho."
               :show-description="true"
@@ -68,7 +68,7 @@
           <CarouselItem class="basis-1/2">
             <ScheduleEventCourse
               start="10:30" end="12:30"
-              title="Minicurso - Frontend é mais que HTML, CSS e JavaScript"
+              title="Frontend é mais que HTML, CSS e JavaScript"
               extra="Minicurso"
               speaker="Continuação pós Coffee Break"
               position=""
@@ -77,7 +77,7 @@
           <CarouselItem class="basis-1/2 pl-2">
             <ScheduleEventCourse
               start="10:30" end="12:30"
-              title="Minicurso - Desenvolvimento Android Nativo"
+              title="Desenvolvimento Android Nativo"
               extra="Minicurso"
               description="Os inscritos PRECISARÃO LEVAR A PRÓPRIA MÁQUINA para participar do minicurso. Requisitos mínimos: i5 de 10ª geração (ou equivalente), 8GB de RAM (ou superior). Requisitos recomendados: i5 de 11ª geração (ou equivalente), 16 GB de RAM (ou superior). Os computadores dos laboratórios estarão preparados com os softwares necessários, mas não garantimos um bom desempenho."
               speaker="Continuação pós Coffee Break"
@@ -94,7 +94,7 @@
           <CarouselItem>
             <ScheduleEventCourse
               start="10:30" end="12:30"
-              title="Minicurso - Frontend é mais que HTML, CSS e JavaScript"
+              title="Frontend é mais que HTML, CSS e JavaScript"
               extra="Minicurso"
               speaker="Continuação pós Coffee Break"
               position=""
@@ -103,7 +103,7 @@
           <CarouselItem>
             <ScheduleEventCourse
               start="10:30" end="12:30"
-              title="Minicurso - Desenvolvimento Android Nativo"
+              title="Desenvolvimento Android Nativo"
               extra="Minicurso"
               description="Os inscritos PRECISARÃO LEVAR A PRÓPRIA MÁQUINA para participar do minicurso. Requisitos mínimos: i5 de 10ª geração (ou equivalente), 8GB de RAM (ou superior). Requisitos recomendados: i5 de 11ª geração (ou equivalente), 16 GB de RAM (ou superior). Os computadores dos laboratórios estarão preparados com os softwares necessários, mas não garantimos um bom desempenho."
               speaker="Continuação pós Coffee Break"

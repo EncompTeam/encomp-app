@@ -12,7 +12,7 @@
           <CarouselItem class="basis-1/2">
             <ScheduleEventCourse
               start="08:00" end="10:00"
-              title="Minicurso - Introdução a UI/UX"
+              title="Introdução a UI/UX"
               extra="Minicurso"
               speaker="Curioso para saber quem vai ministrar?"
               position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
@@ -51,7 +51,7 @@
           <CarouselItem>
             <ScheduleEventCourse
               start="08:00" end="10:00"
-              title="Minicurso - Introdução a UI/UX"
+              title="Introdução a UI/UX"
               extra="Minicurso"
               description=""
               :show-description="false"
@@ -94,7 +94,7 @@
           <CarouselItem class="basis-1/2">
             <ScheduleEventCourse
               start="10:30" end="12:00"
-              title="Minicurso - Introdução a UI/UX"
+              title="Introdução a UI/UX"
               extra="Minicurso"
               speaker="Continuação pós Coffee Break"
               position=""
@@ -129,7 +129,7 @@
           <CarouselItem>
             <ScheduleEventCourse
               start="10:30" end="12:00"
-              title="Minicurso - Introdução a UI/UX"
+              title="Introdução a UI/UX"
               extra="Minicurso"
               speaker="Continuação pós Coffee Break"
               position=""

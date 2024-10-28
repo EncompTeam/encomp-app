@@ -12,7 +12,7 @@
           <CarouselItem class="basis-1/2">
             <ScheduleEventCourse
               start="08:00" end="10:00"
-              title="Minicurso - Análise e Visualização de Dados com Python"
+              title="Análise e Visualização de Dados com Python"
               extra="Minicurso"
               speaker="Curioso para saber quem vai ministrar?"
               position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
@@ -49,7 +49,7 @@
           <CarouselItem>
             <ScheduleEventCourse
               start="08:00" end="10:00"
-              title="Minicurso - Análise e Visualização de Dados com Python"
+              title="Análise e Visualização de Dados com Python"
               extra="Minicurso"
               speaker="Curioso para saber quem vai ministrar?"
               position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
@@ -88,7 +88,7 @@
           <CarouselItem class="basis-1/2">
             <ScheduleEventCourse
               start="10:30" end="12:30"
-              title="Minicurso - Análise e Visualização de Dados com Python"
+              title="Análise e Visualização de Dados com Python"
               extra="Minicurso"
               speaker="Continuação pós Coffee Break"
             />
@@ -121,7 +121,7 @@
           <CarouselItem>
             <ScheduleEventCourse
               start="10:30" end="12:30"
-              title="Minicurso - Análise e Visualização de Dados com Python"
+              title="Análise e Visualização de Dados com Python"
               extra="Minicurso"
               speaker="Continuação pós Coffee Break"
               :show-arrow="true"
