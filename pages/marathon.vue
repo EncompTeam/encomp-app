@@ -9,7 +9,7 @@ function copyPix() {
 </script>
 
 <template>
-  <MainContent class="mt-14">
+  <MainContent class="mb-60 mt-14 lg:mb-80">
     <div class="lg:mx-44">
       <h1 class="text-2xl font-bold lg:text-3xl">
         Inscrições para a Maratona de Programação do ENCOMP
@@ -58,13 +58,12 @@ function copyPix() {
         Escaneie o QR-Code para pagar ou interaja com ele para copiar a chave Pix
       </p>
     </div>
-    <p class="mt-14 flex justify-center text-xl font-bold">
-      Formulário de Insrição
-    </p>
-    <div class="my-b mx-2 mt-2 flex w-auto items-center justify-center rounded-xl lg:mx-60">
-      <div id="ff-compose" />
-      <Script async defer src="https://formfacade.com/include/103285160770821306910/form/1FAIpQLSfx7VUbMuoreC_7sjTle8ekVfGZdVi4l81XyBTMysUuCpdnCg/classic.js?div=ff-compose" />
-    </div>
+    <NuxtLink
+      to="https://forms.gle/yu5qCwh9NQywqxU1A" external target="_blank"
+      class="mt-14 flex justify-center text-2xl font-bold text-tertiary hover:underline lg:text-4xl"
+    >
+      Formulário de Inscrição
+    </NuxtLink>
   </MainContent>
 </template>
 xl
