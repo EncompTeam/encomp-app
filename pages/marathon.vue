@@ -26,6 +26,9 @@ function copyPix() {
       <p class="mt-5">
         A maratona ocorrerá no dia <span class="font-bold">05/11</span>, véspera da abertura do evento, das <span class="font-bold">13:00 às 17:30</span>. Com o warm-up ocorrendo no mesmo dia, de <span class="font-bold">09:00 às 11:00</span>.
       </p>
+      <p class="mt-5 font-bold text-primary">
+        Teremos coffee break ;)
+      </p>
       <h2 class="mt-5 text-xl font-bold">
         Regras Básicas
       </h2>
