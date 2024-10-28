@@ -12,7 +12,7 @@ function copyPix() {
   <MainContent class="mt-14">
     <div class="lg:mx-44">
       <h1 class="text-2xl font-bold lg:text-3xl">
-        Inscrições para a Maratona de Progrmação do ENCOMP
+        Inscrições para a Maratona de Programação do ENCOMP
       </h1>
       <p class="mt-2">
         Você é apaixonado por programação? Quer testar suas habilidades em um ambiente desafiador e colaborativo? Então não perca a oportunidade de participar da
