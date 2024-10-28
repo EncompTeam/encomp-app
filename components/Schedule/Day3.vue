@@ -7,64 +7,85 @@
     />
     <!-- Courses line display for large screens -->
     <div class="hidden flex-row md:flex md:gap-2">
-      <ScheduleEventCourse
-        start="08:00" end="10:00"
-        title="EM BREVE MAIS INFORMAÇÕES"
-        extra="Minicurso"
-        speaker="Fique ligado!"
-        position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
-      />
-      <ScheduleEventCourse
-        start="08:00" end="10:00"
-        title="EM BREVE MAIS INFORMAÇÕES"
-        extra="Minicurso"
-        speaker="Fique ligado!"
-        position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
-      />
-    </div>
-    <!-- Courses line carousel display for small screens -->
-    <div class="lg:hidden">
-      <Carousel>
+      <Carousel class="max-w-5xl">
         <CarouselContent>
-          <CarouselItem>
+          <CarouselItem class="basis-1/2">
             <ScheduleEventCourse
               start="08:00" end="10:00"
-              title="EM BREVE MAIS INFORMAÇÕES"
+              title="Minicurso - Fronted é mais que HTML, CSS e JavaScript"
               extra="Minicurso"
-              speaker="Fique ligado!"
-              position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
-              :show-arrow="true"
+              speaker="Curioso para saber quem vai ministrar?"
+              position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
             />
           </CarouselItem>
-          <CarouselItem>
+          <CarouselItem class="basis-1/2 pl-2">
             <ScheduleEventCourse
               start="08:00" end="10:00"
-              title="EM BREVE MAIS INFORMAÇÕES"
+              title="Minicurso - Desenvolvimento Android Nativo"
               extra="Minicurso"
-              speaker="Fique ligado!"
-              position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
+              description="Os inscritos PRECISARÃO LEVAR A PRÓPRIA MÁQUINA para participar do minicurso. Requisitos mínimos: i5 de 10ª geração (ou equivalente), 8GB de RAM (ou superior). Requisitos recomendados: i5 de 11ª geração (ou equivalente), 16 GB de RAM (ou superior). Os computadores dos laboratórios estarão preparados com os softwares necessários, mas não garantimos um bom desempenho."
+              :show-description="true"
+              speaker="Curioso para saber quem vai ministrar?"
+              position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
             />
           </CarouselItem>
         </CarouselContent>
       </Carousel>
     </div>
-    <ScheduleBreak start="10:00" end="10:30" title="Coffee Break" class="my-3" />
+    <!-- Courses line carousel display for small screens -->
+    <div class="lg:hidden">
+      <Carousel>
+        <CarouselContent>
+          <CarouselItem>
+            <ScheduleEventCourse
+              start="08:00" end="10:00"
+              title="Minicurso - Fronted é mais que HTML, CSS e JavaScript"
+              extra="Minicurso"
+              speaker="Curioso para saber quem vai ministrar?"
+              position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
+              :show-arrow="true"
+            />
+          </CarouselItem>
+          <CarouselItem>
+            <ScheduleEventCourse
+              start="08:00" end="10:00"
+              title="Minicurso - Desenvolvimento Android Nativo"
+              extra="Minicurso"
+              description="Os inscritos PRECISARÃO LEVAR A PRÓPRIA MÁQUINA para participar do minicurso. Requisitos mínimos: i5 de 10ª geração (ou equivalente), 8GB de RAM (ou superior). Requisitos recomendados: i5 de 11ª geração (ou equivalente), 16 GB de RAM (ou superior). Os computadores dos laboratórios estarão preparados com os softwares necessários, mas não garantimos um bom desempenho."
+              :show-description="true"
+              speaker="Curioso para saber quem vai ministrar?"
+              position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
+            />
+          </CarouselItem>
+        </CarouselContent>
+      </Carousel>
+    </div>
+    <ScheduleBreak start="10:00" end="10:30" class="my-3" title="Coffee Break" />
     <!-- Courses line display for large screens -->
     <div class="hidden flex-row md:flex md:gap-2">
-      <ScheduleEventCourse
-        start="10:30" end="12:30"
-        title="EM BREVE MAIS INFORMAÇÕES"
-        extra="Minicurso"
-        speaker="Fique ligado!"
-        position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
-      />
-      <ScheduleEventCourse
-        start="10:30" end="12:30"
-        title="EM BREVE MAIS INFORMAÇÕES"
-        extra="Minicurso"
-        speaker="Fique ligado!"
-        position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
-      />
+      <Carousel class="max-w-5xl">
+        <CarouselContent>
+          <CarouselItem class="basis-1/2">
+            <ScheduleEventCourse
+              start="10:30" end="12:30"
+              title="Minicurso - Fronted é mais que HTML, CSS e JavaScript"
+              extra="Minicurso"
+              speaker="Continuação pós Coffee Break"
+              position=""
+            />
+          </CarouselItem>
+          <CarouselItem class="basis-1/2 pl-2">
+            <ScheduleEventCourse
+              start="10:30" end="12:30"
+              title="Minicurso - Desenvolvimento Android Nativo"
+              extra="Minicurso"
+              description="Os inscritos PRECISARÃO LEVAR A PRÓPRIA MÁQUINA para participar do minicurso. Requisitos mínimos: i5 de 10ª geração (ou equivalente), 8GB de RAM (ou superior). Requisitos recomendados: i5 de 11ª geração (ou equivalente), 16 GB de RAM (ou superior). Os computadores dos laboratórios estarão preparados com os softwares necessários, mas não garantimos um bom desempenho."
+              speaker="Continuação pós Coffee Break"
+              position=""
+            />
+          </CarouselItem>
+        </CarouselContent>
+      </Carousel>
     </div>
     <!-- Courses line carousel display for small screens -->
     <div class="lg:hidden">
@@ -73,20 +94,20 @@
           <CarouselItem>
             <ScheduleEventCourse
               start="10:30" end="12:30"
-              title="EM BREVE MAIS INFORMAÇÕES"
+              title="Minicurso - Fronted é mais que HTML, CSS e JavaScript"
               extra="Minicurso"
-              speaker="Fique ligado!"
-              position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
-              :show-arrow="true"
+              speaker="Continuação pós Coffee Break"
+              position=""
             />
           </CarouselItem>
           <CarouselItem>
             <ScheduleEventCourse
               start="10:30" end="12:30"
-              title="EM BREVE MAIS INFORMAÇÕES"
+              title="Minicurso - Desenvolvimento Android Nativo"
               extra="Minicurso"
-              speaker="Fique ligado!"
-              position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
+              description="Os inscritos PRECISARÃO LEVAR A PRÓPRIA MÁQUINA para participar do minicurso. Requisitos mínimos: i5 de 10ª geração (ou equivalente), 8GB de RAM (ou superior). Requisitos recomendados: i5 de 11ª geração (ou equivalente), 16 GB de RAM (ou superior). Os computadores dos laboratórios estarão preparados com os softwares necessários, mas não garantimos um bom desempenho."
+              speaker="Continuação pós Coffee Break"
+              position=""
             />
           </CarouselItem>
         </CarouselContent>
@@ -102,7 +123,7 @@
       start="14:00" end="14:50"
       title="EM BREVE MAIS INFORMAÇÕES"
       speaker="Fique ligado!"
-      position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
+      position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
       photo=""
       extra="Palestra"
     />
@@ -118,10 +139,12 @@
     />
     <ScheduleEventTalk
       start="16:10" end="17:00"
-      title="EM BREVE MAIS INFORMAÇÕES"
-      speaker="Fique ligado!"
-      position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
-      photo=""
+      title="Nos Bastidores do Desenvolvimento de Jogos"
+      speaker="Ramon Pezzin Ton"
+      position="Produtor Técnico na Shed of Ideas"
+      description="Vamos explorar áreas de atuação, fluxo de trabalho, engines e os primeiros passos para desenvolver um jogo. Venha se inspirar e descobrir como transformar sua paixão em profissão!"
+      :show-description="true"
+      photo="/speakers/ramon_pezzin.png"
       extra="Palestra"
     />
     <ScheduleEventSimple start="17:00" end="17:20" title="Avisos e Sorteios" />

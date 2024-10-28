@@ -31,13 +31,13 @@ useSeoMeta({
         A 7º edição do ENCOMP vai ocorrer nos dias 06, 07 e 08 de novembro, confira nossa programação
       </p>
       <div class="mt-4 flex gap-3">
-        <!-- <Button
+        <Button
           variant="default"
           class="bg-tertiary text-white"
           @click="showDayX('day0')"
         >
           05/11
-        </Button> -->
+        </Button>
 
         <Button
           variant="default"

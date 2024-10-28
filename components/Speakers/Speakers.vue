@@ -50,19 +50,19 @@ import { MicVocal } from 'lucide-vue-next'
       />
 
       <SpeakersCard
-        image="/questionmark.png"
-        name="EM BREVE"
-        role="Fique ligado nas nossas redes sociais para saber as novidades"
-        description=""
-        :show-description="false"
+        image="/speakers/ramon_pezzin.png"
+        name="Ramon Pezzin Ton"
+        role="Produtor Técnico na Shed of Ideas"
+        description="Ramon Pezzin Ton é formado em Ciência da Computação pela UFES (CEUNES) e técnico em mineração pelo IFES de Nova Venécia. Com 4 anos de experiência em desenvolvimento de jogos, após 3 anos como programador, hoje atua como Produtor Técnico na Shed of Ideas, "
+        :show-description="true"
       />
 
       <SpeakersCard
-        image="/questionmark.png"
-        name="EM BREVE"
-        role="Fique ligado nas nossas redes sociais para saber as novidades"
-        description=""
-        :show-description="false"
+        image="/speakers/erick_lima.png"
+        name="Erick Lima"
+        role="Membro do Núcleo Espírito Santense de Computação Musical (NESCoM)"
+        description="Herick Lima tem 28 anos e é aluno do curso de Ciência da Computação. Além de pesquisador no Núcleo Espírito-Santense de Computação Musical, trabalha como desenvolvedor Android na UpCities Govtech. Tem interesse nas áreas de computação musical, programação criativa e sistemas embarcados."
+        :show-description="true"
       />
 
       <SpeakersCard

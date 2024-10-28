@@ -18,8 +18,8 @@ const props = withDefaults(
 </script>
 
 <template>
-  <div class="mb-3 max-w-4xl rounded-md border border-gray-500 px-3 py-2 md:border-2">
-    <div class="mb-2">
+  <div class="mb-3 max-w-5xl rounded-md border border-gray-500 px-3 py-2 md:border-2">
+    <div>
       <div class="flex justify-between">
         <p class="pl-20 text-xs text-tertiary lg:text-lg">
           {{ props.extra }}
@@ -32,7 +32,7 @@ const props = withDefaults(
           </PopoverTrigger>
           <PopoverContent v-if="showDescription" side="left" :side-offset="-30" class="border-primary bg-gray-900">
             <div>
-              <p class="text-center">
+              <p class="text-justify">
                 {{ props.description }}
               </p>
             </div>
@@ -44,14 +44,14 @@ const props = withDefaults(
           <p>{{ props.start }}</p>
           <p>às {{ props.end }}</p>
         </div>
-        <div class="flex-1 items-start justify-start text-left">
-          <p class="font-bold md:text-xl">
+        <div class="flex-1 items-center justify-start text-left">
+          <p class="font-bold md:text-2xl">
             {{ props.title }}
           </p>
         </div>
       </div>
     </div>
-    <Separator class="bg-gray-400" />
+    <Separator class="my-3 bg-gray-400" />
     <div class="mt-2 inline-flex items-center">
       <Avatar class="bg-primary" size="sm">
         <AvatarImage :src="props.photo" />
@@ -60,7 +60,7 @@ const props = withDefaults(
         </AvatarFallback>
       </Avatar>
       <div class="ml-4">
-        <p class="font-bold">
+        <p class="font-bold lg:text-xl">
           {{ props.speaker }}
         </p>
         <p class="text-sm text-tertiary-300">
