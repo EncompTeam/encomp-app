@@ -13,9 +13,11 @@
             <ScheduleEventCourse
               start="08:00" end="10:00"
               title="Frontend é mais que HTML, CSS e JavaScript"
-              extra="Minicurso"
+              description="Neste minicurso, vamos construir desde o ambiente para o desenvolvimento utilizando ESLint e o Prettier, passar por estilizações com o TailwindCSS e DaisyUI, implementar funcionalidades e dar vida a nossa aplicação com JavaScript e requisições HTTP com o axios e por fim aprender sobre ferramentas de build, bundlers, gerenciadores de pacotes e muito mais.<br><br><u>REQUISITOS:</u><br><b>Necessário:</b> Ter uma conta no GitHub<br><b>Desejável:</b> Conhecimento prévio em HTML e CSS."
               speaker="Curioso para saber quem vai ministrar?"
               position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
+              extra="Minicurso"
+              :show-description="true"
             />
           </CarouselItem>
           <CarouselItem class="basis-1/2 pl-2">
@@ -23,7 +25,7 @@
               start="08:00" end="10:00"
               title="Desenvolvimento Android Nativo"
               extra="Minicurso"
-              description="Os inscritos PRECISARÃO LEVAR A PRÓPRIA MÁQUINA para participar do minicurso. Requisitos mínimos: i5 de 10ª geração (ou equivalente), 8GB de RAM (ou superior). Requisitos recomendados: i5 de 11ª geração (ou equivalente), 16 GB de RAM (ou superior). Os computadores dos laboratórios estarão preparados com os softwares necessários, mas não garantimos um bom desempenho."
+              description="Os participantes do curso verão os tópicos:<br>- Introdução ao Android Studio (IDE, Gradle, Emulador, etc);<br>- Introdução à linguagem de programação Kotlin;<br>- Como criar um projeto no Android Studio;<br>- Construção de UIs com Jetpack Compose;<br>- Consumo de APIs REST;<br>- Utilização de padrões de design como MVVM;<br>- Noções de serialização e deserialização de dados JSON no Android.O minicurso de Desenvolvimento Android Nativo apresentará conceitos chave para a criação de uma aplicação para o sistema operacional para dispositivos móveis mais utilizado do mundo.<br><br><u>REQUISITOS:</u><br>Os inscritos <b>PRECISARÃO LEVAR A PRÓPRIA MÁQUINA</b> para participar do minicurso.<br><b>Requisitos mínimos:</b> i5 de 10ª geração (ou equivalente), 8GB de RAM (ou superior).\n<br><b>Requisitos recomendados:</b> i5 de 11ª geração (ou equivalente), 16 GB de RAM (ou superior).<br><br><i> Em último caso, os computadores do laboratório estarão preparados com os softwares necessários, mas não garantimos um bom desempenho."
               :show-description="true"
               speaker="Curioso para saber quem vai ministrar?"
               position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
@@ -40,9 +42,11 @@
             <ScheduleEventCourse
               start="08:00" end="10:00"
               title="Frontend é mais que HTML, CSS e JavaScript"
-              extra="Minicurso"
+              description="Neste minicurso, vamos construir desde o ambiente para o desenvolvimento utilizando ESLint e o Prettier, passar por estilizações com o TailwindCSS e DaisyUI, implementar funcionalidades e dar vida a nossa aplicação com JavaScript e requisições HTTP com o axios e por fim aprender sobre ferramentas de build, bundlers, gerenciadores de pacotes e muito mais.<br><br><u>REQUISITOS:</u><br><b>Necessário:</b> Ter uma conta no GitHub<br><b>Desejável:</b> Conhecimento prévio em HTML e CSS."
               speaker="Curioso para saber quem vai ministrar?"
               position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
+              extra="Minicurso"
+              :show-description="true"
               :show-arrow="true"
             />
           </CarouselItem>
@@ -51,7 +55,7 @@
               start="08:00" end="10:00"
               title="Desenvolvimento Android Nativo"
               extra="Minicurso"
-              description="Os inscritos PRECISARÃO LEVAR A PRÓPRIA MÁQUINA para participar do minicurso. Requisitos mínimos: i5 de 10ª geração (ou equivalente), 8GB de RAM (ou superior). Requisitos recomendados: i5 de 11ª geração (ou equivalente), 16 GB de RAM (ou superior). Os computadores dos laboratórios estarão preparados com os softwares necessários, mas não garantimos um bom desempenho."
+              description="Os participantes do curso verão os tópicos:<br>- Introdução ao Android Studio (IDE, Gradle, Emulador, etc);<br>- Introdução à linguagem de programação Kotlin;<br>- Como criar um projeto no Android Studio;<br>- Construção de UIs com Jetpack Compose;<br>- Consumo de APIs REST;<br>- Utilização de padrões de design como MVVM;<br>- Noções de serialização e deserialização de dados JSON no Android.O minicurso de Desenvolvimento Android Nativo apresentará conceitos chave para a criação de uma aplicação para o sistema operacional para dispositivos móveis mais utilizado do mundo.<br><br><u>REQUISITOS:</u><br>Os inscritos <b>PRECISARÃO LEVAR A PRÓPRIA MÁQUINA</b> para participar do minicurso.<br><b>Requisitos mínimos:</b> i5 de 10ª geração (ou equivalente), 8GB de RAM (ou superior).\n<br><b>Requisitos recomendados:</b> i5 de 11ª geração (ou equivalente), 16 GB de RAM (ou superior).<br><br><i> Em último caso, os computadores do laboratório estarão preparados com os softwares necessários, mas não garantimos um bom desempenho."
               :show-description="true"
               speaker="Curioso para saber quem vai ministrar?"
               position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"

@@ -13,18 +13,22 @@
             <ScheduleEventCourse
               start="08:00" end="10:00"
               title="Análise e Visualização de Dados com Python"
-              extra="Minicurso"
+              description="Este curso foi desenvolvido para quem deseja dominar as ferramentas para análise e visualização de dados, utilizando a linguagem Python.<br><br>Ao longo do minicurso, os participantes aprenderão a manipular e transformar dados com a biblioteca Pandas, criar gráficos interativos e visualizações com Matplotlib e Plotly, além de explorar o Google Colab como plataforma colaborativa para rodar e compartilhar projetos na nuvem.<br><br>O curso também abordará técnicas de análise de dados, desde a exploração até a extração de insights para a tomada de decisões estratégicas."
               speaker="Curioso para saber quem vai ministrar?"
               position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
+              extra="Minicurso"
+              :show-description="true"
             />
           </CarouselItem>
           <CarouselItem class="basis-1/2 pl-2">
             <ScheduleEventCourse
               start="08:00" end="10:00"
               title="Do Zero ao CRUD! (Backend)"
-              extra="Minicurso"
               speaker="Curioso para saber quem vai ministrar?"
               position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
+              description="Neste minicurso prático, você terá o primeiro contato com aplicações backend utilizando a linguagem PHP.<br><br>Serão ensinados desde os comandos fundamentais até um sistema que permite cadastrar, visualizar, atualizar e excluir informações (CRUD) e conexão com banco de dados para criar sua API, utilizando ferramentas como MySQL, Postman/Insomnia, extensões agradáveis ao uso do PHP e boas práticas de programação.<br><br><u>REQUISITOS:</u><br><b>Necessário:</b> Possuir uma conta no GitHub.<br><b>Desejável:</b> Já ter tido contato com lógica de programação."
+              extra="Minicurso"
+              :show-description="true"
               :show-arrow="true"
             />
           </CarouselItem>
@@ -32,11 +36,11 @@
             <ScheduleEventCourse
               start="08:00" end="10:00"
               title="Introdução à Plataforma Arduino"
-              description="Caso o aluno deseje levar o próprio computador, deve instalar previamente a bilioteca LCD2C"
-              :show-description="true"
-              extra="Minicurso"
               speaker="Curioso para saber quem vai ministrar?"
               position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
+              description="Neste minicurso, você será introduzido à plataforma Arduino, aprendendo os conceitos básicos de eletrônica e programação voltados para projetos práticos.<br><br>Os participantes terão a oportunidade de construir um teclado utilizando push buttons e uma tela LCD, onde será exibida a nota musical correspondente à tecla pressionada.<br><br>Abordaremos a programação em C++ para microcontroladores, utilizando bibliotecas essenciais do Arduino e técnicas de leitura de botões, controle de um buzzer para emitir sons, e interação com uma tela LCD via protocolo I2C.<br><br><u>REQUISITOS:</u><br><b>Necessário:</b> Noções básicas de programação estruturada e da linguagem C++. <br><b>Diferencial:</b> Noções básicas em eletrônica e gostar de música :)<br><br>Caso o aluno queira utilizar o próprio computador, instalar previamente a bilioteca LCD2C"
+              :show-description="true"
+              extra="Minicurso"
             />
           </CarouselItem>
         </CarouselContent>
@@ -50,9 +54,11 @@
             <ScheduleEventCourse
               start="08:00" end="10:00"
               title="Análise e Visualização de Dados com Python"
-              extra="Minicurso"
+              description="Este curso foi desenvolvido para quem deseja dominar as ferramentas para análise e visualização de dados, utilizando a linguagem Python.<br><br>Ao longo do minicurso, os participantes aprenderão a manipular e transformar dados com a biblioteca Pandas, criar gráficos interativos e visualizações com Matplotlib e Plotly, além de explorar o Google Colab como plataforma colaborativa para rodar e compartilhar projetos na nuvem.<br><br>O curso também abordará técnicas de análise de dados, desde a exploração até a extração de insights para a tomada de decisões estratégicas."
               speaker="Curioso para saber quem vai ministrar?"
               position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
+              extra="Minicurso"
+              :show-description="true"
               :show-arrow="true"
             />
           </CarouselItem>
@@ -60,9 +66,11 @@
             <ScheduleEventCourse
               start="08:00" end="10:00"
               title="Do Zero ao CRUD! (Backend)"
-              extra="Minicurso"
+              description="Neste minicurso prático, você terá o primeiro contato com aplicações backend utilizando a linguagem PHP.<br><br>Serão ensinados desde os comandos fundamentais até um sistema que permite cadastrar, visualizar, atualizar e excluir informações (CRUD) e conexão com banco de dados para criar sua API, utilizando ferramentas como MySQL, Postman/Insomnia, extensões agradáveis ao uso do PHP e boas práticas de programação.<br><br><u>REQUISITOS:</u><br><b>Necessário:</b> Possuir uma conta no GitHub.<br><b>Desejável:</b> Já ter tido contato com lógica de programação."
               speaker="Curioso para saber quem vai ministrar?"
               position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
+              extra="Minicurso"
+              :show-description="true"
               :show-arrow="true"
             />
           </CarouselItem>
@@ -70,11 +78,11 @@
             <ScheduleEventCourse
               start="08:00" end="10:00"
               title="Introdução à Plataforma Arduino"
-              description="Caso o aluno deseje levar o próprio computador, deve instalar previamente a bilioteca LCD2C"
-              :show-description="true"
-              extra="Minicurso"
               speaker="Curioso para saber quem vai ministrar?"
               position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
+              description="Neste minicurso, você será introduzido à plataforma Arduino, aprendendo os conceitos básicos de eletrônica e programação voltados para projetos práticos.<br><br>Os participantes terão a oportunidade de construir um teclado utilizando push buttons e uma tela LCD, onde será exibida a nota musical correspondente à tecla pressionada.<br><br>Abordaremos a programação em C++ para microcontroladores, utilizando bibliotecas essenciais do Arduino e técnicas de leitura de botões, controle de um buzzer para emitir sons, e interação com uma tela LCD via protocolo I2C.<br><br><u>REQUISITOS:</u><br><b>Necessário:</b> Noções básicas de programação estruturada e da linguagem C++. <br><b>Diferencial:</b> Noções básicas em eletrônica e gostar de música :)<br><br>Caso o aluno queira utilizar o próprio computador, instalar previamente a bilioteca LCD2C"
+              extra="Minicurso"
+              :show-description="true"
             />
           </CarouselItem>
         </CarouselContent>
@@ -87,10 +95,10 @@
         <CarouselContent>
           <CarouselItem class="basis-1/2">
             <ScheduleEventCourse
-              start="10:30" end="12:30"
+              start="08:00" end="10:00"
               title="Análise e Visualização de Dados com Python"
-              extra="Minicurso"
               speaker="Continuação pós Coffee Break"
+              extra="Minicurso"
             />
           </CarouselItem>
           <CarouselItem class="basis-1/2 pl-2">
@@ -120,10 +128,10 @@
         <CarouselContent>
           <CarouselItem>
             <ScheduleEventCourse
-              start="10:30" end="12:30"
+              start="08:00" end="10:00"
               title="Análise e Visualização de Dados com Python"
-              extra="Minicurso"
               speaker="Continuação pós Coffee Break"
+              extra="Minicurso"
               :show-arrow="true"
             />
           </CarouselItem>
