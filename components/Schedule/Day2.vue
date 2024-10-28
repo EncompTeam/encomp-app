@@ -176,7 +176,7 @@
       start="14:50" end="15:40"
       title="Livecoding & Algoraves: Performances Musicais Ao Vivo"
       description="Apresentarei alguns de meus projetos nas áreas de computação musical e programação criativa como o framework RoboMus para uma orquestra de robôs musicais, além de umcontexto geral sobre softwares e linguagens de programação musical, o nascimento e a cultura das raves algorítmicas (Algoraves), bem como nomes de relevância na comunidade. Farei também uma demonstração de livecoding com Sonic Pi"
-      speaker="Erick Lima"
+      speaker="Herick Lima"
       position="Membro do Núcleo Espírito Santense de Computação Musical (NESCoM)"
       photo="/speakers/erick_lima.png"
       extra="Palestra"
