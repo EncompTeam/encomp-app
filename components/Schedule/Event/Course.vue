@@ -1,10 +1,27 @@
 <script lang="ts" setup>
 import { MoveRight, User } from 'lucide-vue-next'
 
-const props = defineProps(['start', 'end', 'title', 'extra', 'speaker', 'position', 'photo', 'showArrow', 'description', 'showDescription'])
-
-// function replaceWithBr() {
-// }
+const props = withDefaults(defineProps<{
+  start?: string
+  end?: string
+  title?: string
+  description?: string
+  teacher?: string
+  position?: string
+  photo?: string
+  extra?: string
+  showDescription?: boolean
+  showArrow?: boolean
+  showBio?: boolean
+}>(), {
+  photo: '/logo_circle.png',
+  position: '',
+  description: 'Nada aqui ainda!',
+  extra: ' ',
+  showDescription: false,
+  showArrow: false,
+  showBio: false,
+})
 </script>
 
 <template>
@@ -15,15 +32,21 @@ const props = defineProps(['start', 'end', 'title', 'extra', 'speaker', 'positio
         <div class="inline-flex">
           <Popover v-if="showDescription">
             <PopoverTrigger>
-              <p class="lg:text-md mr-20 text-sm text-primary hover:underline">
+              <p v-if="showArrow" class="lg:text-md mr-20 text-sm text-primary hover:underline">
+                Mais Informações
+              </p>
+              <p v-else class="lg:text-md mr-5 text-sm text-primary hover:underline">
                 Mais Informações
               </p>
             </PopoverTrigger>
-            <PopoverContent side="left" :side-offset="-200" class="border-primary bg-gray-900">
+            <PopoverContent v-if="showArrow" side="left" :side-offset="-200" class="min-w-[350px] border-primary bg-gray-900 lg:min-w-[450px]">
               <div>
-                <p class="text-balance text-justify">
-                  {{ props.description }}
-                </p>
+                <div class="text-balance text-sm lg:text-lg" v-html="props.description" />
+              </div>
+            </PopoverContent>
+            <PopoverContent v-else side="left" :side-offset="-150" class="min-w-[350px] border-primary bg-gray-900 lg:min-w-[450px]">
+              <div>
+                <div class="text-balance text-sm lg:text-lg" v-html="props.description" />
               </div>
             </PopoverContent>
           </Popover>
@@ -44,15 +67,14 @@ const props = defineProps(['start', 'end', 'title', 'extra', 'speaker', 'positio
       <Separator class="my-3 bg-gray-400" />
       <div class="mt-2 inline-flex items-center">
         <Avatar class="bg-primary" size="sm">
-          <AvatarImage v-if="props.photo" :src="props?.photo" />
-          <AvatarImage v-else src="/logo_circle.png" />
+          <AvatarImage :src="props?.photo" />
           <AvatarFallback>
             <img src="/logo_circle.png">
           </AvatarFallback>
         </Avatar>
         <div class="ml-4">
           <p class="text-md font-bold lg:text-xl">
-            {{ props.speaker }}
+            {{ props.teacher }}
           </p>
           <p class="text-sm text-tertiary-300 lg:text-lg">
             {{ props.position }}
