@@ -7,20 +7,42 @@
     />
     <!-- Courses line display for large screens -->
     <div class="hidden flex-row md:flex md:gap-2">
-      <ScheduleEventCourse
-        start="08:00" end="10:00"
-        title="EM BREVE MAIS INFORMAÇÕES"
-        extra="Minicurso"
-        speaker="Fique ligado!"
-        position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
-      />
-      <ScheduleEventCourse
-        start="08:00" end="10:00"
-        title="EM BREVE MAIS INFORMAÇÕES"
-        extra="Minicurso"
-        speaker="Fique ligado!"
-        position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
-      />
+      <Carousel class="max-w-5xl">
+        <CarouselContent>
+          <CarouselItem class="basis-1/2">
+            <ScheduleEventCourse
+              start="08:00" end="10:00"
+              title="Minicurso - Introdução a UI/UX"
+              extra="Minicurso"
+              speaker="Curioso para saber quem vai ministrar?"
+              position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
+            />
+          </CarouselItem>
+          <CarouselItem class="basis-1/2 pl-2">
+            <ScheduleEventCourse
+              start="08:00" end="10:00"
+              title="Oficina de Introdução ao Desenvolvimento de uma API REST com Minimal API e .NET"
+              extra="Minicurso"
+              description="Os inscritos PRECISARÃO LEVAR A PRÓPRIA MÁQUINA para participar do minicurso. Requisitos mínimos: i5 de 10ª geração (ou equivalente), 8GB de RAM (ou superior). Requisitos recomendados: i5 de 11ª geração (ou equivalente), 16 GB de RAM (ou superior). Os computadores dos laboratórios estarão preparados com os softwares necessários, mas não garantimos um bom desempenho."
+              :show-description="true"
+              speaker="Curioso para saber quem vai ministrar?"
+              position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
+              :show-arrow="true"
+            />
+          </CarouselItem>
+          <CarouselItem class="basis-1/2 pl-2">
+            <ScheduleEventCourse
+              start="08:00" end="10:00"
+              title="Além do Código: Habilidades Essenciais que uma Pessoa Profissional De Técnologia Precisa Para Se Destacar No Mercado"
+              extra="Minicurso"
+              description="Desejavel que os alunos levem material para realizarem anotações."
+              :show-description="true"
+              speaker="Curioso para saber quem vai ministrar?"
+              position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
+            />
+          </CarouselItem>
+        </CarouselContent>
+      </Carousel>
     </div>
     <!-- Courses line carousel display for small screens -->
     <div class="lg:hidden">
@@ -29,20 +51,36 @@
           <CarouselItem>
             <ScheduleEventCourse
               start="08:00" end="10:00"
-              title="EM BREVE MAIS INFORMAÇÕES"
+              title="Minicurso - Introdução a UI/UX"
               extra="Minicurso"
-              speaker="Fique ligado!"
-              position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
+              description=""
+              :show-description="false"
+              speaker="Curioso para saber quem vai ministrar?"
+              position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
               :show-arrow="true"
             />
           </CarouselItem>
           <CarouselItem>
             <ScheduleEventCourse
               start="08:00" end="10:00"
-              title="EM BREVE MAIS INFORMAÇÕES"
+              title="Oficina de Introdução ao Desenvolvimento de uma API REST com Minimal API e .NET"
               extra="Minicurso"
-              speaker="Fique ligado!"
-              position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
+              description="Os inscritos PRECISARÃO LEVAR A PRÓPRIA MÁQUINA para participar do minicurso. Requisitos mínimos: i5 de 10ª geração (ou equivalente), 8GB de RAM (ou superior). Requisitos recomendados: i5 de 11ª geração (ou equivalente), 16 GB de RAM (ou superior)."
+              :show-description="true"
+              speaker="Curioso para saber quem vai ministrar?"
+              position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
+              :show-arrow="true"
+            />
+          </CarouselItem>
+          <CarouselItem>
+            <ScheduleEventCourse
+              start="08:00" end="10:00"
+              title="Além do Código: Habilidades Essenciais que uma Pessoa Profissional De Técnologia Precisa Para Se Destacar No Mercado"
+              extra="Minicurso"
+              description="Desejavel que os alunos levem material para realizarem anotações."
+              :show-description="true"
+              speaker="Curioso para saber quem vai ministrar?"
+              position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
             />
           </CarouselItem>
         </CarouselContent>
@@ -51,20 +89,38 @@
     <ScheduleBreak start="10:00" end="10:30" class="my-3" title="Coffee Break" />
     <!-- Courses line display for large screens -->
     <div class="hidden flex-row md:flex md:gap-2">
-      <ScheduleEventCourse
-        start="10:30" end="12:00"
-        title="EM BREVE MAIS INFORMAÇÕES"
-        extra="Minicurso"
-        speaker="Fique ligado!"
-        position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
-      />
-      <ScheduleEventCourse
-        start="10:30" end="12:00"
-        title="EM BREVE MAIS INFORMAÇÕES"
-        extra="Minicurso"
-        speaker="Fique ligado!"
-        position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
-      />
+      <Carousel class="max-w-5xl">
+        <CarouselContent>
+          <CarouselItem class="basis-1/2">
+            <ScheduleEventCourse
+              start="10:30" end="12:00"
+              title="Minicurso - Introdução a UI/UX"
+              extra="Minicurso"
+              speaker="Continuação pós Coffee Break"
+              position=""
+            />
+          </CarouselItem>
+          <CarouselItem class="basis-1/2 px-2">
+            <ScheduleEventCourse
+              start="10:30" end="12:00"
+              title="Oficina de Introdução ao Desenvolvimento de uma API REST com Minimal API e .NET"
+              extra="Minicurso"
+              speaker="Continuação pós Coffee Break"
+              position=""
+              :show-arrow="true"
+            />
+          </CarouselItem>
+          <CarouselItem class="basis-1/2 pl-2">
+            <ScheduleEventCourse
+              start="10:30" end="12:00"
+              title="Além do Código: Habilidades Essenciais que uma Pessoa Profissional De Técnologia Precisa Para Se Destacar No Mercado"
+              extra="Minicurso"
+              speaker="Continuação pós Coffee Break"
+              position=""
+            />
+          </CarouselItem>
+        </CarouselContent>
+      </Carousel>
     </div>
     <!-- Courses line carousel display for small screens -->
     <div class="lg:hidden">
@@ -73,20 +129,30 @@
           <CarouselItem>
             <ScheduleEventCourse
               start="10:30" end="12:00"
-              title="EM BREVE MAIS INFORMAÇÕES"
+              title="Minicurso - Introdução a UI/UX"
               extra="Minicurso"
-              speaker="Fique ligado!"
-              position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
+              speaker="Continuação pós Coffee Break"
+              position=""
               :show-arrow="true"
             />
           </CarouselItem>
           <CarouselItem>
             <ScheduleEventCourse
-              start="10:00" end="12:00"
-              title="EM BREVE MAIS INFORMAÇÕES"
+              start="10:30" end="12:00"
+              title="Oficina de Introdução ao Desenvolvimento de uma API REST com Minimal API e .NET"
               extra="Minicurso"
-              speaker="Fique ligado!"
-              position="Nos siga no instragram para ficar por dentro das novidades @encompceunes"
+              speaker="Continuação pós Coffee Break"
+              position=""
+              :show-arrow="true"
+            />
+          </CarouselItem>
+          <CarouselItem>
+            <ScheduleEventCourse
+              start="10:30" end="12:00"
+              title="Além do Código: Habilidades Essenciais que uma Pessoa Profissional De Técnologia Precisa Para Se Destacar No Mercado"
+              extra="Minicurso"
+              speaker="Continuação pós Coffee Break"
+              position=""
             />
           </CarouselItem>
         </CarouselContent>

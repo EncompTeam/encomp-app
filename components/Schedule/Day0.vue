@@ -1,5 +1,5 @@
 :<template>
-  <div>
+  <div class="mb-96">
     <ScheduleHeader day="05" />
     <ScheduleEventSimple
       start="09:00"
