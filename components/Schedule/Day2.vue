@@ -178,7 +178,7 @@
       description="Apresentarei alguns de meus projetos nas áreas de computação musical e programação criativa como o framework RoboMus para uma orquestra de robôs musicais, além de umcontexto geral sobre softwares e linguagens de programação musical, o nascimento e a cultura das raves algorítmicas (Algoraves), bem como nomes de relevância na comunidade. Farei também uma demonstração de livecoding com Sonic Pi"
       speaker="Herick Lima"
       position="Membro do Núcleo Espírito Santense de Computação Musical (NESCoM)"
-      photo="/speakers/erick_lima.png"
+      photo="/speakers/herick_lima.png"
       extra="Palestra"
     />
     <ScheduleEventSimple start="15:40" end="16:00" title="Intervalo" />
