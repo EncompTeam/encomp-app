@@ -58,7 +58,7 @@ import { MicVocal } from 'lucide-vue-next'
       />
 
       <SpeakersCard
-        image="/speakers/erick_lima.png"
+        image="/speakers/questionmark.png"
         name="Erick Lima"
         role="Membro do Núcleo Espírito Santense de Computação Musical (NESCoM)"
         description="Herick Lima tem 28 anos e é aluno do curso de Ciência da Computação. Além de pesquisador no Núcleo Espírito-Santense de Computação Musical, trabalha como desenvolvedor Android na UpCities Govtech. Tem interesse nas áreas de computação musical, programação criativa e sistemas embarcados."
@@ -66,7 +66,7 @@ import { MicVocal } from 'lucide-vue-next'
       />
 
       <SpeakersCard
-        image="/questionmark.png"
+        image="/speakers/questionmark.png"
         name="EM BREVE"
         role="Fique ligado nas nossas redes sociais para saber as novidades"
         description=""
