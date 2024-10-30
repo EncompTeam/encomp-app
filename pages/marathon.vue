@@ -53,7 +53,7 @@ function copyPix() {
       <p>A premiação do time vencedor irá ocorrer na abertura do ENCOMP, dia 06/11 às 13h, no auditório.</p>
     </div>
     <div class="mt-5 flex flex-col items-center justify-center lg:mx-44">
-      <img src="/qrcode-maratona.png" class="mt-2 max-w-44" @click="copyPix">
+      <img src="/qrcode-marathon.png" class="mt-2 max-w-44" @click="copyPix">
       <p class="text-center">
         Escaneie o QR-Code para pagar ou interaja com ele para copiar a chave Pix
       </p>
