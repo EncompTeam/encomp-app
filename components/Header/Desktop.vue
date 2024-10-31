@@ -26,8 +26,8 @@ const emit = defineEmits<{
           </Button>
         </li>
         <li>
-          <Button class="text-lg text-foreground" variant="link" @click="() => emit('navigate-to-speakers')">
-            Palestrantes
+          <Button class="text-lg text-foreground" variant="link" @click="() => emit('navigate-to-guests')">
+            Convidados
           </Button>
         </li>
         <li>

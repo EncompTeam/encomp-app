@@ -4,8 +4,9 @@ import { PopoverAnchor } from 'radix-vue'
 const props = defineProps<{
   image?: string
   name?: string
-  role?: string
+  position?: string
   description?: string
+  role?: string
   showDescription?: boolean
 }>()
 </script>
@@ -14,16 +15,19 @@ const props = defineProps<{
   <div class="relative">
     <Popover>
       <PopoverTrigger as-child>
-        <button class="z-20">
-          <div class="flex min-h-60 max-w-60 items-end rounded-t-lg bg-primary">
+        <button class="relative z-20">
+          <Badge class="absolute right-3 top-2" variant="secondary">
+            {{ props.role }}
+          </Badge>
+          <div class="flex min-h-72 max-w-60 items-end rounded-t-lg bg-primary">
             <img :src="props.image" class="h-60">
           </div>
           <div class="min-h-20 w-60 rounded-b-lg bg-gray-900 px-4 py-2">
             <p class="text-left text-xl font-bold">
               {{ props.name }}
             </p>
-            <p class="text-left text-sm text-tertiary-300">
-              {{ props.role }}
+            <p class="mt-1 text-left text-sm text-tertiary-300">
+              {{ props.position }}
             </p>
           </div>
         </button>
@@ -35,7 +39,7 @@ const props = defineProps<{
             {{ props.name }}
           </p>
           <p class="text-tertiary-300">
-            {{ props.role }}
+            {{ props.position }}
           </p>
           <p class="mt-5">
             {{ props.description }}
@@ -48,7 +52,7 @@ const props = defineProps<{
             {{ props.name }}
           </p>
           <p class="text-tertiary-300">
-            {{ props.role }}
+            {{ props.position }}
           </p>
           <p class="mt-5">
             {{ props.description }}
