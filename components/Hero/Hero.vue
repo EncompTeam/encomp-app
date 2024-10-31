@@ -14,14 +14,14 @@ function toSubscription() {
     <div class="flex w-full flex-col items-center justify-center gap-2 lg:flex-row">
       <Badge variant="secondary" class="flex items-center gap-2 p-2 uppercase">
         <CalendarIcon :size="20" />
-        06, 07 e 08 de Novembro de 2024
+        05, 06, 07 e 08 de Novembro de 2024
       </Badge>
       <Badge variant="secondary" class="flex items-center gap-2 p-2 uppercase">
         <MapPinIcon :size="20" /> São Mateus, ES
       </Badge>
     </div>
     <Button size="lg" class="flex w-full items-center justify-center gap-2 text-lg leading-none lg:w-auto" @click="toSubscription">
-      Garanta seu assento <PartyPopperIcon :size="24" />
+      Garanta sua participação <PartyPopperIcon :size="24" />
     </Button>
     <div class="[mask-image:radial-gradient(farthest-side_at_50%_45%,red_50%,transparent 90%)] pointer-events-none absolute -top-28 z-10 flex h-screen w-full overflow-hidden lg:-top-44">
       <div class="absolute left-1/2 top-3 h-72 w-24 origin-[50%_0] translate-x-1/2 rotate-[20deg] animate-spotlight rounded-full bg-spotlight opacity-65 blur-lg lg:top-0 lg:h-[400px] lg:w-52" style="--duration: 4s; --rotate: 20deg; --scale: 1" />

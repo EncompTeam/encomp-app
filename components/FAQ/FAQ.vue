@@ -7,7 +7,7 @@
       PERGUNTAS FREQUENTES
     </p>
     <div class="w-full lg:w-3/4">
-      <Accordion class="w-full" type="single" collapsible>
+      <Accordion class="w-full text-balance" type="single" collapsible>
         <AccordionItem value="question1" class="mb-5 rounded-xl border-2 border-primary">
           <AccordionTrigger class="px-4">
             <p class="text-xl">
@@ -105,7 +105,11 @@
             </p>
           </AccordionTrigger>
           <AccordionContent class="ml-4 text-xl">
-            É possível entrar em contato com nossa equipe através do Instragram <div class="text-tertiary-500 inline-flex"> @encompceunes </div> ou pelo E-mail <div class="inline-flex text-tertiary-500">encomp.ceunes@gmail.com</div>.
+            É possível entrar em contato com nossa equipe através do Instragram <div class="inline-flex text-tertiary-500">
+              @encompceunes
+            </div> ou pelo E-mail <div class="inline-flex text-tertiary-500">
+              encomp.ceunes@gmail.com
+            </div>.
           </AccordionContent>
         </AccordionItem>
       </Accordion>
