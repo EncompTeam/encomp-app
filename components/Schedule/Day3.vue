@@ -32,6 +32,8 @@
             />
           </CarouselItem>
         </CarouselContent>
+        <CarouselPrevious />
+        <CarouselNext />
       </Carousel>
     </div>
     <!-- Courses line carousel display for small screens -->
@@ -47,7 +49,6 @@
               position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
               extra="Minicurso"
               :show-description="true"
-              :show-arrow="true"
             />
           </CarouselItem>
           <CarouselItem>
@@ -63,6 +64,9 @@
           </CarouselItem>
         </CarouselContent>
       </Carousel>
+      <p class="flex w-full justify-center pt-1 text-xs text-white opacity-50">
+        Arraste para os lados e veja mais da programação
+      </p>
     </div>
     <ScheduleBreak start="10:00" end="10:30" class="my-3" title="Coffee Break" />
     <!-- Courses line display for large screens -->
@@ -89,6 +93,8 @@
             />
           </CarouselItem>
         </CarouselContent>
+        <CarouselPrevious />
+        <CarouselNext />
       </Carousel>
     </div>
     <!-- Courses line carousel display for small screens -->
@@ -116,10 +122,13 @@
           </CarouselItem>
         </CarouselContent>
       </Carousel>
+      <p class="flex w-full justify-center pt-1 text-xs text-white opacity-50">
+        Arraste para os lados e veja mais da programação
+      </p>
     </div>
     <ScheduleBreak start="12:30" end="13:30" title="Intervalo para Almoço" class="my-3" />
     <ScheduleEventSimple
-      start="13:00" end="14:00"
+      start="13:30" end="14:00"
       title="Credênciamento | Palestras"
       extra="Auditório"
     />

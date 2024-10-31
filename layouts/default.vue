@@ -9,8 +9,8 @@ function toSchedule() {
 function handleNavigateToFaq() {
   router.push({ path: '/', hash: '#faq' })
 }
-function handleNavigateToSpeakers() {
-  router.push({ path: '/', hash: '#speakers' })
+function handleNavigateToGuests() {
+  router.push({ path: '/', hash: '#guests' })
 }
 function handleNavigateToMarathon() {
   router.push('/marathon')
@@ -47,7 +47,7 @@ function toSubscription() {
         @navigate-to-faq="handleNavigateToFaq"
         @navigate-to-home="handleNavigateToHome"
         @navigate-to-schedule="toSchedule"
-        @navigate-to-speakers="handleNavigateToSpeakers"
+        @navigate-to-guests="handleNavigateToGuests"
         @navigate-to-inscription="toSubscription"
         @navigate-to-marathon="handleNavigateToMarathon"
       />
@@ -55,7 +55,7 @@ function toSubscription() {
         @navigate-to-faq="handleNavigateToFaq"
         @navigate-to-home="handleNavigateToHome"
         @navigate-to-schedule="toSchedule"
-        @navigate-to-speakers="handleNavigateToSpeakers"
+        @navigate-to-guests="handleNavigateToGuests"
         @navigate-to-inscription="toSubscription"
         @navigate-to-marathon="handleNavigateToMarathon"
       />

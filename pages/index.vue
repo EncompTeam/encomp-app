@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import Guests from '~/components/Guests/Guests.vue'
+
 defineOgImage({
   component: 'Main',
 })
@@ -21,7 +23,7 @@ useSeoMeta({
       <Sponsors class="hidden lg:flex" />
       <About class="mt-32" />
       <WillHave class="mt-32" />
-      <Speakers class="mt-32" />
+      <Guests class="mt-32" />
       <Local class="mt-32" />
       <FAQ class="mt-44" />
       <Sponsors class="flex lg:hidden" />

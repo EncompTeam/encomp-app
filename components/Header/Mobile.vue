@@ -4,7 +4,7 @@ import { FacebookIcon, MenuIcon, PartyPopperIcon } from 'lucide-vue-next'
 const emit = defineEmits<{
   (e: 'navigate-to-home'): void
   (e: 'navigate-to-schedule'): void
-  (e: 'navigate-to-speakers'): void
+  (e: 'navigate-to-guests'): void
   (e: 'navigate-to-faq'): void
   (e: 'navigate-to-inscription'): void
   (e: 'navigate-to-marathon'): void
@@ -20,7 +20,7 @@ const emit = defineEmits<{
           <MenuIcon />
         </Button>
       </SheetTrigger>
-      <SheetContent v-bind="$attrs" class="flex w-full flex-col">
+      <SheetContent v-bind="$attrs" class="flex w-2/3 flex-col border-black">
         <SheetHeader class="items-start">
           <SheetTitle>
             <Logo size="130" />
@@ -34,8 +34,8 @@ const emit = defineEmits<{
               </Button>
             </li>
             <li class="w-full">
-              <Button class="w-full text-lg text-foreground" variant="link" @click="() => emit('navigate-to-speakers')">
-                Palestrantes
+              <Button class="w-full text-lg text-foreground" variant="link" @click="() => emit('navigate-to-guests')">
+                Convidados
               </Button>
             </li>
             <li class="w-full">
