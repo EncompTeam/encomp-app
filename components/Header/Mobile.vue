@@ -20,7 +20,7 @@ const emit = defineEmits<{
           <MenuIcon />
         </Button>
       </SheetTrigger>
-      <SheetContent v-bind="$attrs" class="flex w-full flex-col">
+      <SheetContent v-bind="$attrs" class="flex w-2/3 flex-col border-black">
         <SheetHeader class="items-start">
           <SheetTitle>
             <Logo size="130" />
