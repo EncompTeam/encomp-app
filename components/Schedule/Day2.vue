@@ -23,13 +23,12 @@
           <CarouselItem class="basis-1/2 pl-2">
             <ScheduleEventCourse
               start="08:00" end="10:00"
-              title="Do Zero ao CRUD! (Backend)"
+              title="Do Zero ao CRUD!"
               teacher="Curioso para saber quem vai ministrar?"
               position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
               description="Neste minicurso prático, você terá o primeiro contato com aplicações backend utilizando a linguagem PHP.<br><br>Serão ensinados desde os comandos fundamentais até um sistema que permite cadastrar, visualizar, atualizar e excluir informações (CRUD) e conexão com banco de dados para criar sua API, utilizando ferramentas como MySQL, Postman/Insomnia, extensões agradáveis ao uso do PHP e boas práticas de programação.<br><br><u>REQUISITOS:</u><br><b>Necessário:</b> Possuir uma conta no GitHub.<br><b>Desejável:</b> Já ter tido contato com lógica de programação."
               extra="Minicurso"
               :show-description="true"
-              :show-arrow="true"
             />
           </CarouselItem>
           <CarouselItem class="basis-1/2 pl-2">
@@ -44,6 +43,8 @@
             />
           </CarouselItem>
         </CarouselContent>
+        <CarouselPrevious />
+        <CarouselNext />
       </Carousel>
     </div>
     <!-- Courses line carousel display for small screens -->
@@ -59,19 +60,17 @@
               position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
               extra="Minicurso"
               :show-description="true"
-              :show-arrow="true"
             />
           </CarouselItem>
           <CarouselItem>
             <ScheduleEventCourse
               start="08:00" end="10:00"
-              title="Do Zero ao CRUD! (Backend)"
+              title="Do Zero ao CRUD!"
               description="Neste minicurso prático, você terá o primeiro contato com aplicações backend utilizando a linguagem PHP.<br><br>Serão ensinados desde os comandos fundamentais até um sistema que permite cadastrar, visualizar, atualizar e excluir informações (CRUD) e conexão com banco de dados para criar sua API, utilizando ferramentas como MySQL, Postman/Insomnia, extensões agradáveis ao uso do PHP e boas práticas de programação.<br><br><u>REQUISITOS:</u><br><b>Necessário:</b> Possuir uma conta no GitHub.<br><b>Desejável:</b> Já ter tido contato com lógica de programação."
               teacher="Curioso para saber quem vai ministrar?"
               position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
               extra="Minicurso"
               :show-description="true"
-              :show-arrow="true"
             />
           </CarouselItem>
           <CarouselItem>
@@ -87,6 +86,9 @@
           </CarouselItem>
         </CarouselContent>
       </Carousel>
+      <p class="flex w-full justify-center pt-1 text-xs text-white opacity-50">
+        Arraste para os lados e veja mais da programação
+      </p>
     </div>
     <ScheduleBreak start="10:00" end="10:30" class="my-3" title="Coffee Break" />
     <!-- Courses line display for large screens -->
@@ -104,10 +106,9 @@
           <CarouselItem class="basis-1/2 pl-2">
             <ScheduleEventCourse
               start="10:30" end="12:30"
-              title="Do Zero ao CRUD! (Backend)"
+              title="Do Zero ao CRUD!"
               extra="Minicurso"
               teacher="Continuação pós Coffee Break"
-              :show-arrow="true"
             />
           </CarouselItem>
           <CarouselItem class="basis-1/2 pl-2">
@@ -120,6 +121,8 @@
             />
           </CarouselItem>
         </CarouselContent>
+        <CarouselPrevious />
+        <CarouselNext />
       </Carousel>
     </div>
     <!-- Courses line carousel display for small screens -->
@@ -132,16 +135,14 @@
               title="Análise e Visualização de Dados com Python"
               teacher="Continuação pós Coffee Break"
               extra="Minicurso"
-              :show-arrow="true"
             />
           </CarouselItem>
           <CarouselItem>
             <ScheduleEventCourse
               start="10:30" end="12:30"
-              title="Do Zero ao CRUD! (Backend)"
+              title="Do Zero ao CRUD!"
               extra="Minicurso"
               teacher="Continuação pós Coffee Break"
-              :show-arrow="true"
             />
           </CarouselItem>
           <CarouselItem>
@@ -155,10 +156,13 @@
           </CarouselItem>
         </CarouselContent>
       </Carousel>
+      <p class="flex w-full justify-center pt-1 text-xs text-white opacity-50">
+        Arraste para os lados e veja mais da programação
+      </p>
     </div>
     <ScheduleBreak start="12:30" end="13:30" title="Intervalo para Almoço" class="my-3" />
     <ScheduleEventSimple
-      start="13:00" end="14:00"
+      start="13:30" end="14:00"
       title="Credênciamento | Palestras"
       extra="Auditório"
     />
