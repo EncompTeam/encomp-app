@@ -14,18 +14,22 @@
               start="08:00" end="10:00"
               title="Análise e Visualização de Dados com Python"
               description="Este curso foi desenvolvido para quem deseja dominar as ferramentas para análise e visualização de dados, utilizando a linguagem Python.<br><br>Ao longo do minicurso, os participantes aprenderão a manipular e transformar dados com a biblioteca Pandas, criar gráficos interativos e visualizações com Matplotlib e Plotly, além de explorar o Google Colab como plataforma colaborativa para rodar e compartilhar projetos na nuvem.<br><br>O curso também abordará técnicas de análise de dados, desde a exploração até a extração de insights para a tomada de decisões estratégicas."
-              teacher="Curioso para saber quem vai ministrar?"
-              position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
+              teacher="Nicole Leite e Iasmin Marques"
+              position=""
               extra="Minicurso"
               :show-description="true"
+              photo="teachers/nicole_leite.png"
+              photo2="teachers/iasmin_marques.png"
+              :two-photos="true"
             />
           </CarouselItem>
           <CarouselItem class="basis-1/2 pl-2">
             <ScheduleEventCourse
               start="08:00" end="10:00"
               title="Do Zero ao CRUD!"
-              teacher="Curioso para saber quem vai ministrar?"
-              position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
+              teacher="Felício Almeida"
+              photo="/teachers/felicio_almeida.png"
+              position=""
               description="Neste minicurso prático, você terá o primeiro contato com aplicações backend utilizando a linguagem PHP.<br><br>Serão ensinados desde os comandos fundamentais até um sistema que permite cadastrar, visualizar, atualizar e excluir informações (CRUD) e conexão com banco de dados para criar sua API, utilizando ferramentas como MySQL, Postman/Insomnia, extensões agradáveis ao uso do PHP e boas práticas de programação.<br><br><u>REQUISITOS:</u><br><b>Necessário:</b> Possuir uma conta no GitHub.<br><b>Desejável:</b> Já ter tido contato com lógica de programação."
               extra="Minicurso"
               :show-description="true"
@@ -56,10 +60,13 @@
               start="08:00" end="10:00"
               title="Análise e Visualização de Dados com Python"
               description="Este curso foi desenvolvido para quem deseja dominar as ferramentas para análise e visualização de dados, utilizando a linguagem Python.<br><br>Ao longo do minicurso, os participantes aprenderão a manipular e transformar dados com a biblioteca Pandas, criar gráficos interativos e visualizações com Matplotlib e Plotly, além de explorar o Google Colab como plataforma colaborativa para rodar e compartilhar projetos na nuvem.<br><br>O curso também abordará técnicas de análise de dados, desde a exploração até a extração de insights para a tomada de decisões estratégicas."
-              teacher="Curioso para saber quem vai ministrar?"
-              position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
+              teacher="Nicole Leite e Iasmin Marques"
+              position=""
               extra="Minicurso"
               :show-description="true"
+              photo="teachers/nicole_leite.png"
+              photo2="teachers/iasmin_marques.png"
+              :two-photos="true"
             />
           </CarouselItem>
           <CarouselItem>
@@ -67,8 +74,9 @@
               start="08:00" end="10:00"
               title="Do Zero ao CRUD!"
               description="Neste minicurso prático, você terá o primeiro contato com aplicações backend utilizando a linguagem PHP.<br><br>Serão ensinados desde os comandos fundamentais até um sistema que permite cadastrar, visualizar, atualizar e excluir informações (CRUD) e conexão com banco de dados para criar sua API, utilizando ferramentas como MySQL, Postman/Insomnia, extensões agradáveis ao uso do PHP e boas práticas de programação.<br><br><u>REQUISITOS:</u><br><b>Necessário:</b> Possuir uma conta no GitHub.<br><b>Desejável:</b> Já ter tido contato com lógica de programação."
-              teacher="Curioso para saber quem vai ministrar?"
-              position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
+              teacher="Felício Almeida"
+              photo="/teachers/felicio_almeida.png"
+              position=""
               extra="Minicurso"
               :show-description="true"
             />
@@ -101,6 +109,9 @@
               title="Análise e Visualização de Dados com Python"
               teacher="Continuação pós Coffee Break"
               extra="Minicurso"
+              photo="teachers/nicole_leite.png"
+              photo2="/teachers/iasmin_marques.png"
+              :two-photos="true"
             />
           </CarouselItem>
           <CarouselItem class="basis-1/2 pl-2">
@@ -109,6 +120,7 @@
               title="Do Zero ao CRUD!"
               extra="Minicurso"
               teacher="Continuação pós Coffee Break"
+              photo="teachers/felicio_almeida.png"
             />
           </CarouselItem>
           <CarouselItem class="basis-1/2 pl-2">
@@ -135,6 +147,9 @@
               title="Análise e Visualização de Dados com Python"
               teacher="Continuação pós Coffee Break"
               extra="Minicurso"
+              photo="teachers/nicole_leite.png"
+              photo2="/teachers/iasmin_marques.png"
+              :two-photos="true"
             />
           </CarouselItem>
           <CarouselItem>
@@ -143,6 +158,7 @@
               title="Do Zero ao CRUD!"
               extra="Minicurso"
               teacher="Continuação pós Coffee Break"
+              photo="teachers/felicio_almeida.png"
             />
           </CarouselItem>
           <CarouselItem>
