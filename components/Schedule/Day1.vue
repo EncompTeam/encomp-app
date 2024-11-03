@@ -13,8 +13,9 @@
             <ScheduleEventCourse
               start="08:00" end="10:00"
               title="Introdução a UI/UX"
-              teacher="Curioso para saber quem vai ministrar?"
-              position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
+              teacher="Kethlen Correia"
+              position=""
+              photo="/teachers/kethlen_correia.png"
               description="No minicurso de introdução em UI/UX, serão explorados conceitos essenciais que fundamentam a criação de interfaces  e experiências do usuário. Abordaremos a importância do design na construção de produtos digitais, além dos princípios que garantem uma interface atraente e funcional.<br><br>Os participantes também terão a oportunidade de conhecer ferramentas e recursos populares do mercado, como Figma, que facilitam o processo de design. Para finalizar, um exercício prático permitirá que cada um aplique o que aprendeu, criando sua própria interface e recebendo feedback."
               extra="Minicurso"
               :show-description="true"
@@ -24,7 +25,7 @@
             <ScheduleEventCourse
               start="08:00" end="10:00"
               title="Oficina de Introdução ao Desenvolvimento de uma API REST com Minimal API e .NET"
-              teacher="Curioso para saber quem vai ministrar?"
+              teacher=""
               position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
               description="- Apresentação dos conceitos fundamentais de Minimal API.<br>- Demonstração da construção de uma API do zero utilizando C# e .NET.<br>- Aprendizado da integração com banco de dados (InMemory ou SQL Server).<br>- Implementação das operações CRUD (Create, Read, Update, Delete).<br><br><u>REQUISITOS:</u><br><b>Necessário:</b> Conhecimentos básicos da linguagem C#.<br><b>Desejável:</b> Conhecer o paradigma Orientado à Objetos e sabr operações básicas em bancos de dados relacionais.<br><br>Os inscritos <b>PRECISARÃO LEVAR A PRÓPRIA MÁQUINA</b> para participar do minicurso.<br><b>Requisitos mínimos:</b> i5 de 10ª geração (ou equivalente), 8GB de RAM (ou superior).\n<br><b>Requisitos recomendados:</b> i5 de 11ª geração (ou equivalente), 16 GB de RAM (ou superior).<br><br><i> Em último caso, os computadores do laboratório estarão preparados com os softwares necessários, mas não garantimos um bom desempenho."
               extra="Minicurso"
@@ -35,8 +36,9 @@
             <ScheduleEventCourse
               start="08:00" end="10:00"
               title="Além do Código: Habilidades Essenciais que uma Pessoa Profissional De Técnologia Precisa Para Se Destacar No Mercado"
-              teacher="Curioso para saber quem vai ministrar?"
-              position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
+              teacher="Beatriz Duarte"
+              photo="/speakers/beatriz_duarte.png"
+              position="Engenheira de Sofware no Nubank"
               description="Vamos explorar as habilidades e <i>soft skills</i> essenciais que vão te destacar no mercado e como trablhar e aplicar elas no seu dia a dia!"
               extra="Minicurso"
               :show-description="true"
@@ -55,8 +57,9 @@
             <ScheduleEventCourse
               start="08:00" end="10:00"
               title="Introdução a UI/UX"
-              teacher="Curioso para saber quem vai ministrar?"
-              position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
+              teacher="Kethlen Correia"
+              position=""
+              photo="/teachers/kethlen_correia.png"
               description="No minicurso de introdução em UI/UX, serão explorados conceitos essenciais que fundamentam a criação de interfaces  e experiências do usuário. Abordaremos a importância do design na construção de produtos digitais, além dos princípios que garantem uma interface atraente e funcional.<br><br>Os participantes também terão a oportunidade de conhecer ferramentas e recursos populares do mercado, como Figma, que facilitam o processo de design. Para finalizar, um exercício prático permitirá que cada um aplique o que aprendeu, criando sua própria interface e recebendo feedback."
               extra="Minicurso"
               :show-description="true"
@@ -77,8 +80,9 @@
             <ScheduleEventCourse
               start="08:00" end="10:00"
               title="Além do Código: Habilidades Essenciais que uma Pessoa Profissional De Técnologia Precisa Para Se Destacar No Mercado"
-              teacher="Curioso para saber quem vai ministrar?"
-              position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
+              teacher="Beatriz Duarte"
+              photo="/speakers/beatriz_duarte.png"
+              position="Engenheira de Sofware no Nubank"
               description="Vamos explorar as habilidades e <i>soft skills</i> essenciais que vão te destacar no mercado e como trablhar e aplicar elas no seu dia a dia!"
               extra="Minicurso"
               :show-description="true"
@@ -100,7 +104,8 @@
               start="10:30" end="12:00"
               title="Introdução a UI/UX"
               extra="Minicurso"
-              speaker="Continuação pós Coffee Break"
+              teacher="Continuação pós Coffee Break"
+              photo="/teachers/kethlen_correia.png"
               position=""
             />
           </CarouselItem>
@@ -109,7 +114,7 @@
               start="10:30" end="12:00"
               title="Oficina de Introdução ao Desenvolvimento de uma API REST com Minimal API e .NET"
               extra="Minicurso"
-              speaker="Continuação pós Coffee Break"
+              teacher="Continuação pós Coffee Break"
               position=""
             />
           </CarouselItem>
@@ -118,7 +123,8 @@
               start="10:30" end="12:00"
               title="Além do Código: Habilidades Essenciais que uma Pessoa Profissional De Técnologia Precisa Para Se Destacar No Mercado"
               extra="Minicurso"
-              speaker="Continuação pós Coffee Break"
+              teacher="Continuação pós Coffee Break"
+              photo="/speakers/beatriz_duarte.png"
               position=""
             />
           </CarouselItem>
@@ -137,6 +143,7 @@
               title="Introdução a UI/UX"
               extra="Minicurso"
               teacher="Continuação pós Coffee Break"
+              photo="/teachers/kethlen_correia.png"
               position=""
             />
           </CarouselItem>
@@ -155,6 +162,7 @@
               title="Além do Código: Habilidades Essenciais que uma Pessoa Profissional De Técnologia Precisa Para Se Destacar No Mercado"
               extra="Minicurso"
               teacher="Continuação pós Coffee Break"
+              photo="/speakers/beatriz_duarte.png"
               position=""
             />
           </CarouselItem>

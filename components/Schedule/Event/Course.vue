@@ -9,18 +9,22 @@ const props = withDefaults(defineProps<{
   teacher?: string
   position?: string
   photo?: string
+  photo2?: string
   extra?: string
   showDescription?: boolean
   showArrow?: boolean
   showBio?: boolean
+  twoPhotos?: boolean
 }>(), {
   photo: '/logo_circle.png',
+  photo2: '/logo_circle.png',
   position: '',
   description: 'Nada aqui ainda!',
   extra: ' ',
   showDescription: false,
   showArrow: false,
   showBio: false,
+  twoPhotos: false,
 })
 </script>
 
@@ -68,6 +72,12 @@ const props = withDefaults(defineProps<{
       <div class="mt-2 inline-flex items-center">
         <Avatar class="bg-primary" size="sm">
           <AvatarImage :src="props?.photo" />
+          <AvatarFallback>
+            <img src="/logo_circle.png">
+          </AvatarFallback>
+        </Avatar>
+        <Avatar v-if="twoPhotos" class="ml-2 bg-primary" size="sm">
+          <AvatarImage :src="props?.photo2" />
           <AvatarFallback>
             <img src="/logo_circle.png">
           </AvatarFallback>

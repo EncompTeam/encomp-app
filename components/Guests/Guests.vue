@@ -73,9 +73,9 @@ import { MicVocal } from 'lucide-vue-next'
 
       <GuestsCard
         role="Palestrante"
-        image="/questionmark.png"
-        name="EM BREVE"
-        position="Fique ligado nas nossas redes sociais para saber as novidades"
+        image="/speakers/lucas_rios.png"
+        name="Lucas Rios"
+        position="Presidente Executivo da Federação Juniores"
         description=""
         :show-description="false"
       />
@@ -100,18 +100,27 @@ import { MicVocal } from 'lucide-vue-next'
 
       <GuestsCard
         role="Ministrante"
-        image="/questionmark.png"
-        name="EM BREVE"
-        position="Fique ligado nas nossas redes sociais para saber as novidades"
+        image="/teachers/nicolas_walcker.png"
+        name="Nicolas Walcker"
+        position="Frontend é mais que HTML, CSS e JavaScript"
         description=""
         :show-description="false"
       />
 
       <GuestsCard
         role="Ministrante"
-        image="/questionmark.png"
-        name="EM BREVE"
-        position="Fique ligado nas nossas redes sociais para saber as novidades"
+        image="/teachers/nicole_leite.png"
+        name="Nicole Leite"
+        position="Análise e Visualização de Dados com Python"
+        description=""
+        :show-description="false"
+      />
+
+      <GuestsCard
+        role="Ministrante"
+        image="/teachers/iasmin_marques.png"
+        name="Iasmin Marques"
+        position="Análise e Visualização de Dados com Python"
         description=""
         :show-description="false"
       />
