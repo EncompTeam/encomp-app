@@ -25,8 +25,9 @@
             <ScheduleEventCourse
               start="08:00" end="10:00"
               title="Oficina de Introdução ao Desenvolvimento de uma API REST com Minimal API e .NET"
-              teacher=""
-              position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
+              teacher="André Bessa"
+              photo="/teachers/andre_bessa.png"
+              position=""
               description="- Apresentação dos conceitos fundamentais de Minimal API.<br>- Demonstração da construção de uma API do zero utilizando C# e .NET.<br>- Aprendizado da integração com banco de dados (InMemory ou SQL Server).<br>- Implementação das operações CRUD (Create, Read, Update, Delete).<br><br><u>REQUISITOS:</u><br><b>Necessário:</b> Conhecimentos básicos da linguagem C#.<br><b>Desejável:</b> Conhecer o paradigma Orientado à Objetos e sabr operações básicas em bancos de dados relacionais.<br><br>Os inscritos <b>PRECISARÃO LEVAR A PRÓPRIA MÁQUINA</b> para participar do minicurso.<br><b>Requisitos mínimos:</b> i5 de 10ª geração (ou equivalente), 8GB de RAM (ou superior).\n<br><b>Requisitos recomendados:</b> i5 de 11ª geração (ou equivalente), 16 GB de RAM (ou superior).<br><br><i> Em último caso, os computadores do laboratório estarão preparados com os softwares necessários, mas não garantimos um bom desempenho."
               extra="Minicurso"
               :show-description="true"
@@ -35,7 +36,7 @@
           <CarouselItem class="basis-1/2 pl-2">
             <ScheduleEventCourse
               start="08:00" end="10:00"
-              title="Além do Código: Habilidades Essenciais que uma Pessoa Profissional De Técnologia Precisa Para Se Destacar No Mercado"
+              title="Além do Código: Habilidades Essenciais que uma Pessoa Profissional De Tecnologia Precisa Para Se Destacar No Mercado"
               teacher="Beatriz Duarte"
               photo="/speakers/beatriz_duarte.png"
               position="Engenheira de Sofware no Nubank"
@@ -69,17 +70,18 @@
             <ScheduleEventCourse
               start="08:00" end="10:00"
               title="Oficina de Introdução ao Desenvolvimento de uma API REST com Minimal API e .NET"
+              photo="/teachers/andre_bessa.png"
               extra="Minicurso"
               description="- Apresentação dos conceitos fundamentais de Minimal API.<br>- Demonstração da construção de uma API do zero utilizando C# e .NET.<br>- Aprendizado da integração com banco de dados (InMemory ou SQL Server).<br>- Implementação das operações CRUD (Create, Read, Update, Delete).<br><br><u>REQUISITOS:</u><br><b>Necessário:</b> Conhecimentos básicos da linguagem C#.<br><b>Desejável:</b> Conhecer o paradigma Orientado à Objetos e sabr operações básicas em bancos de dados relacionais.<br><br>Os inscritos <b>PRECISARÃO LEVAR A PRÓPRIA MÁQUINA</b> para participar do minicurso.<br><b>Requisitos mínimos:</b> i5 de 10ª geração (ou equivalente), 8GB de RAM (ou superior).\n<br><b>Requisitos recomendados:</b> i5 de 11ª geração (ou equivalente), 16 GB de RAM (ou superior).<br><br><i> Em último caso, os computadores do laboratório estarão preparados com os softwares necessários, mas não garantimos um bom desempenho."
               :show-description="true"
-              teacher="Curioso para saber quem vai ministrar?"
-              position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
+              teacher="André Bessa"
+              position=""
             />
           </CarouselItem>
           <CarouselItem>
             <ScheduleEventCourse
               start="08:00" end="10:00"
-              title="Além do Código: Habilidades Essenciais que uma Pessoa Profissional De Técnologia Precisa Para Se Destacar No Mercado"
+              title="Além do Código: Habilidades Essenciais que uma Pessoa Profissional De Tecnologia Precisa Para Se Destacar No Mercado"
               teacher="Beatriz Duarte"
               photo="/speakers/beatriz_duarte.png"
               position="Engenheira de Sofware no Nubank"
@@ -115,13 +117,14 @@
               title="Oficina de Introdução ao Desenvolvimento de uma API REST com Minimal API e .NET"
               extra="Minicurso"
               teacher="Continuação pós Coffee Break"
+              photo="/teachers/andre_bessa.png"
               position=""
             />
           </CarouselItem>
           <CarouselItem class="basis-1/2 pl-2">
             <ScheduleEventCourse
               start="10:30" end="12:00"
-              title="Além do Código: Habilidades Essenciais que uma Pessoa Profissional De Técnologia Precisa Para Se Destacar No Mercado"
+              title="Além do Código: Habilidades Essenciais que uma Pessoa Profissional De Tecnologia Precisa Para Se Destacar No Mercado"
               extra="Minicurso"
               teacher="Continuação pós Coffee Break"
               photo="/speakers/beatriz_duarte.png"
@@ -153,13 +156,14 @@
               title="Oficina de Introdução ao Desenvolvimento de uma API REST com Minimal API e .NET"
               extra="Minicurso"
               teacher="Continuação pós Coffee Break"
+              photo="/teachers/andre_bessa.png"
               position=""
             />
           </CarouselItem>
           <CarouselItem>
             <ScheduleEventCourse
               start="10:30" end="12:00"
-              title="Além do Código: Habilidades Essenciais que uma Pessoa Profissional De Técnologia Precisa Para Se Destacar No Mercado"
+              title="Além do Código: Habilidades Essenciais que uma Pessoa Profissional De Tecnologia Precisa Para Se Destacar No Mercado"
               extra="Minicurso"
               teacher="Continuação pós Coffee Break"
               photo="/speakers/beatriz_duarte.png"
@@ -181,7 +185,7 @@
     <ScheduleEventSimple start="13:00" end="13:15" title="Abertura" />
     <ScheduleEventTalk
       start="13:15" end="14:05"
-      title="Dos Blogs à Engenharia de Software: Como Transformei Minha Carreira na Técnologia"
+      title="Dos Blogs à Engenharia de Software: Como Transformei Minha Carreira na Tecnologia"
       speaker="Beatriz Duarte"
       description="Vou contar um pouco sobre minha trajetória até me tornar Engenheira de Software, erros e acertos que cometi ao longo desses mais de 10 anos desde que escrevi minhas primeiras linhas de código, além de conselhos para quem quiser seguir na área de desenvolvimento de software"
       :show-description="true"

@@ -39,8 +39,9 @@
             <ScheduleEventCourse
               start="08:00" end="10:00"
               title="Introdução à Plataforma Arduino"
-              teacher="Curioso para saber quem vai ministrar?"
-              position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
+              teacher="Bernardo Wutke"
+              photo="/teachers/bernardo_wutke.png"
+              position=""
               description="Neste minicurso, você será introduzido à plataforma Arduino, aprendendo os conceitos básicos de eletrônica e programação voltados para projetos práticos.<br><br>Os participantes terão a oportunidade de construir um teclado utilizando push buttons e uma tela LCD, onde será exibida a nota musical correspondente à tecla pressionada.<br><br>Abordaremos a programação em C++ para microcontroladores, utilizando bibliotecas essenciais do Arduino e técnicas de leitura de botões, controle de um buzzer para emitir sons, e interação com uma tela LCD via protocolo I2C.<br><br><u>REQUISITOS:</u><br><b>Necessário:</b> Noções básicas de programação estruturada e da linguagem C++. <br><b>Diferencial:</b> Noções básicas em eletrônica e gostar de música :)<br><br>Caso o aluno queira utilizar o próprio computador, instalar previamente a bilioteca LCD2C"
               :show-description="true"
               extra="Minicurso"
@@ -85,8 +86,9 @@
             <ScheduleEventCourse
               start="08:00" end="10:00"
               title="Introdução à Plataforma Arduino"
-              teacher="Curioso para saber quem vai ministrar?"
-              position="Nos siga no instragram @encompceunes para ficar por dentro das novidades"
+              teacher="Bernardo Wutke"
+              photo="/teachers/bernardo_wutke.png"
+              position=""
               description="Neste minicurso, você será introduzido à plataforma Arduino, aprendendo os conceitos básicos de eletrônica e programação voltados para projetos práticos.<br><br>Os participantes terão a oportunidade de construir um teclado utilizando push buttons e uma tela LCD, onde será exibida a nota musical correspondente à tecla pressionada.<br><br>Abordaremos a programação em C++ para microcontroladores, utilizando bibliotecas essenciais do Arduino e técnicas de leitura de botões, controle de um buzzer para emitir sons, e interação com uma tela LCD via protocolo I2C.<br><br><u>REQUISITOS:</u><br><b>Necessário:</b> Noções básicas de programação estruturada e da linguagem C++. <br><b>Diferencial:</b> Noções básicas em eletrônica e gostar de música :)<br><br>Caso o aluno queira utilizar o próprio computador, instalar previamente a bilioteca LCD2C"
               extra="Minicurso"
               :show-description="true"
@@ -168,6 +170,7 @@
               description="Caso o aluno deseje levar o próprio computador, deve instalar previamente a bilioteca LCD2C"
               extra="Minicurso"
               teacher="Continuação pós Coffee Break"
+              photo="/teachers/bernardo_wutke.png"
             />
           </CarouselItem>
         </CarouselContent>

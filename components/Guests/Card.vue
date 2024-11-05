@@ -20,7 +20,7 @@ const props = defineProps<{
             {{ props.role }}
           </Badge>
           <div class="flex min-h-72 max-w-60 items-end rounded-t-lg bg-primary">
-            <img :src="props.image" class="h-60">
+            <img :src="props.image" class="h-60 min-w-60">
           </div>
           <div class="min-h-20 w-60 rounded-b-lg bg-gray-900 px-4 py-2">
             <p class="text-left text-xl font-bold">
