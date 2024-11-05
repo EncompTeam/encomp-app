@@ -127,16 +127,16 @@ import { MicVocal } from 'lucide-vue-next'
 
       <GuestsCard
         role="Ministrante"
-        image="/questionmark.png"
-        name="EM BREVE"
-        position="Fique ligado nas nossas redes sociais para saber as novidades"
+        image="/teachers/andre_bessa.png"
+        name="André Bessa"
+        position="Desenvolvimento de uma API REST com Minimal API e .NET"
         description=""
         :show-description="false"
       />
 
       <GuestsCard
         role="Ministrante"
-        image="/questionmark.png"
+        image="/teachers/bernardo_wutke.png"
         name="EM BREVE"
         position="Fique ligado nas nossas redes sociais para saber as novidades"
         description=""
