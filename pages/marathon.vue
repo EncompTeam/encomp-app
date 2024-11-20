@@ -4,7 +4,7 @@ function openPDF() {
 }
 
 function copyPix() {
-  navigator.clipboard.writeText('00020126580014BR.GOV.BCB.PIX01366112b300-1c4a-4d25-83a7-7e4007e57e2d520400005303986540545.005802BR5901N6001C62180514MARATONAENCOMP63047670')
+  navigator.clipboard.writeText('00020126580014BR.GOV.BCB.PIX01366112b300-1c4a-4d25-83a7-7e4007e57e2d5204000053039865802BR5901N6001C62180514MARATONAENCOMP630448A9')
 }
 </script>
 
@@ -53,7 +53,7 @@ function copyPix() {
       <p>A premiação do time vencedor irá ocorrer na abertura do ENCOMP, dia 06/11 às 13h, no auditório.</p>
     </div>
     <div class="mt-5 flex flex-col items-center justify-center lg:mx-44">
-      <img src="/qrcode-maratona.png" class="mt-2 max-w-44" @click="copyPix">
+      <img src="/qrcode-marathon.png" class="mt-2 max-w-44" @click="copyPix">
       <p class="text-center">
         Escaneie o QR-Code para pagar ou interaja com ele para copiar a chave Pix
       </p>
