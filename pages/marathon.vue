@@ -66,4 +66,3 @@ function copyPix() {
     </NuxtLink>
   </MainContent>
 </template>
-xl

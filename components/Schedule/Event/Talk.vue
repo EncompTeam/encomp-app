@@ -1,6 +1,4 @@
 <script lang="ts" setup>
-import { User } from 'lucide-vue-next'
-
 const props = withDefaults(
   defineProps<{
     start?: string
@@ -30,7 +28,7 @@ const props = withDefaults(
               Mais Informações
             </p>
           </PopoverTrigger>
-          <PopoverContent v-if="showDescription" side="left" :side-offset="-30" class="border-primary bg-gray-900">
+          <PopoverContent v-if="showDescription" side="left" :side-offset="-30" class="border-primary bg-popover/95 backdrop-blur-xl">
             <div>
               <p class="text-balance">
                 {{ props.description }}

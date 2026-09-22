@@ -24,16 +24,17 @@ useSeoMeta({
 <template>
   <div class="lg:ml-30 mx-5 mt-10 md:ml-44">
     <div class="mb-20">
-      <p class="mb-5 text-3xl font-bold md:text-5xl">
-        PROGRAMAÇÃO
-      </p>
+      <div class="section-eyebrow mb-5 w-fit">
+        Programação
+      </div>
       <p class="max-w-sm text-xl md:max-w-md">
         A 7º edição do ENCOMP vai ocorrer nos dias 06, 07 e 08 de novembro, confira nossa programação
       </p>
-      <div class="mt-4 flex gap-3">
+      <div class="mt-4 flex flex-wrap gap-3">
         <Button
           variant="default"
-          class="bg-tertiary text-white"
+          class="border-2 border-transparent text-lg transition-all duration-300"
+          :class="activeDay === 'day0' ? 'glow-tertiary bg-tertiary text-white' : 'border-tertiary/50 bg-tertiary/10 text-tertiary-300 hover:bg-tertiary/20 hover:text-white'"
           @click="showDayX('day0')"
         >
           05/11
@@ -41,21 +42,24 @@ useSeoMeta({
 
         <Button
           variant="default"
-          class="bg-tertiary text-white"
+          class="border-2 border-transparent text-lg transition-all duration-300"
+          :class="activeDay === 'day1' ? 'glow-tertiary bg-tertiary text-white' : 'border-tertiary/50 bg-tertiary/10 text-tertiary-300 hover:bg-tertiary/20 hover:text-white'"
           @click="showDayX('day1')"
         >
           06/11
         </Button>
         <Button
           variant="default"
-          class="bg-tertiary text-white"
+          class="border-2 border-transparent text-lg transition-all duration-300"
+          :class="activeDay === 'day2' ? 'glow-tertiary bg-tertiary text-white' : 'border-tertiary/50 bg-tertiary/10 text-tertiary-300 hover:bg-tertiary/20 hover:text-white'"
           @click="showDayX('day2')"
         >
           07/11
         </Button>
         <Button
           variant="default"
-          class="bg-tertiary text-white"
+          class="border-2 border-transparent text-lg transition-all duration-300"
+          :class="activeDay === 'day3' ? 'glow-tertiary bg-tertiary text-white' : 'border-tertiary/50 bg-tertiary/10 text-tertiary-300 hover:bg-tertiary/20 hover:text-white'"
           @click="showDayX('day3')"
         >
           08/11

@@ -12,7 +12,7 @@ const emit = defineEmits<{
 </script>
 
 <template>
-  <header class="mx-auto flex h-14 w-full items-center justify-between rounded-full border border-gray-100/15 bg-background/25 bg-clip-padding p-4 backdrop-blur-sm backdrop-filter lg:hidden">
+  <header class="mx-auto flex h-14 w-full items-center justify-between rounded-full border border-primary/20 bg-background/80 bg-clip-padding p-4 shadow-[0_10px_40px_-24px_hsl(var(--primary)/0.7)] backdrop-blur-xl backdrop-filter lg:hidden">
     <Logo size="130" />
     <Sheet>
       <SheetTrigger as-child>
@@ -20,7 +20,7 @@ const emit = defineEmits<{
           <MenuIcon />
         </Button>
       </SheetTrigger>
-      <SheetContent v-bind="$attrs" class="flex w-2/3 flex-col border-black">
+      <SheetContent v-bind="$attrs" class="flex w-2/3 flex-col border-primary/40 bg-background/95 backdrop-blur-xl">
         <SheetHeader class="items-start">
           <SheetTitle>
             <Logo size="130" />

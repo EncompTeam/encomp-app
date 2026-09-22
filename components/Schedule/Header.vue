@@ -12,7 +12,7 @@ function scrollToTop() {
 <template>
   <div class="sticky top-2 z-40 mb-4 flex min-h-14 max-w-5xl items-center rounded-sm bg-tertiary pl-5 md:mb-0 md:min-h-20 md:rounded-b-none">
     <div class="flex-1">
-      <p class="text-title text-2xl md:text-5xl">
+      <p class="font-titles text-2xl md:text-5xl">
         {{ props.day }} de Novembro
       </p>
     </div>

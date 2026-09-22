@@ -4,14 +4,12 @@ import { MicVocal } from 'lucide-vue-next'
 
 <template>
   <div id="guests" class="mx-auto flex w-full max-w-screen-xl flex-col items-center">
-    <div class="inline-flex items-center gap-3">
-      <MicVocal :size="28" class="text-primary" />
-      <p class="font-title text-2xl text-primary">
-        QUEM VAI?
-      </p>
+    <div class="section-eyebrow">
+      <MicVocal :size="24" />
+      Quem vai?
     </div>
     <div class="w-full lg:w-2/3">
-      <p class="font-title text-balance bg-gradient-to-r from-white to-gray-600 to-100% bg-clip-text text-center text-4xl text-transparent">
+      <p class="section-title mt-4">
         Convidamos palestrantes de diversas áreas com muita experiência para passar e ministrantes prontos pra te ensinar com a mão na massa!
       </p>
     </div>

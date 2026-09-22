@@ -49,6 +49,10 @@
   --spotlight-1-duration: 4s;
   --spotlight-2-duration: 8s;
   --spotlight-3-duration: 6s;
+
+  /* Glow (mesmas cores já usadas no drop-shadow do tailwind.config) */
+  --glow-warm: 47 100% 65%;
+  --glow-cool: 239 100% 74%;
 }
 .dark  {
   --background: 167 50% 5%;
@@ -85,13 +89,106 @@
 }
  
 @layer base {
-  * {
-    
-  }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground antialiased;
+  }
+
+  ::selection {
+    @apply bg-primary/30 text-foreground;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+  }
+
+  /* Scrollbar combina com a paleta (verde-teal) */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--background));
+  }
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--border));
+    border-radius: 9999px;
+    border: 2px solid hsl(var(--background));
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--primary));
   }
 }
 html, body, #__nuxt {
   @apply w-full h-full scroll-smooth min-h-screen;
+}
+
+@layer components {
+  /* "Eyebrow" das seções: pílula com ícone + título curto */
+  .section-eyebrow {
+    @apply inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5 text-sm font-semibold uppercase tracking-widest text-primary backdrop-blur transition-colors md:text-base;
+  }
+
+  /* Título grande das seções: degradê dentro da paleta (verde -> roxo) */
+  .section-title {
+    @apply font-titles text-balance bg-gradient-to-r from-foreground via-primary to-tertiary-300 bg-clip-text text-center text-3xl font-semibold text-transparent md:text-4xl;
+  }
+
+  /* Superfície "glass" usada em cards e painéis */
+  .glass {
+    @apply border border-primary/20 bg-card/60 backdrop-blur-xl;
+  }
+
+  /* Botão principal com brilho suave na cor primary */
+  .glow-primary {
+    box-shadow: 0 0 0 1px hsl(var(--primary) / 0.35), 0 10px 30px -10px hsl(var(--primary) / 0.65);
+  }
+
+  .glow-tertiary {
+    box-shadow: 0 0 0 1px hsl(var(--tertiary) / 0.4), 0 10px 30px -12px hsl(var(--tertiary) / 0.7);
+  }
+}
+
+@layer utilities {
+  .text-gradient-brand {
+    background-image: linear-gradient(90deg, hsl(var(--primary)), hsl(var(--tertiary-300)) 60%, hsl(var(--glow-warm)));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .bg-glow-warm {
+    background-image: radial-gradient(closest-side, hsl(var(--glow-warm) / 0.55), transparent);
+  }
+
+  .bg-glow-cool {
+    background-image: radial-gradient(closest-side, hsl(var(--glow-cool) / 0.55), transparent);
+  }
+}
+
+/* Transição de páginas (app.pageTransition: { name: 'page' }) */
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+.page-enter-from {
+  opacity: 0;
+  transform: translateY(10px);
+}
+.page-leave-to {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-enter-active,
+  .page-leave-active {
+    transition: none;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

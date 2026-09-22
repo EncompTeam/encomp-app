@@ -1,0 +1,27 @@
+# Dependências e artefatos de build
+node_modules
+.nuxt
+.nitro
+.output
+.cache
+dist
+.data
+
+# Git e editores
+.git
+.github
+.vscode
+.idea
+.fleet
+
+# Ambiente e logs
+.env
+.env.*
+*.log
+logs
+
+# Arquivos que não precisam entrar na imagem
+docker-compose*.yml
+Dockerfile
+.dockerignore
+README.md

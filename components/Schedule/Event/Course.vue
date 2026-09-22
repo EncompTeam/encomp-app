@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { MoveRight, User } from 'lucide-vue-next'
+import { MoveRight } from 'lucide-vue-next'
 
 const props = withDefaults(defineProps<{
   start?: string
@@ -43,12 +43,12 @@ const props = withDefaults(defineProps<{
                 Mais Informações
               </p>
             </PopoverTrigger>
-            <PopoverContent v-if="showArrow" side="left" :side-offset="-200" class="min-w-[350px] border-primary bg-gray-900 lg:min-w-[450px]">
+            <PopoverContent v-if="showArrow" side="left" :side-offset="-200" class="min-w-[350px] border-primary bg-popover/95 backdrop-blur-xl lg:min-w-[450px]">
               <div>
                 <div class="text-balance text-sm lg:text-lg" v-html="props.description" />
               </div>
             </PopoverContent>
-            <PopoverContent v-else side="left" :side-offset="-150" class="min-w-[350px] border-primary bg-gray-900 lg:min-w-[450px]">
+            <PopoverContent v-else side="left" :side-offset="-150" class="min-w-[350px] border-primary bg-popover/95 backdrop-blur-xl lg:min-w-[450px]">
               <div>
                 <div class="text-balance text-sm lg:text-lg" v-html="props.description" />
               </div>

@@ -4,15 +4,13 @@ import { BadgeHelp, Coffee, Handshake, Star } from 'lucide-vue-next'
 
 <template>
   <div class="flex flex-col items-center">
-    <div class="inline-flex items-center gap-3">
-      <BadgeHelp :size="28" class="text-primary" />
-      <p class="font-title text-2xl text-primary">
-        O QUE VAI TER?
-      </p>
+    <div class="section-eyebrow">
+      <BadgeHelp :size="24" />
+      O que vai ter?
     </div>
     <div class="w-full lg:w-2/3">
-      <p class="font-title text-balance bg-gradient-to-r from-white to-gray-600 to-100% bg-clip-text text-center text-4xl text-transparent">
-        Uma seleção de atividades abordando temas atuais e de revelância na técnologia
+      <p class="section-title mt-4">
+        Uma seleção de atividades abordando temas atuais e de relevância na tecnologia
       </p>
     </div>
     <div class="mx-10 mt-2 flex flex-col gap-5 py-8 md:flex-row">
@@ -27,7 +25,7 @@ import { BadgeHelp, Coffee, Handshake, Star } from 'lucide-vue-next'
         <WillHavePhoto
           image="/activities/palestras.png"
           title="Palestras"
-          description="Participe de palestras em assuntos de grande relevância com convidados experiêntes"
+          description="Participe de palestras em assuntos de grande relevância com convidados experientes"
         />
       </div>
       <div class="flex flex-col">
@@ -44,7 +42,7 @@ import { BadgeHelp, Coffee, Handshake, Star } from 'lucide-vue-next'
         />
       </div>
     </div>
-    <div class="mt-5 hidden gap-10 md:inline-flex">
+    <div class="mt-5 hidden flex-wrap justify-center gap-3 md:flex lg:gap-10">
       <SmallCard>
         <Coffee class="text-tertiary" />
         <p class="pl-2">

@@ -8,42 +8,40 @@ import SmallCard from '../SmallCard.vue'
     <div class="mb-5 hidden md:block">
       <img src="/es-map.gif" class="max-w-52">
     </div>
-    <div class="inline-flex items-center justify-center gap-3">
-      <Search :size="28" class="text-primary" />
-      <p class="font-title text-2xl text-primary">
-        O ENCOMP
-      </p>
+    <div class="section-eyebrow">
+      <Search :size="24" />
+      O ENCOMP
     </div>
     <div class="w-full lg:w-2/3">
-      <p class="font-title text-balance bg-gradient-to-r from-white to-gray-600 to-100% bg-clip-text text-center text-4xl text-transparent">
+      <p class="section-title mt-4">
         Capixaba da gema e do norte!
       </p>
     </div>
     <div class="w-full px-3 lg:w-3/4">
-      <p class="mt-2 text-balance text-center font-sans text-xl">
+      <p class="mt-4 text-balance text-center font-sans text-xl leading-relaxed text-muted-foreground">
         O ENCOMP é um evento inovador criado por alunos da Universidade Federal do Espírito Santo, campus de São Mateus, com o objetivo de promover conhecimento e networking na área da computação. Nesta 7ª edição, reunimos uma programação rica e diversificada, incluindo palestras, minicursos e uma variedade de atividades que vão inspirar e capacitar nossos participantes
       </p>
     </div>
-    <div class="mt-5 hidden lg:inline-flex">
-      <SmallCard class="mx-5">
+    <div class="mt-8 flex flex-wrap items-center justify-center gap-3 lg:gap-5">
+      <SmallCard>
         <Flag class="text-tertiary" />
         <p class="pl-2">
           6 Edições
         </p>
       </SmallCard>
-      <SmallCard class="mx-5">
+      <SmallCard>
         <Users class="text-tertiary" />
         <p class="pl-2">
           743 Participantes Impactados
         </p>
       </SmallCard>
-      <SmallCard class="mx-5">
+      <SmallCard>
         <MicVocal class="text-tertiary" />
         <p class="pl-2">
           56 Palestras Apresentadas
         </p>
       </SmallCard>
-      <SmallCard class="mx-5">
+      <SmallCard>
         <Computer class="text-tertiary" />
         <p class="pl-2">
           33 Minicursos Lecionados

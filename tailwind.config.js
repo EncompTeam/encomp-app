@@ -127,6 +127,14 @@ module.exports = {
             transform: 'translateX(-50%) rotate(var(--rotate, 0deg)) scale(var(--scale, 1))',
           },
         },
+        'floatSlow': {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-14px)' },
+        },
+        'pulse-glow': {
+          '0%, 100%': { boxShadow: '0 0 0 0 hsl(var(--primary) / 0.45)' },
+          '50%': { boxShadow: '0 0 0 12px hsl(var(--primary) / 0)' },
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
