@@ -1,17 +1,19 @@
 <script lang="ts" setup>
-import { CalendarIcon, MapPinIcon, PartyPopperIcon } from "lucide-vue-next";
+import { CalendarIcon, MapPinIcon, PartyPopperIcon } from 'lucide-vue-next'
 
 function toSubscription() {
   window.open(
-    "https://www.sympla.com.br/vii-encomp---encontro-norte-capixaba-de-computacao__2696886",
-    "_blank",
-  );
+    'https://lets.events/e/viii-encomp/tickets?eventId=viii-encomp',
+    '_blank',
+  )
 }
 </script>
 
 <template>
   <div class="relative flex w-full flex-col items-center gap-6">
-    <p class="section-eyebrow">VIII Edição · CEUNES / UFES</p>
+    <p class="section-eyebrow">
+      VIII Edição · CEUNES / UFES
+    </p>
 
     <h1
       class="inline-block text-balance bg-gradient-to-br from-foreground via-primary to-tertiary-300 bg-clip-text text-center font-titles text-5xl font-medium uppercase text-transparent drop-shadow-glow lg:text-7xl"

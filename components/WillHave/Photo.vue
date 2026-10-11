@@ -3,7 +3,7 @@ const props = defineProps(['title', 'description', 'image'])
 </script>
 
 <template>
-  <div class="group relative overflow-hidden rounded-xl border border-primary/25 bg-primary/10 transition duration-300 hover:-translate-y-1 hover:border-primary/70 hover:shadow-[0_18px_40px_-18px_hsl(var(--primary)/0.8)]">
+  <div class=" group relative h-full overflow-hidden rounded-xl border border-primary/25 bg-primary/10 transition duration-300 hover:-translate-y-1 hover:border-primary/70 hover:shadow-[0_18px_40px_-18px_hsl(var(--primary)/0.8)]">
     <img
       :src="props.image"
       class="h-60 w-full object-cover opacity-70 grayscale transition duration-500 group-hover:scale-105 group-hover:opacity-100 group-hover:grayscale-0"

@@ -1,39 +1,39 @@
 <script lang="ts" setup>
-import { Instagram, Mail } from "lucide-vue-next";
+import { Instagram, Mail } from 'lucide-vue-next'
 
-const router = useRouter();
+const router = useRouter()
 
 function toSchedule() {
-  router.push("/schedule");
+  router.push('/schedule')
 }
 function handleNavigateToFaq() {
-  router.push({ path: "/", hash: "#faq" });
+  router.push({ path: '/', hash: '#faq' })
 }
 function handleNavigateToGuests() {
-  router.push({ path: "/", hash: "#guests" });
+  router.push({ path: '/', hash: '#guests' })
 }
 
 function handleNavigateToHome() {
-  router.push("/");
+  router.push('/')
 }
 
 function handleNavigateToInstagram() {
-  window.open("https://www.instagram.com/encompceunes/", "_blank");
+  window.open('https://www.instagram.com/encompceunes/', '_blank')
 }
 
 function handleNavigateToLinkedin() {
-  window.open("https://www.linkedin.com/company/encomp-ceunes/", "_blank");
+  window.open('https://www.linkedin.com/company/encomp-ceunes/', '_blank')
 }
 
 function handleNavigateToEmail() {
-  window.open("mailto:encomp.ceunes@gmail.com", "_blank");
+  window.open('mailto:encomp.ceunes@gmail.com', '_blank')
 }
 
 function toSubscription() {
   window.open(
-    "https://www.sympla.com.br/vii-encomp---encontro-norte-capixaba-de-computacao__2696886",
-    "_blank",
-  );
+    'https://lets.events/e/viii-encomp/tickets?eventId=viii-encomp',
+    '_blank',
+  )
 }
 </script>
 
