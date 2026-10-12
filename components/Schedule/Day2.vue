@@ -43,7 +43,7 @@
               end="10:00"
               title="Oficina de Segurança da Informação"
               teacher="Murylo Dias"
-              position=""
+              position="Identificando vulnerabilidades em aplicações web"
               photo="/teachers/Murylo.png"
               extra="Minicurso"
             />
@@ -90,14 +90,16 @@
               end="10:00"
               title="Oficina de Segurança da Informação"
               teacher="Murylo Dias"
-              position=""
+              position="Identificando vulnerabilidades em aplicações web"
               photo="/teachers/Murylo.png"
               extra="Minicurso"
             />
           </CarouselItem>
         </CarouselContent>
       </Carousel>
-      <p class="mt-1 flex w-full justify-center pt-1 text-xs text-white opacity-50">
+      <p
+        class="mt-1 flex w-full justify-center pt-1 text-xs text-white opacity-50"
+      >
         Arraste para os lados e veja mais da programação
       </p>
     </div>
@@ -141,6 +143,7 @@
               end="12:30"
               title="Oficina de Segurança da Informação"
               teacher="Murylo Dias"
+              position="Identificando vulnerabilidades em aplicações web"
               photo="/teachers/Murylo.png"
               extra="Continuação"
             />
@@ -189,7 +192,9 @@
           </CarouselItem>
         </CarouselContent>
       </Carousel>
-      <p class="mt-1 flex w-full justify-center pt-1 text-xs text-white opacity-50">
+      <p
+        class="mt-1 flex w-full justify-center pt-1 text-xs text-white opacity-50"
+      >
         Arraste para os lados e veja mais da programação
       </p>
     </div>
@@ -201,7 +206,12 @@
       title="Intervalo de Almoço"
     />
 
-    <ScheduleEventSimple start="13:30" end="14:00" title="Credenciamento" extra="Auditório" />
+    <ScheduleEventSimple
+      start="13:30"
+      end="14:00"
+      title="Credenciamento"
+      extra="Auditório"
+    />
 
     <ScheduleEventTalk
       start="14:00"
@@ -214,12 +224,7 @@
       :show-description="false"
     />
 
-    <ScheduleEventSimple
-      start="14:50"
-      end="15:10"
-      title="Intervalo"
-      extra="Caso haja sorteios, este horário será utilizado"
-    />
+    <ScheduleEventSimple start="14:50" end="15:10" title="Intervalo" extra="" />
 
     <ScheduleEventTalk
       start="15:10"
@@ -234,12 +239,12 @@
 
     <ScheduleEventSimple
       start="16:00"
-      end="16:10"
-      title="Intervalo"
-      extra="Caso haja sorteios, este horário será utilizado"
+      end="17:20"
+      title="Em breve..."
+      extra=""
     />
 
-    <ScheduleEventSimple
+    <!-- <ScheduleEventSimple
       start="16:10"
       end="17:00"
       title="Palestra a definir"
@@ -248,6 +253,11 @@
 
     <ScheduleEventSimple start="17:00" end="17:20" title="Avisos e Sorteios" />
 
-    <ScheduleBreak start="17:20" end="18:00" class="my-3" title="Coffee Break | Encerramento" />
+    <ScheduleBreak
+      start="17:20"
+      end="18:00"
+      class="my-3"
+      title="Coffee Break | Encerramento"
+    /> -->
   </div>
 </template>

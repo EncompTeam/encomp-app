@@ -226,7 +226,7 @@
     <ScheduleEventTalk
       start="13:15"
       end="14:05"
-      title="Palestra 1 — IA"
+      title="Inteligência Artifícial"
       speaker="Pedro Henrique Vieira"
       position=""
       photo="/speakers/Pedro.png"
@@ -234,17 +234,12 @@
       :show-description="false"
     />
 
-    <ScheduleEventSimple
-      start="14:05"
-      end="14:15"
-      title="Intervalo"
-      extra="Caso haja sorteios, este horário será utilizado"
-    />
+    <ScheduleEventSimple start="14:05" end="14:15" title="Intervalo" extra="" />
 
     <ScheduleEventTalk
       start="14:15"
       end="16:30"
-      title="Mesa Redonda"
+      title="Mesa Redonda com Professores"
       speaker=""
       position=""
       photo=""
@@ -252,25 +247,20 @@
       :show-description="false"
     />
 
-    <ScheduleEventSimple
-      start="16:30"
-      end="16:40"
-      title="Intervalo"
-      extra="Caso haja sorteios, este horário será utilizado"
-    />
+    <ScheduleEventSimple start="16:30" end="16:40" title="Intervalo" extra="" />
 
     <ScheduleEventTalk
       start="16:40"
       end="17:30"
-      photo=""
+      photo="/speakers/Alan.png"
       title="Como fizemos um drone enxergar sozinho: IA aplicada, contada pelos acertos e pelos erros"
-      speaker=""
+      speaker="Alan Helal"
       position=""
       extra="Auditório"
       :show-description="false"
     />
 
-    <ScheduleEventSimple start="17:30" end="17:40" title="Avisos e Sorteios" />
+    <!-- <ScheduleEventSimple start="17:30" end="17:40" title="Avisos e Sorteios" /> -->
 
     <ScheduleBreak
       start="17:40"

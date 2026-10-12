@@ -1,18 +1,19 @@
 <script lang="ts" setup>
-import { FacebookIcon, MenuIcon, PartyPopperIcon } from 'lucide-vue-next'
+import { FacebookIcon, MenuIcon, PartyPopperIcon } from "lucide-vue-next";
 
 const emit = defineEmits<{
-  (e: 'navigate-to-home'): void
-  (e: 'navigate-to-schedule'): void
-  (e: 'navigate-to-guests'): void
-  (e: 'navigate-to-faq'): void
-  (e: 'navigate-to-inscription'): void
-  (e: 'navigate-to-marathon'): void
-}>()
+  (e: "navigate-to-home"): void;
+  (e: "navigate-to-schedule"): void;
+  (e: "navigate-to-guests"): void;
+  (e: "navigate-to-faq"): void;
+  (e: "navigate-to-inscription"): void;
+}>();
 </script>
 
 <template>
-  <header class="mx-auto flex h-14 w-full items-center justify-between rounded-full border border-primary/20 bg-background/80 bg-clip-padding p-4 shadow-[0_10px_40px_-24px_hsl(var(--primary)/0.7)] backdrop-blur-xl backdrop-filter lg:hidden">
+  <header
+    class="mx-auto flex h-14 w-full items-center justify-between rounded-full border border-primary/20 bg-background/80 bg-clip-padding p-4 shadow-[0_10px_40px_-24px_hsl(var(--primary)/0.7)] backdrop-blur-xl backdrop-filter lg:hidden"
+  >
     <Logo size="130" />
     <Sheet>
       <SheetTrigger as-child>
@@ -20,7 +21,10 @@ const emit = defineEmits<{
           <MenuIcon />
         </Button>
       </SheetTrigger>
-      <SheetContent v-bind="$attrs" class="flex w-2/3 flex-col border-primary/40 bg-background/95 backdrop-blur-xl">
+      <SheetContent
+        v-bind="$attrs"
+        class="flex w-2/3 flex-col border-primary/40 bg-background/95 backdrop-blur-xl"
+      >
         <SheetHeader class="items-start">
           <SheetTitle>
             <Logo size="130" />
@@ -29,32 +33,57 @@ const emit = defineEmits<{
         <nav class="w-full flex-1 py-9" aria-label="menu">
           <ul class="flex flex-col items-center gap-3">
             <li class="w-full">
-              <Button class="w-full text-lg text-foreground" variant="link" @click="() => emit('navigate-to-home')">
+              <Button
+                class="w-full text-lg text-foreground"
+                variant="link"
+                @click="() => emit('navigate-to-home')"
+              >
                 Home
               </Button>
             </li>
             <li class="w-full">
-              <Button class="w-full text-lg text-foreground" variant="link" @click="() => emit('navigate-to-guests')">
+              <Button
+                class="w-full text-lg text-foreground"
+                variant="link"
+                @click="() => emit('navigate-to-guests')"
+              >
                 Convidados
               </Button>
             </li>
             <li class="w-full">
-              <Button class="w-full text-lg text-foreground" variant="link" @click="() => emit('navigate-to-schedule')">
+              <Button
+                class="w-full text-lg text-foreground"
+                variant="link"
+                @click="() => emit('navigate-to-schedule')"
+              >
                 Programação
               </Button>
             </li>
             <li>
-              <Button class="text-lg text-foreground" variant="link" @click="() => emit('navigate-to-marathon')">
+              <Button
+                class="text-lg text-foreground"
+                variant="link"
+                @click="() => emit('navigate-to-marathon')"
+              >
                 Maratona de Programação
               </Button>
             </li>
             <li class="w-full">
-              <Button class="w-full text-lg text-foreground" variant="link" @click="() => emit('navigate-to-faq')">
+              <Button
+                class="w-full text-lg text-foreground"
+                variant="link"
+                @click="() => emit('navigate-to-faq')"
+              >
                 FAQ
               </Button>
             </li>
             <li class="w-full py-6">
-              <Button size="lg" class="flex w-full items-center gap-2 text-lg" variant="secondary" @click="() => emit('navigate-to-inscription')">
+              <Button
+                size="lg"
+                class="flex w-full items-center gap-2 text-lg"
+                variant="secondary"
+                @click="() => emit('navigate-to-inscription')"
+              >
                 Inscreva-se <PartyPopperIcon />
               </Button>
             </li>

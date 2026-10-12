@@ -1,34 +1,45 @@
 <script lang="ts" setup>
 const props = withDefaults(
   defineProps<{
-    start?: string
-    end?: string
-    title?: string
-    description?: string
-    showDescription?: boolean
-    extra?: string
-    speaker?: string
-    position?: string
-    photo: string
+    start?: string;
+    end?: string;
+    title?: string;
+    description?: string;
+    showDescription?: boolean;
+    extra?: string;
+    speaker?: string;
+    position?: string;
+    photo: string;
   }>(),
-  { showDescription: true, description: 'Não há nada aqui ainda!', photo: '/logo_circle.png' },
-)
+  {
+    showDescription: true,
+    description: "Não há nada aqui ainda!",
+    photo: "/logo_circle.png",
+  },
+);
 </script>
 
 <template>
-  <div class="mb-3 max-w-5xl rounded-md border border-gray-500 px-3 py-2 md:border-2">
+  <div
+    class="mb-3 max-w-5xl rounded-md border border-gray-500 px-3 py-2 md:border-2"
+  >
     <div>
       <div class="flex justify-between">
         <p class="pl-20 text-xs text-tertiary lg:text-lg">
           {{ props.extra }}
         </p>
-        <Popover>
+        <Popover v-if="showDescription">
           <PopoverTrigger>
             <p class="text-xs text-primary hover:underline md:text-lg">
               Mais Informações
             </p>
           </PopoverTrigger>
-          <PopoverContent v-if="showDescription" side="left" :side-offset="-30" class="border-primary bg-popover/95 backdrop-blur-xl">
+          <PopoverContent
+            v-if="showDescription"
+            side="left"
+            :side-offset="-30"
+            class="border-primary bg-popover/95 backdrop-blur-xl"
+          >
             <div>
               <p class="text-balance">
                 {{ props.description }}
@@ -54,7 +65,7 @@ const props = withDefaults(
       <Avatar class="bg-primary" size="sm">
         <AvatarImage :src="props.photo" />
         <AvatarFallback>
-          <img src="/logo_circle.png">
+          <img src="/logo_circle.png" />
         </AvatarFallback>
       </Avatar>
       <div class="ml-4">

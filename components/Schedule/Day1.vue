@@ -35,7 +35,7 @@
               extra="Minicurso"
             />
           </CarouselItem>
-          <CarouselItem class="basis-1/2 pl-2">
+          <!-- <CarouselItem class="basis-1/2 pl-2">
             <ScheduleEventCourse
               start="08:00"
               end="10:00"
@@ -45,7 +45,7 @@
               photo="/logo_circle.png"
               extra="Minicurso"
             />
-          </CarouselItem>
+          </CarouselItem> -->
         </CarouselContent>
         <CarouselPrevious />
         <CarouselNext />
@@ -80,7 +80,7 @@
               extra="Minicurso"
             />
           </CarouselItem>
-          <CarouselItem>
+          <!-- <CarouselItem>
             <ScheduleEventCourse
               start="08:00"
               end="10:00"
@@ -90,10 +90,12 @@
               photo="/logo_circle.png"
               extra="Minicurso"
             />
-          </CarouselItem>
+          </CarouselItem> -->
         </CarouselContent>
       </Carousel>
-      <p class="mt-1 flex w-full justify-center pt-1 text-xs text-white opacity-50">
+      <p
+        class="mt-1 flex w-full justify-center pt-1 text-xs text-white opacity-50"
+      >
         Arraste para os lados e veja mais da programação
       </p>
     </div>
@@ -130,7 +132,7 @@
               extra="Continuação"
             />
           </CarouselItem>
-          <CarouselItem class="basis-1/2 pl-2">
+          <!-- <CarouselItem class="basis-1/2 pl-2">
             <ScheduleEventCourse
               start="10:30"
               end="12:00"
@@ -139,7 +141,7 @@
               photo="/logo_circle.png"
               extra="Continuação"
             />
-          </CarouselItem>
+          </CarouselItem> -->
         </CarouselContent>
         <CarouselPrevious />
         <CarouselNext />
@@ -171,7 +173,7 @@
               extra="Continuação"
             />
           </CarouselItem>
-          <CarouselItem>
+          <!-- <CarouselItem>
             <ScheduleEventCourse
               start="10:30"
               end="12:00"
@@ -180,10 +182,12 @@
               photo="/logo_circle.png"
               extra="Continuação"
             />
-          </CarouselItem>
+          </CarouselItem> -->
         </CarouselContent>
       </Carousel>
-      <p class="mt-1 flex w-full justify-center pt-1 text-xs text-white opacity-50">
+      <p
+        class="mt-1 flex w-full justify-center pt-1 text-xs text-white opacity-50"
+      >
         Arraste para os lados e veja mais da programação
       </p>
     </div>
@@ -195,7 +199,12 @@
       title="Intervalo de Almoço"
     />
 
-    <ScheduleEventSimple start="13:30" end="14:00" title="Credenciamento" extra="Auditório" />
+    <ScheduleEventSimple
+      start="13:30"
+      end="14:00"
+      title="Credenciamento"
+      extra="Auditório"
+    />
 
     <ScheduleEventTalk
       start="14:00"
@@ -223,7 +232,7 @@
       start="15:40"
       end="16:00"
       title="Intervalo + Avisos"
-      extra="Caso haja sorteios, este horário será utilizado"
+      extra=""
     />
 
     <ScheduleEventTalk
@@ -237,6 +246,11 @@
       :show-description="false"
     />
 
-    <ScheduleBreak start="17:20" end="18:00" class="my-3" title="Coffee Break | Encerramento" />
+    <ScheduleBreak
+      start="17:20"
+      end="18:00"
+      class="my-3"
+      title="Coffee Break | Encerramento"
+    />
   </div>
 </template>
