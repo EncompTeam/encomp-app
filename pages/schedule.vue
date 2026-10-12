@@ -1,34 +1,36 @@
 <script lang="ts" setup>
 definePageMeta({
-  layout: "default",
-});
+  layout: 'default',
+})
 
-const activeDay = ref("day0");
+const activeDay = ref('day0')
 
 function showDayX(component: string) {
-  activeDay.value = component;
+  activeDay.value = component
 }
 
 defineOgImage({
-  component: "Main",
-});
+  component: 'Main',
+})
 
 useSeoMeta({
-  title: "Encontro Norte Capixaba de Computação (ENCOMP)",
+  title: 'Encontro Norte Capixaba de Computação (ENCOMP)',
   description:
-    "O Encontro Norte Capixaba de Computação ou ENCOMP é um evento de tecnologia realizado por alunos de Ciência e Engenharia da Computação da UFES - Campus São Mateus.",
-  ogTitle: "Encontro Norte Capixaba de Computação (ENCOMP)",
+    'O Encontro Norte Capixaba de Computação ou ENCOMP é um evento de tecnologia realizado por alunos de Ciência e Engenharia da Computação da UFES - Campus São Mateus.',
+  ogTitle: 'Encontro Norte Capixaba de Computação (ENCOMP)',
   ogDescription:
-    "O Encontro Norte Capixaba de Computação ou ENCOMP é um evento de tecnologia realizado por alunos de Ciência e Engenharia da Computação da UFES - Campus São Mateus.",
-});
+    'O Encontro Norte Capixaba de Computação ou ENCOMP é um evento de tecnologia realizado por alunos de Ciência e Engenharia da Computação da UFES - Campus São Mateus.',
+})
 </script>
 
 <template>
   <div class="lg:ml-30 mx-5 mt-10 md:ml-44">
     <div class="mb-20">
-      <div class="section-eyebrow mb-5 w-fit">Programação</div>
+      <div class="section-eyebrow mb-5 w-fit">
+        Programação
+      </div>
       <p class="max-w-sm text-xl md:max-w-lg">
-        A 8º edição do ENCOMP vai ocorrer nos dias 11, 12 e 13 de novembro,
+        A 8ª edição do ENCOMP vai ocorrer nos dias 11, 12 e 13 de novembro,
         confira nossa programação
       </p>
       <div class="mt-4 flex flex-wrap gap-3">
@@ -55,7 +57,7 @@ useSeoMeta({
           "
           @click="showDayX('day1')"
         >
-          06/11
+          12/11
         </Button>
         <Button
           variant="default"
@@ -67,7 +69,7 @@ useSeoMeta({
           "
           @click="showDayX('day2')"
         >
-          07/11
+          13/11
         </Button>
       </div>
     </div>

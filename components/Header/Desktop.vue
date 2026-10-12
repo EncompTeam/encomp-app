@@ -1,13 +1,13 @@
 <script lang="ts" setup>
-import { PartyPopperIcon } from "lucide-vue-next";
+import { PartyPopperIcon } from 'lucide-vue-next'
 
 const emit = defineEmits<{
-  (e: "navigate-to-home"): void;
-  (e: "navigate-to-schedule"): void;
-  (e: "navigate-to-guests"): void;
-  (e: "navigate-to-faq"): void;
-  (e: "navigate-to-inscription"): void;
-}>();
+  (e: 'navigate-to-home'): void
+  (e: 'navigate-to-schedule'): void
+  (e: 'navigate-to-guests'): void
+  (e: 'navigate-to-faq'): void
+  (e: 'navigate-to-inscription'): void
+}>()
 </script>
 
 <template>

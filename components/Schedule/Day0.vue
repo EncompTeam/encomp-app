@@ -1,10 +1,9 @@
-:
 <template>
-  <div class="mb-96">
+  <div>
     <ScheduleHeader day="11" />
     <ScheduleEventSimple
       start="07:30"
-      end="8:00"
+      end="08:00"
       title="Credenciamento | Minicursos"
     />
 
@@ -17,10 +16,10 @@
               start="08:00"
               end="10:00"
               title="Oficina de Desenvolvimento Backend"
-              teacher="Thae"
-              position=""
-              photo="/teachers/kethlen_correia.png"
-              description="No minicurso de introdução em UI/UX, serão explorados conceitos essenciais que fundamentam a criação de interfaces  e experiências do usuário. Abordaremos a importância do design na construção de produtos digitais, além dos princípios que garantem uma interface atraente e funcional.<br><br>Os participantes também terão a oportunidade de conhecer ferramentas e recursos populares do mercado, como Figma, que facilitam o processo de design. Para finalizar, um exercício prático permitirá que cada um aplique o que aprendeu, criando sua própria interface e recebendo feedback."
+              teacher="Thae Morais"
+              position="Do zero à API: construindo um backend com Node.js"
+              photo="/teachers/Thae.png"
+              description="Como uma aplicação armazena, organiza e disponibiliza informações? Neste minicurso prático, você vai descobrir como funciona o backend de uma aplicação web e construir sua própria API REST utilizando Node.js e Express. Ao longo da atividade, vamos desenvolver as principais operações de um CRUD - criar, consultar, atualizar e excluir dados -, compreender o funcionamento das rotas HTTP e testar os resultados na prática. Ao final, você terá uma API funcional e os conhecimentos essenciais para dar os primeiros passos no desenvolvimento backend."
               extra="Minicurso"
               :show-description="true"
             />
@@ -29,11 +28,11 @@
             <ScheduleEventCourse
               start="08:00"
               end="10:00"
-              title="Oficina de Fundamento ao Github"
-              teacher="Eduardo Cicuti"
-              photo="/teachers/andre_bessa.png"
+              title="Oficina de Fundamentos ao Github"
+              teacher="Eduardo Cicutti"
               position=""
-              description="- Apresentação dos conceitos fundamentais de Minimal API.<br>- Demonstração da construção de uma API do zero utilizando C# e .NET.<br>- Aprendizado da integração com banco de dados (InMemory ou SQL Server).<br>- Implementação das operações CRUD (Create, Read, Update, Delete).<br><br><u>REQUISITOS:</u><br><b>Necessário:</b> Conhecimentos básicos da linguagem C#.<br><b>Desejável:</b> Conhecer o paradigma Orientado à Objetos e sabr operações básicas em bancos de dados relacionais.<br><br>Os inscritos <b>PRECISARÃO LEVAR A PRÓPRIA MÁQUINA</b> para participar do minicurso.<br><b>Requisitos mínimos:</b> i5 de 10ª geração (ou equivalente), 8GB de RAM (ou superior).\n<br><b>Requisitos recomendados:</b> i5 de 11ª geração (ou equivalente), 16 GB de RAM (ou superior).<br><br><i> Em último caso, os computadores do laboratório estarão preparados com os softwares necessários, mas não garantimos um bom desempenho."
+              photo="/teachers/Eduardo.png"
+              description="Trata-se de um treinamento prático e rápido que ensina iniciantes a hospedar, versionar e compartilhar códigos na nuvem, através do Github. O aluno aprende a criar repositórios e a usar os comandos essenciais (add, commit, push e pull) para salvar projetos e montar um portfólio digital, além de entender a base da colaboração em equipe para programar simultaneamente no mesmo código de forma segura."
               extra="Minicurso"
               :show-description="true"
             />
@@ -43,10 +42,10 @@
               start="08:00"
               end="10:00"
               title="Oficina de Análise de Dados"
-              teacher="Iasmyn"
-              photo="/speakers/beatriz_duarte.png"
-              position="Engenheira de Sofware no Nubank"
-              description="Vamos explorar as habilidades e <i>soft skills</i> essenciais que vão te destacar no mercado e como trablhar e aplicar elas no seu dia a dia!"
+              teacher="Iasmin Marques"
+              position="Análise e visualização de dados com Python"
+              photo="/teachers/Iasmin.png"
+              description="Este minicurso foi desenvolvido para quem deseja dominar as ferramentas para análise e visualização de dados, utilizando a linguagem Python. Ao longo do minicurso, os participantes aprenderão a manipular e transformar dados com a biblioteca Pandas, criar gráficos interativos e visualizações com Matplotlib e Plotly, além de explorar o Google Colab como plataforma colaborativa para rodar e compartilhar projetos na nuvem. O curso também abordará técnicas de análise de dados, desde a exploração até a extração de insights para a tomada de decisões estratégicas"
               extra="Minicurso"
               :show-description="true"
             />
@@ -66,10 +65,10 @@
               start="08:00"
               end="10:00"
               title="Oficina de Desenvolvimento Backend"
-              teacher="Thae"
-              position=""
-              photo="/teachers/kethlen_correia.png"
-              description="No minicurso de introdução em UI/UX, serão explorados conceitos essenciais que fundamentam a criação de interfaces  e experiências do usuário. Abordaremos a importância do design na construção de produtos digitais, além dos princípios que garantem uma interface atraente e funcional.<br><br>Os participantes também terão a oportunidade de conhecer ferramentas e recursos populares do mercado, como Figma, que facilitam o processo de design. Para finalizar, um exercício prático permitirá que cada um aplique o que aprendeu, criando sua própria interface e recebendo feedback."
+              teacher="Thae Morais"
+              position="Do zero à API: construindo um backend com Node.js"
+              photo="/teachers/Thae.png"
+              description="Como uma aplicação armazena, organiza e disponibiliza informações? Neste minicurso prático, você vai descobrir como funciona o backend de uma aplicação web e construir sua própria API REST utilizando Node.js e Express. Ao longo da atividade, vamos desenvolver as principais operações de um CRUD - criar, consultar, atualizar e excluir dados -, compreender o funcionamento das rotas HTTP e testar os resultados na prática. Ao final, você terá uma API funcional e os conhecimentos essenciais para dar os primeiros passos no desenvolvimento backend."
               extra="Minicurso"
               :show-description="true"
             />
@@ -78,13 +77,13 @@
             <ScheduleEventCourse
               start="08:00"
               end="10:00"
-              title="Oficina de Fundamento ao Github"
-              teacher="Eduardo Cicuti"
-              photo="/teachers/andre_bessa.png"
-              extra="Minicurso"
-              description="- Apresentação dos conceitos fundamentais de Minimal API.<br>- Demonstração da construção de uma API do zero utilizando C# e .NET.<br>- Aprendizado da integração com banco de dados (InMemory ou SQL Server).<br>- Implementação das operações CRUD (Create, Read, Update, Delete).<br><br><u>REQUISITOS:</u><br><b>Necessário:</b> Conhecimentos básicos da linguagem C#.<br><b>Desejável:</b> Conhecer o paradigma Orientado à Objetos e sabr operações básicas em bancos de dados relacionais.<br><br>Os inscritos <b>PRECISARÃO LEVAR A PRÓPRIA MÁQUINA</b> para participar do minicurso.<br><b>Requisitos mínimos:</b> i5 de 10ª geração (ou equivalente), 8GB de RAM (ou superior).\n<br><b>Requisitos recomendados:</b> i5 de 11ª geração (ou equivalente), 16 GB de RAM (ou superior).<br><br><i> Em último caso, os computadores do laboratório estarão preparados com os softwares necessários, mas não garantimos um bom desempenho."
-              :show-description="true"
+              title="Oficina de Fundamentos ao Github"
+              teacher="Eduardo Cicutti"
               position=""
+              photo="/teachers/Eduardo.png"
+              description="Trata-se de um treinamento prático e rápido que ensina iniciantes a hospedar, versionar e compartilhar códigos na nuvem, através do Github. O aluno aprende a criar repositórios e a usar os comandos essenciais (add, commit, push e pull) para salvar projetos e montar um portfólio digital, além de entender a base da colaboração em equipe para programar simultaneamente no mesmo código de forma segura."
+              extra="Minicurso"
+              :show-description="true"
             />
           </CarouselItem>
           <CarouselItem>
@@ -92,10 +91,10 @@
               start="08:00"
               end="10:00"
               title="Oficina de Análise de Dados"
-              teacher="Iasmyn"
-              photo="/speakers/beatriz_duarte.png"
-              position="Engenheira de Sofware no Nubank"
-              description="Vamos explorar as habilidades e <i>soft skills</i> essenciais que vão te destacar no mercado e como trablhar e aplicar elas no seu dia a dia!"
+              teacher="Iasmin Marques"
+              position="Análise e visualização de dados com Python"
+              photo="/teachers/Iasmin.png"
+              description="Este minicurso foi desenvolvido para quem deseja dominar as ferramentas para análise e visualização de dados, utilizando a linguagem Python. Ao longo do minicurso, os participantes aprenderão a manipular e transformar dados com a biblioteca Pandas, criar gráficos interativos e visualizações com Matplotlib e Plotly, além de explorar o Google Colab como plataforma colaborativa para rodar e compartilhar projetos na nuvem. O curso também abordará técnicas de análise de dados, desde a exploração até a extração de insights para a tomada de decisões estratégicas"
               extra="Minicurso"
               :show-description="true"
             />
@@ -108,6 +107,7 @@
         Arraste para os lados e veja mais da programação
       </p>
     </div>
+
     <ScheduleBreak
       start="10:00"
       end="10:30"
@@ -121,41 +121,34 @@
         <CarouselContent>
           <CarouselItem class="basis-1/2">
             <ScheduleEventCourse
-              start="08:00"
-              end="10:00"
+              start="10:30"
+              end="12:00"
               title="Oficina de Desenvolvimento Backend"
-              teacher="Thae"
-              position=""
-              photo="/teachers/kethlen_correia.png"
-              description="No minicurso de introdução em UI/UX, serão explorados conceitos essenciais que fundamentam a criação de interfaces  e experiências do usuário. Abordaremos a importância do design na construção de produtos digitais, além dos princípios que garantem uma interface atraente e funcional.<br><br>Os participantes também terão a oportunidade de conhecer ferramentas e recursos populares do mercado, como Figma, que facilitam o processo de design. Para finalizar, um exercício prático permitirá que cada um aplique o que aprendeu, criando sua própria interface e recebendo feedback."
-              extra="Minicurso"
-              :show-description="true"
+              teacher="Thae Morais"
+              position="Do zero à API: construindo um backend com Node.js"
+              photo="/teachers/Thae.png"
+              extra="Continuação"
             />
           </CarouselItem>
           <CarouselItem class="basis-1/2 pl-2">
             <ScheduleEventCourse
-              start="08:00"
-              end="10:00"
-              title="Oficina de Fundamento ao Github"
-              teacher="Eduardo Cicuti"
-              photo="/teachers/andre_bessa.png"
-              position=""
-              description="- Apresentação dos conceitos fundamentais de Minimal API.<br>- Demonstração da construção de uma API do zero utilizando C# e .NET.<br>- Aprendizado da integração com banco de dados (InMemory ou SQL Server).<br>- Implementação das operações CRUD (Create, Read, Update, Delete).<br><br><u>REQUISITOS:</u><br><b>Necessário:</b> Conhecimentos básicos da linguagem C#.<br><b>Desejável:</b> Conhecer o paradigma Orientado à Objetos e sabr operações básicas em bancos de dados relacionais.<br><br>Os inscritos <b>PRECISARÃO LEVAR A PRÓPRIA MÁQUINA</b> para participar do minicurso.<br><b>Requisitos mínimos:</b> i5 de 10ª geração (ou equivalente), 8GB de RAM (ou superior).\n<br><b>Requisitos recomendados:</b> i5 de 11ª geração (ou equivalente), 16 GB de RAM (ou superior).<br><br><i> Em último caso, os computadores do laboratório estarão preparados com os softwares necessários, mas não garantimos um bom desempenho."
-              extra="Minicurso"
-              :show-description="true"
+              start="10:30"
+              end="12:00"
+              title="Oficina de Fundamentos ao Github"
+              teacher="Eduardo Cicutti"
+              photo="/teachers/Eduardo.png"
+              extra="Continuação"
             />
           </CarouselItem>
           <CarouselItem class="basis-1/2 pl-2">
             <ScheduleEventCourse
-              start="08:00"
-              end="10:00"
+              start="10:30"
+              end="12:00"
               title="Oficina de Análise de Dados"
-              teacher="Iasmyn"
-              photo="/speakers/beatriz_duarte.png"
-              position="Engenheira de Sofware no Nubank"
-              description="Vamos explorar as habilidades e <i>soft skills</i> essenciais que vão te destacar no mercado e como trablhar e aplicar elas no seu dia a dia!"
-              extra="Minicurso"
-              :show-description="true"
+              teacher="Iasmin Marques"
+              position="Análise e visualização de dados com Python"
+              photo="/teachers/Iasmin.png"
+              extra="Continuação"
             />
           </CarouselItem>
         </CarouselContent>
@@ -163,47 +156,41 @@
         <CarouselNext />
       </Carousel>
     </div>
+
     <!-- Courses line carousel display for small screens -->
     <div class="lg:hidden">
       <Carousel>
         <CarouselContent>
           <CarouselItem>
             <ScheduleEventCourse
-              start="08:00"
-              end="10:00"
+              start="10:30"
+              end="12:00"
               title="Oficina de Desenvolvimento Backend"
-              teacher="Thae"
-              position=""
-              photo="/teachers/kethlen_correia.png"
-              description="No minicurso de introdução em UI/UX, serão explorados conceitos essenciais que fundamentam a criação de interfaces  e experiências do usuário. Abordaremos a importância do design na construção de produtos digitais, além dos princípios que garantem uma interface atraente e funcional.<br><br>Os participantes também terão a oportunidade de conhecer ferramentas e recursos populares do mercado, como Figma, que facilitam o processo de design. Para finalizar, um exercício prático permitirá que cada um aplique o que aprendeu, criando sua própria interface e recebendo feedback."
-              extra="Minicurso"
-              :show-description="true"
+              teacher="Thae Morais"
+              position="Do zero à API: construindo um backend com Node.js"
+              photo="/teachers/Thae.png"
+              extra="Continuação"
             />
           </CarouselItem>
           <CarouselItem>
             <ScheduleEventCourse
-              start="08:00"
-              end="10:00"
-              title="Oficina de Fundamento ao Github"
-              teacher="Eduardo Cicuti"
-              photo="/teachers/andre_bessa.png"
-              extra="Minicurso"
-              description="- Apresentação dos conceitos fundamentais de Minimal API.<br>- Demonstração da construção de uma API do zero utilizando C# e .NET.<br>- Aprendizado da integração com banco de dados (InMemory ou SQL Server).<br>- Implementação das operações CRUD (Create, Read, Update, Delete).<br><br><u>REQUISITOS:</u><br><b>Necessário:</b> Conhecimentos básicos da linguagem C#.<br><b>Desejável:</b> Conhecer o paradigma Orientado à Objetos e sabr operações básicas em bancos de dados relacionais.<br><br>Os inscritos <b>PRECISARÃO LEVAR A PRÓPRIA MÁQUINA</b> para participar do minicurso.<br><b>Requisitos mínimos:</b> i5 de 10ª geração (ou equivalente), 8GB de RAM (ou superior).\n<br><b>Requisitos recomendados:</b> i5 de 11ª geração (ou equivalente), 16 GB de RAM (ou superior).<br><br><i> Em último caso, os computadores do laboratório estarão preparados com os softwares necessários, mas não garantimos um bom desempenho."
-              :show-description="true"
-              position=""
+              start="10:30"
+              end="12:00"
+              title="Oficina de Fundamentos ao Github"
+              teacher="Eduardo Cicutti"
+              photo="/teachers/Eduardo.png"
+              extra="Continuação"
             />
           </CarouselItem>
           <CarouselItem>
             <ScheduleEventCourse
-              start="08:00"
-              end="10:00"
+              start="10:30"
+              end="12:00"
               title="Oficina de Análise de Dados"
-              teacher="Iasmyn"
-              photo="/speakers/beatriz_duarte.png"
-              position="Engenheira de Sofware no Nubank"
-              description="Vamos explorar as habilidades e <i>soft skills</i> essenciais que vão te destacar no mercado e como trablhar e aplicar elas no seu dia a dia!"
-              extra="Minicurso"
-              :show-description="true"
+              teacher="Iasmin Marques"
+              position="Análise e visualização de dados com Python"
+              photo="/teachers/Iasmin.png"
+              extra="Continuação"
             />
           </CarouselItem>
         </CarouselContent>
@@ -222,17 +209,74 @@
       title="Intervalo de Almoço"
     />
 
-    <ScheduleEventSimple start="12:30" end="13:00" title="Credenciamento" />
+    <ScheduleEventSimple
+      start="12:30"
+      end="13:00"
+      title="Credenciamento"
+      extra="Auditório"
+    />
 
-    <ScheduleEventSimple start="13:00" end="13:15" title="Abertura do Evento" />
+    <ScheduleEventSimple
+      start="13:00"
+      end="13:15"
+      title="Abertura"
+      extra="Auditório"
+    />
 
     <ScheduleEventTalk
       start="13:15"
       end="14:05"
-      title="IA Pedro"
+      title="Palestra 1 — IA"
+      speaker="Pedro Henrique Vieira"
+      position=""
+      photo="/speakers/Pedro.png"
+      extra="Auditório"
+      :show-description="false"
+    />
+
+    <ScheduleEventSimple
+      start="14:05"
+      end="14:15"
+      title="Intervalo"
+      extra="Caso haja sorteios, este horário será utilizado"
+    />
+
+    <ScheduleEventTalk
+      start="14:15"
+      end="16:30"
+      title="Mesa Redonda"
       speaker=""
       position=""
       photo=""
+      extra="Auditório"
+      :show-description="false"
+    />
+
+    <ScheduleEventSimple
+      start="16:30"
+      end="16:40"
+      title="Intervalo"
+      extra="Caso haja sorteios, este horário será utilizado"
+    />
+
+    <ScheduleEventTalk
+      start="16:40"
+      end="17:30"
+      photo=""
+      title="Como fizemos um drone enxergar sozinho: IA aplicada, contada pelos acertos e pelos erros"
+      speaker=""
+      position=""
+      extra="Auditório"
+      :show-description="false"
+    />
+
+    <ScheduleEventSimple start="17:30" end="17:40" title="Avisos e Sorteios" />
+
+    <ScheduleBreak
+      start="17:40"
+      end="18:00"
+      class="my-3"
+      title="Coffee Break | Encerramento"
     />
   </div>
 </template>

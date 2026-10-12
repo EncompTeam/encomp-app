@@ -1,14 +1,14 @@
 <script lang="ts" setup>
-import { ArrowUpIcon, InstagramIcon, LinkedinIcon } from "lucide-vue-next";
+import { ArrowUpIcon, InstagramIcon, LinkedinIcon } from 'lucide-vue-next'
 
 const emits = defineEmits<{
-  (e: "navigate-to-instagram"): void;
-  (e: "navigate-to-linkedin"): void;
-  (e: "navigate-to-email"): void;
-}>();
+  (e: 'navigate-to-instagram'): void
+  (e: 'navigate-to-linkedin'): void
+  (e: 'navigate-to-email'): void
+}>()
 
 function scrollToTop() {
-  window.scrollTo({ top: 0, behavior: "smooth" });
+  window.scrollTo({ top: 0, behavior: 'smooth' })
 }
 </script>
 

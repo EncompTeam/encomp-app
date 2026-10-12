@@ -3,8 +3,8 @@
 </script>
 
 <template>
-  <div class="flex justify-center items-center">
-    <div class="text-shadow flex items-center justify-center font-titles text-md font-bold uppercase text-glow">
+  <div class="flex items-center justify-center">
+    <div class="text-shadow text-md flex items-center justify-center font-titles font-bold uppercase text-glow">
       <slot />
     </div>
   </div>

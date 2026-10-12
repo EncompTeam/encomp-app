@@ -1,6 +1,4 @@
 <script lang="ts" setup>
-import { Instagram, Mail } from 'lucide-vue-next'
-
 const router = useRouter()
 
 function toSchedule() {

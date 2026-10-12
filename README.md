@@ -3,6 +3,7 @@
 Site do **Encontro Norte Capixaba de Computação (ENCOMP)** – evento de tecnologia realizado por alunos de Ciência e Engenharia da Computação da UFES – Campus São Mateus (CEUNES).
 
 ## Informações sobre o app
+
 - Engine: Node 18 ou superior
 - Framework: Nuxt 3 (SSR) + Tailwind CSS + shadcn-vue/radix-vue
 
@@ -15,12 +16,12 @@ npm run dev        # http://localhost:3000
 
 Outros scripts:
 
-| Script            | Descrição                          |
-| ----------------- | ---------------------------------- |
-| `npm run dev`     | Servidor de desenvolvimento (HMR)  |
-| `npm run build`   | Build de produção (`.output`)      |
-| `npm run preview` | Preview do build de produção       |
-| `npm run generate`| Build estático (sem servidor)      |
+| Script             | Descrição                         |
+| ------------------ | --------------------------------- |
+| `npm run dev`      | Servidor de desenvolvimento (HMR) |
+| `npm run build`    | Build de produção (`.output`)     |
+| `npm run preview`  | Preview do build de produção      |
+| `npm run generate` | Build estático (sem servidor)     |
 
 ## Docker
 
@@ -62,9 +63,9 @@ docker image prune -f          # limpar imagens órfãs
 
 ### Variáveis de ambiente
 
-| Variável  | Descrição                                      | Padrão                  |
-| --------- | ---------------------------------------------- | ----------------------- |
-| `SITE_URL`| URL pública usada pelo `@nuxtjs/seo` (OG/sitemap) | `http://localhost:3000` |
-| `PORT`    | Porta publicada pelo `docker compose`          | `3000`                  |
+| Variável   | Descrição                                         | Padrão                  |
+| ---------- | ------------------------------------------------- | ----------------------- |
+| `SITE_URL` | URL pública usada pelo `@nuxtjs/seo` (OG/sitemap) | `http://localhost:3000` |
+| `PORT`     | Porta publicada pelo `docker compose`             | `3000`                  |
 
 > Observação: o `@nuxt/fonts`/`@nuxtjs/seo` baixa fontes e gera imagens no momento do **build**, então a etapa `docker build` precisa de acesso à internet.

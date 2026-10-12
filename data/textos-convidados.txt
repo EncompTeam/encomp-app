@@ -1,0 +1,44 @@
+Minicurso de Github - Ministrado pelo Eduardo Cicutti
+Trata-se de  um treinamento prático e rápido que ensina iniciantes a hospedar, versionar e compartilhar códigos na nuvem, através do Github. O aluno aprende a criar repositórios e a usar os comandos essenciais (add, commit, push e pull) para salvar projetos e montar um portfólio digital, além de entender a base da colaboração em equipe para programar simultaneamente no mesmo código de forma segura.
+
+Minicurso Analise e Visualização de Dados - Iasmin Marques
+Este minicurso foi desenvolvido para quem deseja dominar as ferramentas para análise e visualização de dados, utilizando a linguagem Python. Ao longo do minicurso, os participantes aprenderão a manipular e transformar dados com a biblioteca Pandas, criar gráficos interativos e visualizações com Matplotlib e Plotly, além de explorar o Google Colab como plataforma colaborativa para rodar e compartilhar projetos na nuvem. O curso também abordará técnicas de análise de dados, desde a exploração até a extração de insights para a tomada de decisões estratégicas
+
+
+
+Minicurso Backend e Frontend - Thae Morais
+Backend:
+Do zero à API: construindo um backend com Node.js
+Como uma aplicação armazena, organiza e disponibiliza informações? Neste minicurso prático, você vai descobrir como funciona o backend de uma aplicação web e construir sua própria API REST utilizando Node.js e Express. Ao longo da atividade, vamos desenvolver as principais operações de um CRUD - criar, consultar, atualizar e excluir dados -, compreender o funcionamento das rotas HTTP e testar os resultados na prática. Ao final, você terá uma API funcional e os conhecimentos essenciais para dar os primeiros passos no desenvolvimento backend.
+
+Frontend
+Do Código à Interface: Desenvolvendo Aplicações Web com HTML, CSS e JavaScript
+Já imaginou transformar dados de uma API em uma aplicação web interativa e funcional? Neste minicurso prático, você vai explorar os fundamentos do desenvolvimento frontend utilizando HTML, CSS e JavaScript puro, aprendendo a estruturar páginas, estilizá-las e adicionar interatividade às interfaces. Na prática, você desenvolverá um projeto, aprenderá a conectar sua aplicação a uma API REST, implementando funcionalidades de cadastro, consulta, edição e exclusão de dados. Ao final, você terá uma visão prática de como as principais tecnologias do frontend trabalham juntas para dar vida a aplicações web.
+
+
+
+Palestra 13/11 - Privacidade e Segurança na era da IA - Professor Rodolfo Villaça
+
+
+
+Palestra 12/11 - Computação em nuvem e mercado de trabalho: por onde começar? - Julio Nico
+
+
+Palestra 11/11 - Como fizemos um drone enxergar sozinho: IA aplicada, contada pelos acertos e pelos erros 
+
+Palestra 12/11 - Como a IA e a realidade virtual estão mudando o ensino e a reabilitação
+
+Alan Helal
+
+Palestra 12/11 - Computação Musical - Erik Lima
+
+Minicurso Android:
+Neste minicurso você aprenderá a desenvolver um aplicativo Android nativo completo utilizando a linguagem Kotlin e as principais ferramentas do mercado como Jetpack Compose, Navigation e Retrofit
+
+Palestra 13/11 - Empreender na Computação - Diego Bayerl
+
+
+Minicurso UI/UX 13/11 Kethlen Correia
+O minicurso será uma introdução ao universo de UI/UX Design, abordando conceitos fundamentais do design, sua história e evolução, as etapas e os processos envolvidos na criação de soluções digitais, além de uma visão geral do mercado de trabalho e das possibilidades de atuação na área. Também falarei sobre como utilizar a inteligência artificial como ferramenta de apoio na criação e construção de experiências digitais. Para finalizar, teremos uma atividade prática para aplicar os conceitos apresentados e proporcionar um primeiro contato com a área.
+
+

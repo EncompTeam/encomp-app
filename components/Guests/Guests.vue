@@ -3,17 +3,23 @@ import { MicVocal } from 'lucide-vue-next'
 </script>
 
 <template>
-  <div id="guests" class="mx-auto flex w-full max-w-screen-xl flex-col items-center">
+  <div
+    id="guests"
+    class="mx-auto flex w-full max-w-screen-xl flex-col items-center"
+  >
     <div class="section-eyebrow">
       <MicVocal :size="24" />
       Quem vai?
     </div>
     <div class="w-full lg:w-2/3">
       <p class="section-title mt-4">
-        Convidamos palestrantes de diversas áreas com muita experiência para passar e ministrantes prontos pra te ensinar com a mão na massa!
+        Convidamos palestrantes de diversas áreas com muita experiência para
+        passar e ministrantes prontos pra te ensinar com a mão na massa!
       </p>
     </div>
-    <div class="flex max-w-screen-xl flex-wrap items-center justify-center gap-6 py-8">
+    <div
+      class="flex max-w-screen-xl flex-wrap items-center justify-center gap-6 py-8"
+    >
       <GuestsCard
         role="Palestrante"
         image="/speakers/Alan.png"
@@ -24,7 +30,7 @@ import { MicVocal } from 'lucide-vue-next'
       />
 
       <GuestsCard
-        role="Palestrante "
+        role="Palestrante"
         image="/speakers/Diego.png"
         name="Diego Bayerl"
         position=""
@@ -115,9 +121,9 @@ import { MicVocal } from 'lucide-vue-next'
 
       <GuestsCard
         role="Ministrante"
-        image=""
-        name="EM BREVE"
-        position="Fique ligado nas nossas redes sociais para saber as novidades"
+        image="/teachers/Murylo.png"
+        name="Murylo Dias"
+        position=""
         description=""
         :show-description="false"
       />
