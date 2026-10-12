@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { BadgeHelp, Coffee, Handshake, Star } from 'lucide-vue-next'
+import { BadgeHelp, Coffee, Handshake, Star } from "lucide-vue-next";
 </script>
 
 <template>
@@ -10,7 +10,8 @@ import { BadgeHelp, Coffee, Handshake, Star } from 'lucide-vue-next'
     </div>
     <div class="w-full lg:w-2/3">
       <p class="section-title mt-4">
-        Uma seleção de atividades abordando temas atuais e de relevância na tecnologia
+        Uma seleção de atividades abordando temas atuais e de relevância na
+        tecnologia
       </p>
     </div>
     <div class="mx-10 mt-2 flex flex-col gap-5 py-8 md:flex-row">
@@ -27,31 +28,25 @@ import { BadgeHelp, Coffee, Handshake, Star } from 'lucide-vue-next'
         description="Participe de palestras em assuntos de grande relevância com convidados experientes"
       />
 
-      <WillHavePhoto
+      <!-- <WillHavePhoto
         class="mb-4"
         image="/activities/estandes.png"
         title="Estandes"
         description="Conheça projetos interessantes e de potencial"
-      />
+      /> -->
     </div>
     <div class="mt-5 hidden flex-wrap justify-center gap-3 md:flex lg:gap-10">
       <SmallCard>
         <Coffee class="text-tertiary" />
-        <p class="pl-2">
-          Coffee Break
-        </p>
+        <p class="pl-2">Coffee Break</p>
       </SmallCard>
       <SmallCard>
         <Handshake class="text-tertiary" />
-        <p class="pl-2">
-          Networking
-        </p>
+        <p class="pl-2">Networking</p>
       </SmallCard>
       <SmallCard>
         <Star class="text-tertiary" />
-        <p class="pl-2">
-          Sorteios
-        </p>
+        <p class="pl-2">Sorteios</p>
       </SmallCard>
     </div>
   </div>
